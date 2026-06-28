@@ -101,16 +101,16 @@ def test_brief_for_web(tmp_path):
     q = WebQuery(db)
     data = q.brief_for_web("2026-06-28")
     assert data is not None
-    assert data["date"] == "2026-06-28"
-    assert "综合市场观点" in data["market_view"]
-    assert len(data["items"]) == 1
-    it = data["items"][0]
-    assert it["headline"] == "News headline"
-    assert "AI 概括" in it["summary"]
-    assert "中性影响" in it["view"]
-    assert it["url"] == "https://example.com/news"
-    assert len(it["tags"]) == 2
-    assert it["up"] == 2
-    assert it["down"] == 1
+    assert data.date == "2026-06-28"
+    assert "综合市场观点" in data.market_view
+    assert len(data.items) == 1
+    it = data.items[0]
+    assert it.headline == "News headline"
+    assert "AI 概括" in it.summary
+    assert "中性影响" in it.view
+    assert it.url == "https://example.com/news"
+    assert len(it.tags) == 2
+    assert it.up == 2
+    assert it.down == 1
     # 应有 tagcodes 用于筛选
-    assert it["tagcodes"] is not None
+    assert it.tagcodes is not None

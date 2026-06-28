@@ -1,7 +1,30 @@
 """为 Web 渲染取结构化数据：某期 brief + 每条的 tags/url/计数。"""
 from __future__ import annotations
+from dataclasses import dataclass, field
 from ..db.database import Database
 from ..db.repositories.feedback_repo import FeedbackRepo
+
+
+@dataclass
+class BriefWebItem:
+    id: int
+    rank: int
+    headline: str
+    summary: str
+    view: str
+    url: str
+    tags: list[dict] = field(default_factory=list)
+    tagcodes: str = ""
+    up: int = 0
+    down: int = 0
+
+
+@dataclass
+class BriefWebData:
+    date: str = ""
+    market_view: str = ""
+    items: list[BriefWebItem] = field(default_factory=list)
+    filters: list[dict] = field(default_factory=list)
 
 
 class WebQuery:
@@ -29,7 +52,7 @@ class WebQuery:
         finally:
             conn.close()
 
-    def brief_for_web(self, date: str) -> dict | None:
+    def brief_for_web(self, date: str) -> BriefWebData | None:
         conn = self.db.connect()
         try:
             brief = conn.execute(
@@ -49,40 +72,35 @@ class WebQuery:
                 (brief["id"],)
             ).fetchall()
             fb = FeedbackRepo(self.db)
-            items = []
+            data = BriefWebData(
+                date=brief["period_date"],
+                market_view=brief["market_view_text"] or "",
+            )
+            seen = set()
             for r in rows:
                 tags = self._tags_for_story(conn, r["story_id"])
-                tag_labels = [t["label"] for t in tags]
                 tag_codes = [f"{t['dimension']}:{t['code']}" for t in tags]
                 cnt = fb.counts(r["id"])
-                items.append({
-                    "id": r["id"],
-                    "rank": r["rank"],
-                    "headline": r["headline"] or r["canonical_title"] or "",
-                    "summary": r["summary"] or "",
-                    "view": r["view_text"] or "",
-                    "url": r["url"] or "",
-                    "tags": [{"dim": t["dimension"], "code": t["code"],
-                              "label": t["label"]} for t in tags],
-                    "tagcodes": ",".join(tag_codes),
-                    "up": cnt["up"],
-                    "down": cnt["down"],
-                })
-            # 收集本期所有 unique taxonomy labels 作为 filter 选项
-            seen = set()
-            filters = []
-            for it in items:
-                for t in it["tags"]:
-                    key = f"{t['dim']}:{t['code']}"
+                item = BriefWebItem(
+                    id=r["id"],
+                    rank=r["rank"],
+                    headline=r["headline"] or r["canonical_title"] or "",
+                    summary=r["summary"] or "",
+                    view=r["view_text"] or "",
+                    url=r["url"] or "",
+                    tags=[{"dim": t["dimension"], "code": t["code"],
+                           "label": t["label"]} for t in tags],
+                    tagcodes=",".join(tag_codes),
+                    up=cnt["up"],
+                    down=cnt["down"],
+                )
+                data.items.append(item)
+                for t in tags:
+                    key = f"{t['dimension']}:{t['code']}"
                     if key not in seen:
                         seen.add(key)
-                        filters.append({"code": key, "label": t["label"]})
-            return {
-                "date": brief["period_date"],
-                "market_view": brief["market_view_text"] or "",
-                "items": items,
-                "filters": filters,
-            }
+                        data.filters.append({"code": key, "label": t["label"]})
+            return data
         finally:
             conn.close()
 

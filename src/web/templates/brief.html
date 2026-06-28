@@ -1,18 +1,75 @@
-<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Financial Market News Collector</title></head><body>
-{% if not brief %}<p>暂无 brief。</p>
+<!doctype html><html lang="zh"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Financial Market News Collector</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f1ea;--card:#faf8f2;--ink:#1a1a1a;--muted:#6b665d;--faint:#8a8275;--hair:#d9d4c8;--chip:#e9e5da}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Work Sans',sans-serif;line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding:34px 22px 60px}
+.mast{font-family:'Playfair Display',serif;font-weight:600;font-size:30px;line-height:1.1}
+.date{font-size:13px;color:var(--faint);margin-top:8px}
+.rule{height:1px;background:var(--ink);margin:12px 0 0}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 4px}
+.chip{font-size:13px;padding:5px 13px;border-radius:20px;border:0.5px solid var(--hair);color:var(--muted);background:var(--card);cursor:pointer}
+.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.h{font-family:'Playfair Display',serif;font-size:17px;font-weight:600;margin:26px 0 8px;display:flex;align-items:center;gap:8px}
+.h::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--ink)}
+.lead{font-family:'Playfair Display',serif;font-size:18px;font-style:italic;line-height:1.55;color:#2a2620}
+.item{padding:18px 0;border-bottom:0.5px solid var(--hair)}
+.itop{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.title{font-family:'Playfair Display',serif;font-size:19px;font-weight:500;line-height:1.3}
+.rank{color:var(--faint)}
+.src{font-size:13px;color:var(--ink);border-bottom:1px solid var(--ink);white-space:nowrap;text-decoration:none}
+.sum{font-size:14.5px;color:var(--muted);margin:7px 0 2px}
+.tags{margin:9px 0}
+.tag{font-size:12px;color:var(--muted);background:var(--chip);border-radius:4px;padding:2px 9px;margin-right:6px}
+.view{font-size:15px;line-height:1.65;background:var(--card);border:0.5px solid var(--hair);border-radius:8px;padding:11px 14px;margin:10px 0}
+.view b{font-family:'Playfair Display',serif;font-style:italic;font-weight:500}
+.fb{display:flex;gap:18px;font-size:14px;color:var(--faint);align-items:center}
+.fb button{background:none;border:none;color:inherit;font:inherit;cursor:pointer;display:inline-flex;gap:5px;align-items:center;padding:0}
+.fb button.act{color:var(--ink)}
+.cbox{display:none;margin-top:8px}
+.cbox textarea{width:100%;font:inherit;border:0.5px solid var(--hair);border-radius:8px;padding:8px;background:var(--card);resize:vertical}
+.foot{font-size:13px;color:var(--faint);font-style:italic;border-top:0.5px solid var(--hair);margin-top:16px;padding-top:14px}
+.nav{margin-top:18px;font-size:13px}.nav a{color:var(--ink);margin-right:12px}
+</style></head><body>
+<div class="wrap">
+{% if not brief %}
+  <div class="mast">Financial Market News Collector</div><div class="rule"></div>
+  <p class="sum" style="margin-top:18px">暂无 brief。等首期生成后这里会显示。</p>
 {% else %}
-<div class="mast">Financial Market News Collector</div>
-<div class="date">{{ brief.date }}</div>
-{% if brief.market_view %}<div class="lead">{{ brief.market_view }}</div>{% endif %}
-{% if brief.entries %}
-{% for it in brief.entries %}
-<div class="item">
-  <div class="title">{{ it.headline }}</div>
-  <div class="sum">{{ it.summary }}</div>
-  <div class="view">影响（中性）：{{ it.view }}</div>
+  <div class="mast">Financial Market News Collector</div>
+  <div class="date">{{ brief.date }}</div>
+  <div class="rule"></div>
+  <div class="chips" id="chips">
+    <span class="chip on" data-f="all">全部</span>
+    {% for f in brief.filters %}<span class="chip" data-f="{{ f.code }}">{{ f.label }}</span>{% endfor %}
+  </div>
+  {% if brief.market_view %}<div class="h">综合市场观点</div><div class="lead">{{ brief.market_view }}</div>{% endif %}
+  <div class="h">今日要闻</div>
+  {% for it in brief.items %}
+  <div class="item" data-tags="{{ it.tagcodes }}" data-id="{{ it.id }}">
+    <div class="itop">
+      <div class="title"><span class="rank">{{ '%02d'|format(it.rank) }} — </span>{{ it.headline }}</div>
+      {% if it.url %}<a class="src" href="{{ it.url }}" target="_blank" rel="noopener" data-click="{{ it.id }}">原文 ↗</a>{% endif %}
+    </div>
+    {% if it.summary %}<div class="sum">{{ it.summary }}</div>{% endif %}
+    <div class="tags">{% for t in it.tags %}<span class="tag">{{ t.label }}</span>{% endfor %}</div>
+    <div class="view"><b>影响（中性）：</b>{{ it.view }}</div>
+    <div class="fb">
+      <button data-vote="up" data-id="{{ it.id }}"><i class="ti ti-thumb-up"></i> <span>{{ it.up }}</span></button>
+      <button data-vote="down" data-id="{{ it.id }}"><i class="ti ti-thumb-down"></i> <span>{{ it.down }}</span></button>
+      <button data-comment="{{ it.id }}"><i class="ti ti-message-circle"></i> 评论</button>
+    </div>
+    <div class="cbox" id="cbox-{{ it.id }}"><textarea rows="2" placeholder="写下你的看法…"></textarea>
+      <button data-send="{{ it.id }}" style="margin-top:6px;font:inherit;cursor:pointer">提交</button></div>
+  </div>
+  {% endfor %}
+  <div class="foot">免责声明：本内容为公开信息汇总与中性影响陈述，不构成任何投资建议、买卖推荐或目标价。</div>
+  <div class="nav">历史：{% for d in dates %}<a href="/brief/{{ d }}">{{ d }}</a>{% endfor %}</div>
+{% endif %}
 </div>
-{% endfor %}
-{% endif %}
-<div class="foot">免责声明：本内容为公开信息汇总与中性影响陈述，不构成任何投资建议、买卖推荐或目标价。</div>
-{% endif %}
+<link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2/tabler-icons.min.css" rel="stylesheet">
+<script src="/static/app.js"></script>
 </body></html>

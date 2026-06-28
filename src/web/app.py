@@ -27,6 +27,13 @@ def create_app(db_path: str = "data/marketnews.db") -> FastAPI:
         q = WebQuery(db)
         d = q.latest_date()
         if d:
+            data = q.brief_for_web(d)
+            if data:
+                return tpl.TemplateResponse(
+                    "brief.html",
+                    {"request": request, "brief": data,
+                     "dates": q.list_dates()})
+            # DB 有不完整数据时 fallback 到 /brief/{d}
             return RedirectResponse(f"/brief/{d}")
         return tpl.TemplateResponse(
             "brief.html",
@@ -35,9 +42,10 @@ def create_app(db_path: str = "data/marketnews.db") -> FastAPI:
     @app.get("/brief/{date}", response_class=HTMLResponse)
     def brief(request: Request, date: str):
         q = WebQuery(db)
+        data = q.brief_for_web(date)
         return tpl.TemplateResponse(
             "brief.html",
-            {"request": request, "brief": q.brief_for_web(date),
+            {"request": request, "brief": data,
              "dates": q.list_dates()})
 
     @app.get("/api/dates")
