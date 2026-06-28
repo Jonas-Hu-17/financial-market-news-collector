@@ -37,6 +37,9 @@ def main():
 
     parser = argparse.ArgumentParser(description="Horizon - AI-Driven Information Aggregation System")
     parser.add_argument("--hours", type=int, help="Force fetch from last N hours")
+    parser.add_argument(
+        "--marketnews", action="store_true",
+        help="Run MarketNews pipeline (financial brief generation)")
     args = parser.parse_args()
 
     try:
@@ -72,9 +75,28 @@ def main():
             console.print(f"[bold red]❌ Error loading configuration: {e}[/bold red]")
             sys.exit(1)
 
-        # Create and run orchestrator
-        orchestrator = HorizonOrchestrator(config, storage)
-        asyncio.run(orchestrator.run(force_hours=args.hours))
+        if args.marketnews:
+            from .marketnews_orchestrator import MarketNewsOrchestrator
+            from .ai.client import create_ai_client
+            from .db import init_db
+
+            ai_client = create_ai_client(config.ai)
+            db = init_db(str(data_dir / "marketnews.db"))
+            orch = MarketNewsOrchestrator(
+                config={"model": config.ai.model,
+                        "min_score": getattr(config.filtering, "ai_score_threshold", 6.0),
+                        "docs_dir": "docs"},
+                db=db, ai_client=ai_client)
+            brief_id = asyncio.run(orch.run(
+                period_type="daily", force_hours=args.hours))
+            console.print(
+                f"\n[bold green]✅ MarketNews brief #{brief_id} generated.[/bold green]")
+            console.print(
+                f"[cyan]📄 See docs/ directory for the rendered Markdown.[/cyan]")
+        else:
+            # Create and run orchestrator
+            orchestrator = HorizonOrchestrator(config, storage)
+            asyncio.run(orchestrator.run(force_hours=args.hours))
 
     except KeyboardInterrupt:
         console.print("\n[yellow]⚠️  Interrupted by user[/yellow]")
