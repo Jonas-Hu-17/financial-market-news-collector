@@ -1,0 +1,18 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Financial Market News Collector</title></head><body>
+{% if not brief %}<p>暂无 brief。</p>
+{% else %}
+<div class="mast">Financial Market News Collector</div>
+<div class="date">{{ brief.date }}</div>
+{% if brief.market_view %}<div class="lead">{{ brief.market_view }}</div>{% endif %}
+{% if brief.entries %}
+{% for it in brief.entries %}
+<div class="item">
+  <div class="title">{{ it.headline }}</div>
+  <div class="sum">{{ it.summary }}</div>
+  <div class="view">影响（中性）：{{ it.view }}</div>
+</div>
+{% endfor %}
+{% endif %}
+<div class="foot">免责声明：本内容为公开信息汇总与中性影响陈述，不构成任何投资建议、买卖推荐或目标价。</div>
+{% endif %}
+</body></html>
