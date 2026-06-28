@@ -357,6 +357,34 @@ Horizon can publish or deliver the generated briefing in several ways:
 
 For setup details, see the [Configuration Guide](docs/configuration.md). For MCP tool references and client setup, see [`src/mcp/README.md`](src/mcp/README.md) and [`src/mcp/integration.md`](src/mcp/integration.md).
 
+### Feedback Web (Phase 1.5)
+
+Horizon includes a lightweight FastAPI web app for browsing daily briefs and collecting anonymous feedback (👍/👎 + comments + view/click events).
+
+**Local start:**
+
+```bash
+uv run python -m src.web.run
+# Open http://localhost:8000
+```
+
+**Deploy to Render:**
+
+Use the included `render.yaml` (Web Service + daily Cron Job on shared persistent disk):
+
+```bash
+# One-click: push to GitHub, connect repo in Render dashboard.
+# Or manually: render blueprint apply
+```
+
+The web app serves:
+- `GET /` — redirects to latest brief
+- `GET /brief/{date}` — Cartesian-styled brief page (Playfair Display, warm neutral palette)
+- `POST /api/feedback` — submit 👍/👎/comment
+- `POST /api/event` — log view/click events
+
+All feedback is anonymous (browser-local UUID, no login).
+
 ## Supported By
 
 Horizon is an open-source project maintained in spare time. If you'd like to support the project or be listed here, feel free to [open an issue](https://github.com/Thysrael/Horizon/issues/new) or [email me](mailto:thysrael@163.com).
