@@ -1,0 +1,159 @@
+{
+  "version": "1.0",
+  "ai": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "temperature": 0.3,
+    "max_tokens": 4096,
+    "throttle_sec": 0,
+    "analysis_concurrency": 1,
+    "enrichment_concurrency": 1
+  },
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 465,
+    "imap_server": "imap.qq.com",
+    "imap_port": 993,
+    "email_address": "xxx@qq.com",
+    "sender_name": "Horizon Daily",
+    "subscribe_keyword": "SUBSCRIBE",
+    "unsubscribe_keyword": "UNSUBSCRIBE"
+  },
+  "sources": {
+    "github": [
+      {
+        "type": "user_events",
+        "username": "torvalds",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "astral-sh",
+        "repo": "uv",
+        "enabled": true
+      }
+    ],
+    "hackernews": {
+      "enabled": false,
+      "fetch_top_stories": 20,
+      "min_score": 100
+    },
+    "rss": [
+      {
+        "name": "Google News M&A Deals",
+        "url": "https://news.google.com/rss/search?q=(merger%20OR%20acquisition%20OR%20takeover%20OR%20%22deal%22)%20(billion%20OR%20buyout)&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "financial-news"
+      },
+      {
+        "name": "Google News IPO-ECM",
+        "url": "https://news.google.com/rss/search?q=(IPO%20OR%20%22initial%20public%20offering%22%20OR%20%22follow-on%20offering%22)&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "financial-news"
+      },
+      {
+        "name": "Google News DCM",
+        "url": "https://news.google.com/rss/search?q=(%22bond%20issuance%22%20OR%20%22debt%20offering%22%20OR%20%22leveraged%20loan%22)&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "financial-news"
+      },
+      {
+        "name": "Google News PE-VC",
+        "url": "https://news.google.com/rss/search?q=(%22private%20equity%22%20OR%20%22venture%20capital%22%20OR%20%22Series%20A%22%20OR%20%22Series%20B%22%20OR%20%22funding%20round%22%20OR%20%22fund%20closing%22)&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "financial-news"
+      },
+      {
+        "name": "TechCrunch Venture",
+        "url": "https://techcrunch.com/category/venture/feed/",
+        "enabled": true,
+        "category": "financial-news"
+      },
+      {
+        "name": "Google News Earnings-Sector",
+        "url": "https://news.google.com/rss/search?q=(earnings%20OR%20guidance%20OR%20%22quarterly%20results%22)%20(semiconductor%20OR%20healthcare%20OR%20energy%20OR%20bank)&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "financial-news"
+      },
+      {
+        "name": "Google News CN Finance",
+        "url": "https://news.google.com/rss/search?q=(%E5%B9%B6%E8%B4%AD%20OR%20%E6%94%B6%E8%B4%AD%20OR%20%E8%9E%8D%E8%B5%84%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%A7%81%E5%8B%9F)&hl=zh-CN&gl=CN&ceid=CN:zh",
+        "enabled": true,
+        "category": "financial-news"
+      },
+      {
+        "name": "FT Companies",
+        "url": "https://www.ft.com/companies?format=rss",
+        "enabled": true,
+        "category": "financial-news"
+      },
+      {
+        "name": "CNBC Top News",
+        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
+        "enabled": true,
+        "category": "financial-news"
+      },
+      {
+        "name": "MarketWatch Top",
+        "url": "https://feeds.marketwatch.com/marketwatch/topstories/",
+        "enabled": true,
+        "category": "financial-news"
+      },
+      {
+        "name": "SCMP Business",
+        "url": "https://www.scmp.com/rss/92/feed",
+        "enabled": true,
+        "category": "financial-news"
+      },
+      {
+        "name": "Nikkei Asia Markets",
+        "url": "https://asia.nikkei.com/rss/feed/nar",
+        "enabled": true,
+        "category": "financial-news"
+      }
+    ],
+    "reddit": {
+      "enabled": false,
+      "subreddits": [],
+      "users": [],
+      "fetch_comments": 5
+    },
+    "twitter": {
+      "enabled": false,
+      "users": [],
+      "fetch_limit": 10,
+      "fetch_reply_text": false,
+      "max_replies_per_tweet": 3,
+      "max_tweets_to_expand": 10,
+      "reply_min_likes": 5
+    },
+    "openbb": {
+      "enabled": false
+    },
+    "ossinsight": {
+      "enabled": false
+    },
+    "sec_edgar": {
+      "enabled": true,
+      "forms": ["8-K", "D"],
+      "user_agent": "MarketNews research contact@example.com"
+    },
+    "hkex": {
+      "enabled": true,
+      "endpoint": "https://www.hkexnews.hk/data/newsalert/search/v2.json"
+    }
+  },
+  "filtering": {
+    "ai_score_threshold": 6.0,
+    "time_window_hours": 24,
+    "max_items": null,
+    "category_groups": {},
+    "default_group": "other",
+    "default_group_limit": null
+  },
+  "webhook": {
+    "enabled": false
+  }
+}
