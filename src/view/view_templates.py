@@ -20,7 +20,11 @@ OUTPUT FORMAT: Return a single JSON object with exactly two fields:
 - "summary": one objective sentence describing what happened (the news itself, \
 NOT its impact).
 - "view": a neutral impact statement as described above.
-Both must be in the user's language and must NOT contain any investment advice."""
+Both must be in the user's language and must NOT contain any investment advice.
+
+IMPORTANT: The "view" field must contain ONLY the neutral impact text itself — no \
+heading, no prefix, no labels like "中性影响说明" or "Neutral Impact Note". Do not \
+start with a title. Just write the impact content directly."""
 
 # 每个模板提炼自对应 skill 的分析骨架（去掉方向性输出）
 _MA = """A merger / acquisition / deal item.

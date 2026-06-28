@@ -9,6 +9,13 @@ _REWRITE_HINT = ("\n\nIMPORTANT: Your previous answer contained advisory or dire
                  "language. Rewrite it as a strictly neutral impact statement: no "
                  "buy/sell/hold, no rating, no price target, no bullish/bearish stance.")
 
+# 冗余中性标题前缀，即使提示词未拦住也能硬兜底
+_REDUNDANT_HEADING_RE = re.compile(
+    r"^\s*(?:\*\*)?(?:中性影响说明|中立影响说明|中性影响笔记|Neutral\s*Impact\s*Note)"
+    r"(?:\*\*)?\s*[:：\n]*\s*",
+    re.IGNORECASE,
+)
+
 
 class ViewGenerator:
     def __init__(self, ai_client, router, compliance):
@@ -39,6 +46,9 @@ class ViewGenerator:
         # 合规扫描 summary
         if not self.compliance.is_clean(ai_summary):
             ai_summary = _strip_violating_sentences(ai_summary, self.compliance)
+        # 去掉冗余的中性影响标题前缀（硬兜底）
+        ai_summary = _strip_redundant_heading(ai_summary)
+        ai_view = _strip_redundant_heading(ai_view)
         return ai_summary.strip(), ai_view.strip()
 
     async def generate_item_view(self, story_id: int, title: str,
@@ -70,3 +80,12 @@ def _strip_violating_sentences(text: str, compliance) -> str:
     parts = re.split(r"(?<=[。.!?])\s*", text)
     kept = [p for p in parts if p and compliance.is_clean(p)]
     return " ".join(kept).strip() or "（本条因合规过滤暂无中性观点）"
+
+
+def _strip_redundant_heading(text: str) -> str:
+    """移除 view/summary 开头的冗余中性影响标题前缀。"""
+    m = _REDUNDANT_HEADING_RE.match(text)
+    if m:
+        text = text[m.end():]
+    # 如果移除后只剩空白，返回空串让上层保留原值
+    return text.strip() if text.strip() else text
