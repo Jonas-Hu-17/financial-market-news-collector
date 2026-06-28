@@ -42,6 +42,41 @@
     },
     "rss": [
       {
+        "name": "Reuters Business",
+        "url": "https://www.reutersagency.com/feed/?best-topics=business-finance",
+        "enabled": true
+      },
+      {
+        "name": "FT Companies",
+        "url": "https://www.ft.com/companies?format=rss",
+        "enabled": true
+      },
+      {
+        "name": "CNBC Finance",
+        "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+        "enabled": true
+      },
+      {
+        "name": "MarketWatch Top",
+        "url": "https://feeds.marketwatch.com/marketwatch/topstories/",
+        "enabled": true
+      },
+      {
+        "name": "SCMP Business",
+        "url": "https://www.scmp.com/rss/92/feed",
+        "enabled": true
+      },
+      {
+        "name": "Nikkei Asia Markets",
+        "url": "https://asia.nikkei.com/rss/feed/nar",
+        "enabled": true
+      },
+      {
+        "name": "PE Hub",
+        "url": "https://www.pehub.com/feed/",
+        "enabled": true
+      },
+      {
         "name": "Simon Willison",
         "url": "https://simonwillison.net/atom/everything/",
         "enabled": true,
