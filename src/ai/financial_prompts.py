@@ -13,6 +13,18 @@ Scoring guide (importance to markets & valuation):
 - 3-4:  Low — routine updates, minor filings
 - 0-2:  Noise — promotional, off-topic, trivial
 
+Prioritization (boost importance for investment-banking-relevant events):
+- M&A / takeovers / asset sales, ECM (IPO/follow-on), DCM (bond issuance),
+  leveraged finance, restructuring → treat as HIGH importance (typically 7-9).
+- Private-market financings (VC rounds, PE buyouts, fund closings, pre-IPO,
+  private placements) → HIGH importance (7-9).
+- Sector/industry coverage developments (earnings with read-through, guidance,
+  regulatory/antitrust, major product/capacity moves) → MEDIUM-HIGH (6-8).
+- Pure geopolitics / general macro with no direct corporate or market mechanism
+  → keep MODERATE unless it is clearly market-moving for specific assets.
+Deals, financings, and sector developments should generally rank above generic
+geopolitical headlines of similar prominence.
+
 This is a NEUTRAL triage step: do NOT give buy/sell opinions or price targets. \
 Only score, classify, and extract. Respond with VALID JSON only."""
 
