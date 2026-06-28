@@ -28,7 +28,8 @@ class BriefAssembler:
             primary = self._primary_raw_item(story_id)
             title = primary.title if primary else ""
             summary = primary.summary if primary else ""
-            view = await self.view.generate_item_view(story_id, title, summary)
+            summary, view = await self.view.generate_item(
+                story_id, title, summary)
             item_views.append(view)
             self.items.add(BriefItemRow(
                 brief_id=brief_id, story_id=story_id, rank=rank,

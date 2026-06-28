@@ -12,8 +12,15 @@ HARD RULES (compliance — never violate):
 overweighting, or underweighting anything.
 - Do NOT give price targets, ratings, or directional calls (no bullish/bearish stance).
 - State impacts as possibilities with their drivers and uncertainties, not predictions.
-- Be concise (2-4 sentences). Write in the user's language (Chinese unless item is clearly English-only context).
-- If facts are unverified, say so."""
+- Be concise (2-4 sentences for each field). Write in the user's language (Chinese \
+unless item is clearly English-only context).
+- If facts are unverified, say so.
+
+OUTPUT FORMAT: Return a single JSON object with exactly two fields:
+- "summary": one objective sentence describing what happened (the news itself, \
+NOT its impact).
+- "view": a neutral impact statement as described above.
+Both must be in the user's language and must NOT contain any investment advice."""
 
 # 每个模板提炼自对应 skill 的分析骨架（去掉方向性输出）
 _MA = """A merger / acquisition / deal item.
@@ -21,64 +28,85 @@ TITLE: {title}
 SUMMARY: {summary}
 CONTEXT: {context}
 
-Write a neutral impact note covering (framework distilled from competitive-analysis & comps):
+First, write one objective sentence (in Chinese) describing what happened — this is the \
+"summary" field.
+Then, write a neutral impact note covering (framework distilled from competitive-analysis \
+& comps):
 - Strategic rationale / fit implied by the deal (what capability or market it adds)
 - Parties and their roles; deal consideration or implied multiple if stated
 - Which valuation drivers (synergies, market structure, competitive dynamics) it touches
-Do NOT judge whether it is good/bad for any stock."""
+Do NOT judge whether it is good/bad for any stock.
+Return JSON: {{"summary": "...", "view": "..."}}"""
 
 _EARNINGS = """An earnings / results item.
 TITLE: {title}
 SUMMARY: {summary}
 CONTEXT: {context}
 
-Write a neutral impact note (framework distilled from earnings-analysis Parse→Compare→Diagnose):
+First, write one objective sentence (in Chinese) describing what was reported — this is \
+the "summary" field.
+Then, write a neutral impact note (framework distilled from earnings-analysis \
+Parse→Compare→Diagnose):
 - What was reported vs. prior period/expectations (beat/miss/in-line if stated)
 - Which operational drivers changed (revenue mix, margins, guidance)
 - What it signals about the forward operating trajectory
-Stop at diagnosis — do NOT give a buy/sell verdict or price target."""
+Stop at diagnosis — do NOT give a buy/sell verdict or price target.
+Return JSON: {{"summary": "...", "view": "..."}}"""
 
 _SECTOR = """A sector / macro / policy item.
 TITLE: {title}
 SUMMARY: {summary}
 CONTEXT: {context}
 
-Write a neutral impact note (framework distilled from sector-overview):
+First, write one objective sentence (in Chinese) describing the event — this is the \
+"summary" field.
+Then, write a neutral impact note (framework distilled from sector-overview):
 - The sector/macro development and its driver
 - Which parts of the value chain or which market segments it touches
 - Possible second-order effects on demand, costs, or valuation multiples (as possibilities)
-Do NOT recommend positioning."""
+Do NOT recommend positioning.
+Return JSON: {{"summary": "...", "view": "..."}}"""
 
 _THEMATIC = """A thematic / secular-trend item.
 TITLE: {title}
 SUMMARY: {summary}
 CONTEXT: {context}
 
-Write a neutral impact note (framework distilled from thematic-investment-research DRIVER lens):
+First, write one objective sentence (in Chinese) describing the trend/development — this \
+is the "summary" field.
+Then, write a neutral impact note (framework distilled from thematic-investment-research \
+DRIVER lens):
 - The structural driver and whether it appears durable vs. temporary
 - Who the beneficiaries / exposed parties are along the value chain
 - Which leading indicators would confirm or refute the trend
-Do NOT make a directional investment call."""
+Do NOT make a directional investment call.
+Return JSON: {{"summary": "...", "view": "..."}}"""
 
 _PRIMARY = """A primary-market (PE/VC) financing item.
 TITLE: {title}
 SUMMARY: {summary}
 CONTEXT: {context}
 
-Write a neutral impact note:
+First, write one objective sentence (in Chinese) describing the deal — this is the \
+"summary" field.
+Then, write a neutral impact note:
 - Round/stage, amount, and parties (investors / company) if stated
 - What it implies about the sector's funding environment and the company's stage
 - Read-across to comparable private/public names (as factual context only)
-Do NOT give an investment recommendation."""
+Do NOT give an investment recommendation.
+Return JSON: {{"summary": "...", "view": "..."}}"""
 
 _DEFAULT = """A financial markets news item.
 TITLE: {title}
 SUMMARY: {summary}
 CONTEXT: {context}
 
-Write a neutral 2-4 sentence impact note: what it is, which parties/markets it touches, \
-and which valuation or market-mechanic drivers could be affected (as possibilities). \
-No advice, no direction, no price target."""
+First, write one objective sentence (in Chinese) describing the news — this is the \
+"summary" field.
+Then, write a neutral 2-4 sentence impact note: what it is, which parties/markets it \
+touches, and which valuation or market-mechanic drivers could be affected (as \
+possibilities). No advice, no direction, no price target.
+Return JSON: {{"summary": "...", "view": "..."}}"""
 
 TEMPLATES = {
     "ma": _MA, "earnings": _EARNINGS, "sector_macro": _SECTOR,
