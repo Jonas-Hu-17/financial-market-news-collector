@@ -35,7 +35,7 @@ class ViewGenerator:
             ai_summary = data.get("summary", "")
             ai_view = data.get("view", "")
         except Exception:
-            ai_summary, ai_view = "", raw
+            ai_summary, ai_view = "", _extract_fallback_text(raw)
         # 合规扫描 view
         if not self.compliance.is_clean(ai_view):
             view2 = await self.ai.complete(NEUTRAL_SYSTEM, user + _REWRITE_HINT)
@@ -74,6 +74,19 @@ def _strip_fences(text: str) -> str:
         text = re.sub(r"^```(?:json)?\s*", "", text)
         text = re.sub(r"\s*```$", "", text)
     return text
+
+
+def _extract_fallback_text(raw: str) -> str:
+    """当 JSON 解析失败时的降级：尝试从 raw 中提取 view 字段内容。"""
+    raw = raw.strip()
+    # 如果是 JSON 对象，尝试提取 view 或 summary
+    if raw.startswith("{"):
+        try:
+            data = json.loads(raw)
+            return data.get("view", data.get("summary", raw))
+        except Exception:
+            return raw
+    return raw
 
 
 def _strip_violating_sentences(text: str, compliance) -> str:
