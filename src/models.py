@@ -84,7 +84,7 @@ AI_PROVIDER_DEFAULTS = {
         "api_key_env": "MINIMAX_API_KEY",
     },
     AIProvider.DEEPSEEK: {
-        "model": "deepseek-chat",
+        "model": "deepseek-v4-flash",
         "api_key_env": "DEEPSEEK_API_KEY",
     },
     AIProvider.OLLAMA: {
@@ -273,6 +273,10 @@ class SourcesConfig(BaseModel):
     reddit: RedditConfig = Field(default_factory=RedditConfig)
     telegram: TelegramConfig = Field(default_factory=TelegramConfig)
     twitter: Optional[TwitterConfig] = None
+    openbb: Optional[OpenBBConfig] = None
+    ossinsight: OSSInsightConfig = Field(default_factory=OSSInsightConfig)
+    sec_edgar: Optional[dict] = None    # SEC EDGAR scraper config
+    hkex: Optional[dict] = None         # HKEX scraper config
     openbb: Optional[OpenBBConfig] = None
     ossinsight: OSSInsightConfig = Field(default_factory=OSSInsightConfig)
 

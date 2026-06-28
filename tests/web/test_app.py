@@ -24,7 +24,7 @@ def _seed_brief(db):
     br = BriefRepo(db)
     bid = br.create(BriefRow(
         period_type="daily", period_date="2026-06-28", language="zh",
-        model="deepseek-chat", generated_at=now, status="draft",
+        model="deepseek-v4-flash", generated_at=now, status="draft",
         market_view_text="综合市场观点文本"))
     bir = BriefItemRepo(db)
     bir.add(BriefItemRow(

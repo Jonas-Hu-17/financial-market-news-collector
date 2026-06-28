@@ -28,7 +28,7 @@ def _brief_row():
         period_type="daily",
         period_date="2026-06-28",
         language="zh",
-        model="deepseek-chat",
+        model="deepseek-v4-flash",
         generated_at="2026-06-28T08:00:00Z",
         status="draft",
     )

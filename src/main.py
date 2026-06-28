@@ -83,9 +83,12 @@ def main():
             ai_client = create_ai_client(config.ai)
             db = init_db(str(data_dir / "marketnews.db"))
             orch = MarketNewsOrchestrator(
-                config={"model": config.ai.model,
-                        "min_score": getattr(config.filtering, "ai_score_threshold", 6.0),
-                        "docs_dir": "docs"},
+                config={
+                    "model": config.ai.model,
+                    "min_score": getattr(config.filtering, "ai_score_threshold", 6.0),
+                    "docs_dir": "docs",
+                    "sources": config.sources.model_dump() if hasattr(config.sources, "model_dump") else config.sources,
+                },
                 db=db, ai_client=ai_client)
             brief_id = asyncio.run(orch.run(
                 period_type="daily", force_hours=args.hours))

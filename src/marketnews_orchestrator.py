@@ -1,7 +1,9 @@
 """全链路编排：抓取→去重→聚类→分析→brief→渲染→投递。"""
 from __future__ import annotations
+import httpx
 from datetime import datetime, timezone, timedelta
 from typing import Optional
+from .models import RSSSourceConfig
 from .db.repositories.raw_item_repo import RawItemRepo
 from .db.repositories.story_repo import StoryRepo, StoryMemberRepo
 from .db.repositories.analysis_repo import ScoreRepo, StoryTagRepo, EnrichmentRepo
@@ -27,11 +29,44 @@ class MarketNewsOrchestrator:
         self.config = config
         self.db = db
         self.ai = ai_client
+        self._http = httpx.AsyncClient(timeout=30.0)
         self._scrapers = self._build_scrapers()
 
     def _build_scrapers(self) -> list:
-        # 由 config 构建 RSS/SEC/HKEX scrapers；MVP 留待子计划2 接线
-        return []
+        scrapers = []
+        sources = self.config.get("sources", {})
+
+        # RSS feeds
+        rss_cfgs = sources.get("rss", [])
+        if rss_cfgs:
+            from .scrapers.rss import RSSScraper
+            rss_sources = []
+            for r in rss_cfgs:
+                if isinstance(r, dict):
+                    rss_sources.append(RSSSourceConfig(
+                        name=r.get("name", ""),
+                        url=r.get("url", ""),
+                        enabled=r.get("enabled", True),
+                        category=r.get("category"),
+                    ))
+                elif isinstance(r, RSSSourceConfig):
+                    rss_sources.append(r)
+            if rss_sources:
+                scrapers.append(RSSScraper(rss_sources, self._http))
+
+        # SEC EDGAR
+        sec_cfg = sources.get("sec_edgar")
+        if sec_cfg and sec_cfg.get("enabled"):
+            from .scrapers.sec_edgar import SECEdgarScraper
+            scrapers.append(SECEdgarScraper(sec_cfg, self._http))
+
+        # HKEX
+        hkex_cfg = sources.get("hkex")
+        if hkex_cfg and hkex_cfg.get("enabled"):
+            from .scrapers.hkex import HKEXScraper
+            scrapers.append(HKEXScraper(hkex_cfg, self._http))
+
+        return scrapers
 
     def _window(self, force_hours: Optional[int]) -> datetime:
         hours = force_hours or self.config.get("window_hours", 24)
@@ -44,9 +79,15 @@ class MarketNewsOrchestrator:
         items = []
         for sc in self._scrapers:
             try:
-                items.extend(await sc.fetch(since))
+                fetched = await sc.fetch(since)
+                items.extend(fetched)
             except Exception:
                 continue
+        # 关闭 http 客户端
+        try:
+            await self._http.aclose()
+        except Exception:
+            pass
 
         # 2. 摄取 + 精确去重
         raw_repo = RawItemRepo(self.db)
@@ -74,7 +115,7 @@ class MarketNewsOrchestrator:
             ScoreRepo(self.db), StoryTagRepo(self.db),
             EntityRepo(self.db), StoryEntityRepo(self.db),
             TaxonomyRepo(self.db),
-            model_name=self.config.get("model", "deepseek-chat"))
+            model_name=self.config.get("model", "deepseek-v4-flash"))
         for sid in analyze_story_ids:
             primary = self._primary_raw(sid)
             if not primary:

@@ -38,13 +38,13 @@ def _seed_full_brief(db) -> int:
 
     # score
     ScoreRepo(db).add(ScoreRow(
-        story_id=sid, model="deepseek-chat", score=8.0,
+        story_id=sid, model="deepseek-v4-flash", score=8.0,
         importance_rationale="important", scored_at=now))
 
     # brief
     bid = BriefRepo(db).create(BriefRow(
         period_type="daily", period_date="2026-06-28", language="zh",
-        model="deepseek-chat", generated_at=now, status="draft",
+        model="deepseek-v4-flash", generated_at=now, status="draft",
         market_view_text="综合市场观点文本"))
 
     # brief_item

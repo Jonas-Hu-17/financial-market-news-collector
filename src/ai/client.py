@@ -192,7 +192,7 @@ class OpenAIClient(AIClient):
     }
 
     # Providers that don't support response_format
-    _NO_RESPONSE_FORMAT = {"minimax"}
+    _NO_RESPONSE_FORMAT = {"minimax", "deepseek"}
 
     # Providers that need temperature clamped to (0, 1]
     _TEMP_CLAMP = {"minimax"}

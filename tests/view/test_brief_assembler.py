@@ -45,7 +45,7 @@ def test_brief_assembler_builds_brief(tmp_path):
 
     # 打分
     ScoreRepo(db).add(ScoreRow(
-        story_id=sid, model="deepseek-chat", score=8.0,
+        story_id=sid, model="deepseek-v4-flash", score=8.0,
         importance_rationale="big M&A", scored_at=now))
 
     # 给 story 加标签（有 MA 才能路由到模板）

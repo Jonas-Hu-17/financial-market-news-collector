@@ -43,7 +43,7 @@ class TestScoreRepo:
         repo = ScoreRepo(db)
 
         rid = repo.add(ScoreRow(
-            story_id=sid, model="deepseek-chat", score=8.5,
+            story_id=sid, model="deepseek-v4-flash", score=8.5,
             importance_rationale="high impact", scored_at="2026-06-28T01:00:00Z",
         ))
         assert rid > 0
@@ -54,7 +54,7 @@ class TestScoreRepo:
 
         # add another score; latest should return the newest
         repo.add(ScoreRow(
-            story_id=sid, model="deepseek-chat", score=7.0,
+            story_id=sid, model="deepseek-v4-flash", score=7.0,
             scored_at="2026-06-28T02:00:00Z",
         ))
         latest2 = repo.latest_for_story(sid)

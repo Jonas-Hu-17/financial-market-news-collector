@@ -19,7 +19,7 @@ def test_persist_writes_all(tmp_path):
 
     p = AnalysisPersister(
         ScoreRepo(db), StoryTagRepo(db), EntityRepo(db),
-        StoryEntityRepo(db), TaxonomyRepo(db), model_name="deepseek-chat")
+        StoryEntityRepo(db), TaxonomyRepo(db), model_name="deepseek-v4-flash")
 
     res = AnalysisResult(8.0, "big deal",
         {"market_type": "secondary", "industry_group": "TMT",

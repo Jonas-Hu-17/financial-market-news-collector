@@ -22,7 +22,7 @@ class BriefAssembler:
         scored = self._top_stories(min_score, max_items)
         brief_id = self.briefs.create(BriefRow(
             period_type=period_type, period_date=period_date, language=language,
-            model="deepseek-chat", generated_at=now, status="draft"))
+            model="deepseek-v4-flash", generated_at=now, status="draft"))
         item_views = []
         for rank, (story_id, _score) in enumerate(scored, start=1):
             primary = self._primary_raw_item(story_id)

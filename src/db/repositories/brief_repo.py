@@ -13,11 +13,24 @@ class BriefRepo:
         with self.db.transaction() as conn:
             cur = conn.execute(
                 "INSERT INTO brief (period_type, period_date, language, model, "
-                "generated_at, status, market_view_text) VALUES (?,?,?,?,?,?,?)",
+                "generated_at, status, market_view_text) VALUES (?,?,?,?,?,?,?) "
+                "ON CONFLICT(period_type, period_date, language) DO UPDATE SET "
+                "model=excluded.model, generated_at=excluded.generated_at, "
+                "status=excluded.status, "
+                "market_view_text=COALESCE(excluded.market_view_text, brief.market_view_text)",
                 (row.period_type, row.period_date, row.language, row.model,
                  row.generated_at, row.status, row.market_view_text),
             )
-            return cur.lastrowid
+            bid = cur.lastrowid
+            if bid == 0:
+                # ON CONFLICT DO UPDATE returns lastrowid=0; fetch the existing id
+                r = conn.execute(
+                    "SELECT id FROM brief WHERE period_type=? AND period_date=? AND language=?",
+                    (row.period_type, row.period_date, row.language),
+                ).fetchone()
+                if r:
+                    bid = r["id"]
+            return bid
 
     def get(self, id: int) -> Optional[BriefRow]:
         conn = self.db.connect()
