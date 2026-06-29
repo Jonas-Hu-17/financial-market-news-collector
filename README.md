@@ -328,7 +328,24 @@ docker compose run --rm horizon --hours 48  # Fetch from last 48 hours
 
 The generated report will be saved to `data/summaries/`.
 
-### 4. Automate (Optional)
+### 4. MarketNews Quick Start (BYOK)
+
+For financial market news briefings — use your own API key, zero setup cost:
+
+```bash
+git clone https://github.com/Thysrael/Horizon.git && cd Horizon
+uv sync --extra dev
+cp .env.example .env          # edit .env, fill in your DEEPSEEK_API_KEY
+cp data/config.example.json data/config.json
+uv run horizon --marketnews --hours 24   # fetch + generate today's brief into DB
+uv run python -m src.web.static_export    # export static dashboard to site/index.html
+# Open site/index.html directly in your browser
+# Or run the interactive version: uv run python -m src.web.run
+```
+
+> **Note:** Only `DEEPSEEK_API_KEY` is required for the marketnews pipeline. The key stays in your local `.env` file — never committed to the repo. If you don't have a DeepSeek key, sign up at [platform.deepseek.com](https://platform.deepseek.com/) and get one in minutes.
+
+### 5. Automate (Optional)
 
 Horizon works great as a **GitHub Actions** cron job. See [`.github/workflows/daily-summary.yml`](.github/workflows/daily-summary.yml) for a ready-to-use workflow that generates and deploys your daily briefing to GitHub Pages automatically.
 
