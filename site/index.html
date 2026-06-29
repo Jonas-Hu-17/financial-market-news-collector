@@ -169,8 +169,43 @@ function renderChips(){
 
 function refreshContent(){
   if(!DATA) return;
-  var b=DATA.briefs.find(function(x){return x.date===curDate;});
   var cont=document.getElementById('content');
+  // 全部历史 + 指定分类：跨所有日期收集匹配条目
+  if(scopeAll && activeChip!=='all'){
+    var parts=activeChip.split(':',2);
+    var matched=[];
+    for(var i=0;i<DATA.briefs.length;i++){
+      var bb=DATA.briefs[i];
+      for(var j=0;j<bb.items.length;j++){
+        var it=bb.items[j];
+        if(it.tags.some(function(t){return t.dim===parts[0] && t.code===parts[1];})){
+          matched.push({date:bb.date,item:it});
+        }
+      }
+    }
+    if(!matched.length){
+      cont.innerHTML='<div class="nohit">全部历史中该分类暂无条目</div>';
+      return;
+    }
+    var h='<div class="h">全部历史 · 该分类共 '+matched.length+' 条</div>';
+    for(var k=0;k<matched.length;k++){
+      var x=matched[k], it2=x.item;
+      h+='<div class="item">';
+      h+='<div class="itop"><div class="title"><span class="rank">'+esc(x.date)+' · #'+it2.rank+' — </span>'+esc(it2.headline)+'</div>';
+      if(it2.url) h+='<a class="src" href="'+esc(it2.url)+'" target="_blank" rel="noopener">原文 ↗</a>';
+      h+='</div>';
+      if(it2.summary) h+='<div class="sum">'+esc(it2.summary)+'</div>';
+      h+='<div class="tags">'+tagsHtml(it2.tags);
+      if(it2.entities&&it2.entities.length) h+=entitiesHtml(it2.entities);
+      h+='</div>';
+      if(it2.view) h+='<div class="view"><b>影响：</b>'+esc(it2.view)+'</div>';
+      h+='</div>';
+    }
+    cont.innerHTML=h;
+    return;
+  }
+  // 默认：仅当前日期
+  var b=DATA.briefs.find(function(x){return x.date===curDate;});
   if(!b){
     cont.innerHTML='<div class="nohit">该日期暂无数据</div>';
   }else{
