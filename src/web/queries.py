@@ -1,8 +1,24 @@
 """为 Web 渲染取结构化数据：某期 brief + 每条的 tags/url/计数。"""
 from __future__ import annotations
+import re
 from dataclasses import dataclass, field
 from ..db.database import Database
 from ..db.repositories.feedback_repo import FeedbackRepo
+
+
+def _clean_view(text: str) -> str:
+    """渲染时剥掉模型偶尔泄漏的 JSON 残渣，如 '", "view": "..."}'。
+    仅在检测到 JSON 残渣时清洗，正常 view 原样返回。"""
+    if not text:
+        return ""
+    s = text.strip()
+    if '"view"' in s or s.startswith('",') or s.startswith('"}') or s.startswith('{'):
+        m = re.search(r'"view"\s*:\s*"(.+?)"\s*}?\s*$', s, re.S)
+        if m:
+            return m.group(1).strip()
+        s = re.sub(r'^[\s",}{]+', '', s)
+        s = re.sub(r'[\s"}]+$', '', s)
+    return s.strip()
 
 
 @dataclass
@@ -86,7 +102,7 @@ class WebQuery:
                     rank=r["rank"],
                     headline=r["headline"] or r["canonical_title"] or "",
                     summary=r["summary"] or "",
-                    view=r["view_text"] or "",
+                    view=_clean_view(r["view_text"] or ""),
                     url=r["url"] or "",
                     tags=[{"dim": t["dimension"], "code": t["code"],
                            "label": t["label"]} for t in tags],

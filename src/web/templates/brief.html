@@ -56,7 +56,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Work Sans',sans
     </div>
     {% if it.summary %}<div class="sum">{{ it.summary }}</div>{% endif %}
     <div class="tags">{% for t in it.tags %}<span class="tag">{{ t.label }}</span>{% endfor %}</div>
-    <div class="view"><b>影响（中性）：</b>{{ it.view }}</div>
+    <div class="view"><b>影响：</b>{{ it.view }}</div>
     <div class="fb">
       <button data-vote="up" data-id="{{ it.id }}"><i class="ti ti-thumb-up"></i> <span>{{ it.up }}</span></button>
       <button data-vote="down" data-id="{{ it.id }}"><i class="ti ti-thumb-down"></i> <span>{{ it.down }}</span></button>
