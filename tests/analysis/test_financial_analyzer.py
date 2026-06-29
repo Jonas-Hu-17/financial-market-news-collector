@@ -41,3 +41,35 @@ def test_analyze_handles_bad_json(tmp_path):
     db = init_db(str(tmp_path / "t.db"))
     fa = FinancialAnalyzer(FakeAI("not json"), TaxonomyRepo(db))
     assert asyncio.run(fa.analyze("x", "y")) is None
+
+
+def test_analyze_batch_parses_array_result(tmp_path):
+    """batch 调用返回数组 JSON，每条独立映射。"""
+    db = init_db(str(tmp_path / "t.db"))
+    payload = json.dumps([
+        {"idx": 0, "score": 8.5, "rationale": "big deal",
+         "tags": {"market_type": "primary", "industry_group": "Financials",
+                  "product_group": "IPO", "region": "GreaterChina",
+                  "asset_class": "Equity"},
+         "entities": [{"type": "company", "name": "CorpA", "ticker": None,
+                       "role": "primary"}]},
+        {"idx": 1, "score": 3.0, "rationale": "routine",
+         "tags": {"market_type": None, "industry_group": None,
+                  "product_group": None, "region": None, "asset_class": None},
+         "entities": []},
+    ])
+    fa = FinancialAnalyzer(FakeAI(payload), TaxonomyRepo(db))
+    items = [("CorpA IPO", "big"), ("daily report", "routine")]
+    results = asyncio.run(fa.analyze_batch(items))
+    assert len(results) == 2
+    assert results["CorpA IPO"].score == 8.5
+    assert results["CorpA IPO"].tag_codes["product_group"] == "IPO"
+    assert results["daily report"].score == 3.0
+
+
+def test_analyze_batch_returns_empty_on_failure(tmp_path):
+    """batch JSON 解析失败 → 返回空 dict，不抛异常。"""
+    db = init_db(str(tmp_path / "t.db"))
+    fa = FinancialAnalyzer(FakeAI("garbage[[["), TaxonomyRepo(db))
+    results = asyncio.run(fa.analyze_batch([("a", "b")]))
+    assert results == {}

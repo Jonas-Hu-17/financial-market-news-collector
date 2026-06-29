@@ -119,19 +119,41 @@ class MarketNewsOrchestrator:
             model_name=self.config.get("model", "deepseek-v4-flash"))
 
         concurrency = self.config.get("llm_concurrency", 6)
+        batch_size = self.config.get("llm_batch_size", 15)
+
+        # 按 (title, summary) 收集待分析 story
+        pending: list[tuple[int, str, str]] = []   # [(sid, title, summary)]
+        for sid in sorted(analyze_story_ids):
+            primary = self._primary_raw(sid)
+            if primary:
+                pending.append((sid, primary.title, primary.summary or ""))
+
+        if not pending:
+            pending = []   # no-op below
+
         sem = asyncio.Semaphore(concurrency)
 
-        async def _analyze_one(sid):
-            primary = self._primary_raw(sid)
-            if not primary:
-                return
+        async def _analyze_batch_block(block: list[tuple[int, str, str]]):
+            items = [(str(sid), title, summary) for sid, title, summary in block]
+            keyed = [(sid, title, summary) for sid, title, summary in block]
             async with sem:
-                res = await analyzer.analyze(primary.title, primary.summary or "")
-            if res:
-                persister.persist(sid, res)
+                batch_result = await analyzer.analyze_batch(
+                    [(title, summary) for _, title, summary in keyed])
+            for sid, title, summary in keyed:
+                res = batch_result.get(str(sid))
+                if res is None:
+                    # 兜底：单条 analyze
+                    try:
+                        res = await analyzer.analyze(title, summary)
+                    except Exception:
+                        res = None
+                if res:
+                    persister.persist(sid, res)
 
-        await asyncio.gather(*[_analyze_one(sid)
-                               for sid in analyze_story_ids])
+        # 分块并发
+        chunks = [pending[i:i + batch_size]
+                  for i in range(0, len(pending), batch_size)]
+        await asyncio.gather(*[_analyze_batch_block(ch) for ch in chunks])
 
         # 5. 组装 brief
         view_gen = ViewGenerator(

@@ -3,7 +3,10 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass
 from typing import Optional
-from ..ai.financial_prompts import FINANCIAL_SCORE_SYSTEM, build_score_user
+from ..ai.financial_prompts import (
+    FINANCIAL_SCORE_SYSTEM, FINANCIAL_SCORE_BATCH_SYSTEM,
+    build_score_user, build_batch_score_user,
+)
 
 _DIMENSIONS = ["market_type", "industry_group", "product_group", "region", "asset_class"]
 
@@ -37,6 +40,41 @@ class FinancialAnalyzer:
             )
         except Exception:
             return None
+
+    async def analyze_batch(
+        self, items: list[tuple[str, str]]
+    ) -> dict[str, "AnalysisResult"]:
+        """批量打分：一次调用处理多条。返回 {story_key: AnalysisResult}。
+
+        items: [(story_key, summary), ...] 其中 story_key 由调用方映射，
+        解析失败返回空 dict，不抛异常。
+        """
+        if not items:
+            return {}
+        try:
+            user = build_batch_score_user(items, self._allowed_codes())
+            raw = await self.ai.complete(FINANCIAL_SCORE_BATCH_SYSTEM, user)
+            data = json.loads(_strip_fences(raw))
+            if not isinstance(data, list):
+                return {}
+            results: dict[str, "AnalysisResult"] = {}
+            for entry in data:
+                idx = entry.get("idx")
+                if idx is None or idx < 0 or idx >= len(items):
+                    continue
+                key = items[idx][0]
+                results[key] = AnalysisResult(
+                    score=float(entry["score"]),
+                    rationale=entry.get("rationale", ""),
+                    tag_codes={
+                        d: (entry.get("tags", {}) or {}).get(d)
+                        for d in _DIMENSIONS
+                    },
+                    entities=entry.get("entities", []) or [],
+                )
+            return results
+        except Exception:
+            return {}
 
 
 def _strip_fences(text: str) -> str:
