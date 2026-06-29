@@ -1,0 +1,2406 @@
+{
+  "generated_at": "2026-06-29T02:34:59.752857+00:00",
+  "taxonomy": [
+    {
+      "dim": "asset_class",
+      "code": "Equity",
+      "label": "股票"
+    },
+    {
+      "dim": "asset_class",
+      "code": "Credit",
+      "label": "债券"
+    },
+    {
+      "dim": "asset_class",
+      "code": "PE",
+      "label": "私募股权"
+    },
+    {
+      "dim": "asset_class",
+      "code": "FX",
+      "label": "外汇"
+    },
+    {
+      "dim": "asset_class",
+      "code": "Commodity",
+      "label": "大宗商品"
+    },
+    {
+      "dim": "industry_group",
+      "code": "TMT",
+      "label": "TMT"
+    },
+    {
+      "dim": "industry_group",
+      "code": "Consumer",
+      "label": "Consumer & Retail"
+    },
+    {
+      "dim": "industry_group",
+      "code": "Healthcare",
+      "label": "Healthcare"
+    },
+    {
+      "dim": "industry_group",
+      "code": "Energy",
+      "label": "Energy & Natural Resources"
+    },
+    {
+      "dim": "industry_group",
+      "code": "Industrials",
+      "label": "Industrials"
+    },
+    {
+      "dim": "industry_group",
+      "code": "FIG",
+      "label": "Financial Institutions"
+    },
+    {
+      "dim": "industry_group",
+      "code": "RealEstate",
+      "label": "Real Estate"
+    },
+    {
+      "dim": "market_type",
+      "code": "primary",
+      "label": "一级市场"
+    },
+    {
+      "dim": "market_type",
+      "code": "secondary",
+      "label": "二级市场"
+    },
+    {
+      "dim": "product_group",
+      "code": "MA",
+      "label": "M&A / Advisory"
+    },
+    {
+      "dim": "product_group",
+      "code": "ECM",
+      "label": "ECM"
+    },
+    {
+      "dim": "product_group",
+      "code": "DCM",
+      "label": "DCM"
+    },
+    {
+      "dim": "product_group",
+      "code": "LevFin",
+      "label": "Leveraged Finance"
+    },
+    {
+      "dim": "product_group",
+      "code": "Restructuring",
+      "label": "Restructuring"
+    },
+    {
+      "dim": "product_group",
+      "code": "VC",
+      "label": "VC融资"
+    },
+    {
+      "dim": "product_group",
+      "code": "PEBuyout",
+      "label": "PE Buyout"
+    },
+    {
+      "dim": "product_group",
+      "code": "FundClosing",
+      "label": "基金募集"
+    },
+    {
+      "dim": "product_group",
+      "code": "PreIPO",
+      "label": "Pre-IPO"
+    },
+    {
+      "dim": "product_group",
+      "code": "PrivatePlacement",
+      "label": "私募配售"
+    },
+    {
+      "dim": "region",
+      "code": "NA",
+      "label": "北美"
+    },
+    {
+      "dim": "region",
+      "code": "EU",
+      "label": "欧洲"
+    },
+    {
+      "dim": "region",
+      "code": "GreaterChina",
+      "label": "大中华(含香港)"
+    },
+    {
+      "dim": "region",
+      "code": "JPKR",
+      "label": "日韩"
+    },
+    {
+      "dim": "region",
+      "code": "SEA_India",
+      "label": "东南亚·印度"
+    },
+    {
+      "dim": "region",
+      "code": "EM",
+      "label": "新兴市场"
+    },
+    {
+      "dim": "region",
+      "code": "Global",
+      "label": "全球·跨区域"
+    }
+  ],
+  "entities": [
+    {
+      "id": 356,
+      "name": "SpaceX",
+      "count": 11
+    },
+    {
+      "id": 417,
+      "name": "Energy",
+      "count": 5
+    },
+    {
+      "id": 434,
+      "name": "Baidu",
+      "count": 4
+    },
+    {
+      "id": 352,
+      "name": "Donald Trump",
+      "count": 3
+    },
+    {
+      "id": 368,
+      "name": "OpenAI",
+      "count": 3
+    },
+    {
+      "id": 479,
+      "name": "Momenta",
+      "count": 3
+    },
+    {
+      "id": 364,
+      "name": "Anthropic",
+      "count": 2
+    },
+    {
+      "id": 376,
+      "name": "Private Equity",
+      "count": 2
+    },
+    {
+      "id": 409,
+      "name": "Saudi Aramco",
+      "count": 2
+    },
+    {
+      "id": 439,
+      "name": "Defense",
+      "count": 2
+    },
+    {
+      "id": 459,
+      "name": "Micron Technology",
+      "count": 2
+    },
+    {
+      "id": 460,
+      "name": "Nvidia",
+      "count": 2
+    },
+    {
+      "id": 472,
+      "name": "Williams Companies",
+      "count": 2
+    },
+    {
+      "id": 473,
+      "name": "Momentum Midstream",
+      "count": 2
+    },
+    {
+      "id": 474,
+      "name": "Trump's sons",
+      "count": 2
+    },
+    {
+      "id": 480,
+      "name": "autonomous driving",
+      "count": 2
+    },
+    {
+      "id": 496,
+      "name": "Kunlunxin",
+      "count": 2
+    },
+    {
+      "id": 497,
+      "name": "Sovereign Wealth Funds",
+      "count": 2
+    },
+    {
+      "id": 498,
+      "name": "Artificial Intelligence",
+      "count": 2
+    },
+    {
+      "id": 501,
+      "name": "Persistent Systems",
+      "count": 2
+    },
+    {
+      "id": 353,
+      "name": "Fox Corporation",
+      "count": 1
+    },
+    {
+      "id": 354,
+      "name": "Roku, Inc.",
+      "count": 1
+    },
+    {
+      "id": 355,
+      "name": "Jalen Brewster",
+      "count": 1
+    },
+    {
+      "id": 357,
+      "name": "Cursor",
+      "count": 1
+    },
+    {
+      "id": 358,
+      "name": "easyJet",
+      "count": 1
+    },
+    {
+      "id": 359,
+      "name": "US investment firm",
+      "count": 1
+    },
+    {
+      "id": 360,
+      "name": "GameStop",
+      "count": 1
+    },
+    {
+      "id": 361,
+      "name": "eBay",
+      "count": 1
+    },
+    {
+      "id": 362,
+      "name": "Nigeria",
+      "count": 1
+    },
+    {
+      "id": 363,
+      "name": "UAE",
+      "count": 1
+    },
+    {
+      "id": 365,
+      "name": "Alibaba",
+      "count": 1
+    },
+    {
+      "id": 366,
+      "name": "Frontier AI",
+      "count": 1
+    },
+    {
+      "id": 367,
+      "name": "Comcast Corp.",
+      "count": 1
+    },
+    {
+      "id": 369,
+      "name": "Cerebras Systems",
+      "count": 1
+    },
+    {
+      "id": 370,
+      "name": "Chinese technology companies",
+      "count": 1
+    },
+    {
+      "id": 371,
+      "name": "Unknown Biotech IPO",
+      "count": 1
+    },
+    {
+      "id": 372,
+      "name": "Regeneron Pharmaceuticals",
+      "count": 1
+    },
+    {
+      "id": 373,
+      "name": "real estate",
+      "count": 1
+    },
+    {
+      "id": 374,
+      "name": "Lime",
+      "count": 1
+    },
+    {
+      "id": 375,
+      "name": "Uber",
+      "count": 1
+    },
+    {
+      "id": 377,
+      "name": "Beltone Venture Capital",
+      "count": 1
+    },
+    {
+      "id": 378,
+      "name": "ariika",
+      "count": 1
+    },
+    {
+      "id": 379,
+      "name": "Lychee",
+      "count": 1
+    },
+    {
+      "id": 380,
+      "name": "Shuraako Capital",
+      "count": 1
+    },
+    {
+      "id": 381,
+      "name": "EQT",
+      "count": 1
+    },
+    {
+      "id": 382,
+      "name": "CuspAI",
+      "count": 1
+    },
+    {
+      "id": 383,
+      "name": "UK care home sector",
+      "count": 1
+    },
+    {
+      "id": 384,
+      "name": "UK Public Contractors",
+      "count": 1
+    },
+    {
+      "id": 385,
+      "name": "Liberty Media Corporation",
+      "count": 1
+    },
+    {
+      "id": 386,
+      "name": "Delphi Digital",
+      "count": 1
+    },
+    {
+      "id": 387,
+      "name": "Covista",
+      "count": 1
+    },
+    {
+      "id": 388,
+      "name": "Truist",
+      "count": 1
+    },
+    {
+      "id": 389,
+      "name": "Chamberlain",
+      "count": 1
+    },
+    {
+      "id": 390,
+      "name": "Molina Healthcare",
+      "count": 1
+    },
+    {
+      "id": 391,
+      "name": "NextEra Energy",
+      "count": 1
+    },
+    {
+      "id": 392,
+      "name": "utilities",
+      "count": 1
+    },
+    {
+      "id": 393,
+      "name": "HCA Healthcare",
+      "count": 1
+    },
+    {
+      "id": 394,
+      "name": "BNY Mellon",
+      "count": 1
+    },
+    {
+      "id": 395,
+      "name": "Truist Financial",
+      "count": 1
+    },
+    {
+      "id": 396,
+      "name": "银河微电",
+      "count": 1
+    },
+    {
+      "id": 397,
+      "name": "恒泰柯",
+      "count": 1
+    },
+    {
+      "id": 398,
+      "name": "Elon Musk",
+      "count": 1
+    },
+    {
+      "id": 399,
+      "name": "Mesh",
+      "count": 1
+    },
+    {
+      "id": 400,
+      "name": "Optics Valley",
+      "count": 1
+    },
+    {
+      "id": 401,
+      "name": "中国金石",
+      "count": 1
+    },
+    {
+      "id": 402,
+      "name": "Kingstone Global Holdings Limited",
+      "count": 1
+    },
+    {
+      "id": 403,
+      "name": "Airwallex",
+      "count": 1
+    },
+    {
+      "id": 404,
+      "name": "Moonshot AI",
+      "count": 1
+    },
+    {
+      "id": 405,
+      "name": "Global semiconductor display leader",
+      "count": 1
+    },
+    {
+      "id": 406,
+      "name": "AI hardware precision manufacturing IPO",
+      "count": 1
+    },
+    {
+      "id": 407,
+      "name": "AHS Properties",
+      "count": 1
+    },
+    {
+      "id": 408,
+      "name": "Shangri-La Hotel",
+      "count": 1
+    },
+    {
+      "id": 410,
+      "name": "AI stocks",
+      "count": 1
+    },
+    {
+      "id": 411,
+      "name": "James Sprayregan",
+      "count": 1
+    },
+    {
+      "id": 412,
+      "name": "Kirkland & Ellis",
+      "count": 1
+    },
+    {
+      "id": 413,
+      "name": "Paul Weiss",
+      "count": 1
+    },
+    {
+      "id": 414,
+      "name": "Bridgepoint Group",
+      "count": 1
+    },
+    {
+      "id": 415,
+      "name": "US real estate unit",
+      "count": 1
+    },
+    {
+      "id": 416,
+      "name": "Apple Inc.",
+      "count": 1
+    },
+    {
+      "id": 418,
+      "name": "Spanish LNG import hub",
+      "count": 1
+    },
+    {
+      "id": 419,
+      "name": "Aware Super",
+      "count": 1
+    },
+    {
+      "id": 420,
+      "name": "Omers",
+      "count": 1
+    },
+    {
+      "id": 421,
+      "name": "UK Private Healthcare",
+      "count": 1
+    },
+    {
+      "id": 422,
+      "name": "Google",
+      "count": 1
+    },
+    {
+      "id": 423,
+      "name": "Meta",
+      "count": 1
+    },
+    {
+      "id": 424,
+      "name": "Nippon Yusen Kaisha (NYK)",
+      "count": 1
+    },
+    {
+      "id": 425,
+      "name": "Takaya Soga",
+      "count": 1
+    },
+    {
+      "id": 426,
+      "name": "Strait of Hormuz",
+      "count": 1
+    },
+    {
+      "id": 427,
+      "name": "Rolls-Royce",
+      "count": 1
+    },
+    {
+      "id": 428,
+      "name": "Tufan Erginbilgiç",
+      "count": 1
+    },
+    {
+      "id": 429,
+      "name": "Adidas",
+      "count": 1
+    },
+    {
+      "id": 430,
+      "name": "Marius Dittmar",
+      "count": 1
+    },
+    {
+      "id": 431,
+      "name": "Defense Contractors",
+      "count": 1
+    },
+    {
+      "id": 432,
+      "name": "Defense Industrial Base",
+      "count": 1
+    },
+    {
+      "id": 433,
+      "name": "Pimco",
+      "count": 1
+    },
+    {
+      "id": 435,
+      "name": "Didi Global",
+      "count": 1
+    },
+    {
+      "id": 436,
+      "name": "Pony.ai",
+      "count": 1
+    },
+    {
+      "id": 437,
+      "name": "autonomous vehicles",
+      "count": 1
+    },
+    {
+      "id": 438,
+      "name": "US auto industry",
+      "count": 1
+    },
+    {
+      "id": 440,
+      "name": "Eli Lilly",
+      "count": 1
+    },
+    {
+      "id": 441,
+      "name": "Novo Nordisk",
+      "count": 1
+    },
+    {
+      "id": 442,
+      "name": "dairy industry",
+      "count": 1
+    },
+    {
+      "id": 443,
+      "name": "GLP-1 drugs",
+      "count": 1
+    },
+    {
+      "id": 444,
+      "name": "Morgan Stanley",
+      "count": 1
+    },
+    {
+      "id": 445,
+      "name": "Starbucks",
+      "count": 1
+    },
+    {
+      "id": 446,
+      "name": "Sam Henderson",
+      "count": 1
+    },
+    {
+      "id": 447,
+      "name": "Chinese data center component stocks",
+      "count": 1
+    },
+    {
+      "id": 448,
+      "name": "Nasdaq",
+      "count": 1
+    },
+    {
+      "id": 449,
+      "name": "BIS",
+      "count": 1
+    },
+    {
+      "id": 450,
+      "name": "Nike",
+      "count": 1
+    },
+    {
+      "id": 451,
+      "name": "US jobs market",
+      "count": 1
+    },
+    {
+      "id": 452,
+      "name": "Lance Schroyer",
+      "count": 1
+    },
+    {
+      "id": 453,
+      "name": "Todd Lyons",
+      "count": 1
+    },
+    {
+      "id": 454,
+      "name": "David Venturella",
+      "count": 1
+    },
+    {
+      "id": 455,
+      "name": "Delcy Rodriguez",
+      "count": 1
+    },
+    {
+      "id": 456,
+      "name": "Amazon",
+      "count": 1
+    },
+    {
+      "id": 457,
+      "name": "U.S. Consumer Retail",
+      "count": 1
+    },
+    {
+      "id": 458,
+      "name": "Walgreens",
+      "count": 1
+    },
+    {
+      "id": 461,
+      "name": "Google (Alphabet)",
+      "count": 1
+    },
+    {
+      "id": 462,
+      "name": "Semiconductors",
+      "count": 1
+    },
+    {
+      "id": 463,
+      "name": "Vanguard",
+      "count": 1
+    },
+    {
+      "id": 464,
+      "name": "DeepSeek",
+      "count": 1
+    },
+    {
+      "id": 465,
+      "name": "AI industry",
+      "count": 1
+    },
+    {
+      "id": 466,
+      "name": "Basic Semiconductor",
+      "count": 1
+    },
+    {
+      "id": 467,
+      "name": "FAW Jiefang",
+      "count": 1
+    },
+    {
+      "id": 468,
+      "name": "Foton Commercial Vehicles",
+      "count": 1
+    },
+    {
+      "id": 469,
+      "name": "Chinese heavy-duty truck manufacturers",
+      "count": 1
+    },
+    {
+      "id": 470,
+      "name": "Japan Real Estate",
+      "count": 1
+    },
+    {
+      "id": 471,
+      "name": "Bank of Japan",
+      "count": 1
+    },
+    {
+      "id": 475,
+      "name": "Critical Minerals",
+      "count": 1
+    },
+    {
+      "id": 476,
+      "name": "Firmus Technologies",
+      "count": 1
+    },
+    {
+      "id": 477,
+      "name": "onsemi",
+      "count": 1
+    },
+    {
+      "id": 478,
+      "name": "Synaptics",
+      "count": 1
+    },
+    {
+      "id": 481,
+      "name": "Torrens",
+      "count": 1
+    },
+    {
+      "id": 482,
+      "name": "Biogen",
+      "count": 1
+    },
+    {
+      "id": 483,
+      "name": "RayThera",
+      "count": 1
+    },
+    {
+      "id": 484,
+      "name": "Ripple",
+      "count": 1
+    },
+    {
+      "id": 485,
+      "name": "Rafael",
+      "count": 1
+    },
+    {
+      "id": 486,
+      "name": "commercial space",
+      "count": 1
+    },
+    {
+      "id": 487,
+      "name": "洪桥集团",
+      "count": 1
+    },
+    {
+      "id": 488,
+      "name": "Bona Global",
+      "count": 1
+    },
+    {
+      "id": 489,
+      "name": "Donald Trump Jr.",
+      "count": 1
+    },
+    {
+      "id": 490,
+      "name": "Eric Trump",
+      "count": 1
+    },
+    {
+      "id": 491,
+      "name": "Zixun Technology",
+      "count": 1
+    },
+    {
+      "id": 492,
+      "name": "Technology",
+      "count": 1
+    },
+    {
+      "id": 493,
+      "name": "Real Estate",
+      "count": 1
+    },
+    {
+      "id": 494,
+      "name": "AbbVie",
+      "count": 1
+    },
+    {
+      "id": 495,
+      "name": "Apogee",
+      "count": 1
+    },
+    {
+      "id": 499,
+      "name": "Infrastructure",
+      "count": 1
+    },
+    {
+      "id": 500,
+      "name": "Private Credit",
+      "count": 1
+    },
+    {
+      "id": 502,
+      "name": "Nagarro",
+      "count": 1
+    },
+    {
+      "id": 503,
+      "name": "AI firms",
+      "count": 1
+    },
+    {
+      "id": 504,
+      "name": "chip firms",
+      "count": 1
+    },
+    {
+      "id": 505,
+      "name": "Bank for International Settlements",
+      "count": 1
+    },
+    {
+      "id": 506,
+      "name": "Haldiram's",
+      "count": 1
+    },
+    {
+      "id": 507,
+      "name": "German company (target)",
+      "count": 1
+    },
+    {
+      "id": 508,
+      "name": "Satellite imagery companies",
+      "count": 1
+    },
+    {
+      "id": 509,
+      "name": "Airlines",
+      "count": 1
+    },
+    {
+      "id": 510,
+      "name": "Emirates",
+      "count": 1
+    },
+    {
+      "id": 511,
+      "name": "Bending Spoons",
+      "count": 1
+    },
+    {
+      "id": 512,
+      "name": "xStocks",
+      "count": 1
+    },
+    {
+      "id": 513,
+      "name": "Heathrow",
+      "count": 1
+    },
+    {
+      "id": 514,
+      "name": "Star Alliance",
+      "count": 1
+    },
+    {
+      "id": 515,
+      "name": "Karoon Energy",
+      "count": 1
+    },
+    {
+      "id": 516,
+      "name": "Baidu's Chip Unit",
+      "count": 1
+    },
+    {
+      "id": 517,
+      "name": "Oil & Gas",
+      "count": 1
+    },
+    {
+      "id": 518,
+      "name": "Hyperscalers",
+      "count": 1
+    },
+    {
+      "id": 519,
+      "name": "Big Tech",
+      "count": 1
+    },
+    {
+      "id": 520,
+      "name": "Equity Markets",
+      "count": 1
+    },
+    {
+      "id": 521,
+      "name": "Guosen Securities",
+      "count": 1
+    },
+    {
+      "id": 522,
+      "name": "Founder Securities",
+      "count": 1
+    },
+    {
+      "id": 523,
+      "name": "mainland-listed companies",
+      "count": 1
+    },
+    {
+      "id": 524,
+      "name": "Central Banks",
+      "count": 1
+    },
+    {
+      "id": 525,
+      "name": "Invesco",
+      "count": 1
+    },
+    {
+      "id": 526,
+      "name": "AIVELA",
+      "count": 1
+    },
+    {
+      "id": 527,
+      "name": "CL",
+      "count": 1
+    },
+    {
+      "id": 528,
+      "name": "源策未来Archon Robotics",
+      "count": 1
+    },
+    {
+      "id": 529,
+      "name": "Samsung Electronics",
+      "count": 1
+    },
+    {
+      "id": 530,
+      "name": "SK Hynix",
+      "count": 1
+    },
+    {
+      "id": 531,
+      "name": "ticketing industry",
+      "count": 1
+    }
+  ],
+  "briefs": [
+    {
+      "date": "2026-06-29",
+      "market_view": "今日市场活动集中于科技领域并购与IPO，其中流媒体（福克斯拟收购Roku）、半导体（安森美换股收购Synaptics）及自动驾驶（Momenta赴港IPO目标筹资7.51亿美元）交易规模显著，反映资金对平台整合与商业化落地的关注。能源中游板块同样活跃，威廉姆斯公司以55亿美元两度出手收购二叠纪盆地与阿巴拉契亚地区管道资产，凸显区域资源整合趋势。跨市场方面，SpaceX若通过快速纳入框架进入纳斯达克100指数，将改变指数成分结构并触发被动资金再平衡，但其非上市地位与债券市场对其杠杆增加的担忧形成张力。生物技术与AI芯片领域亦有大额交易或IPO传闻（AbbVie收购Apogee、昆仑芯拟分拆上市），但均存在监管或信息不确定性，市场需权衡协同效应预期与执行风险。",
+      "items": [
+        {
+          "rank": 1,
+          "headline": "SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand",
+          "summary": "SpaceX将快速纳入纳斯达克100指数，成为纳斯达克新快速纳入框架的首批受益者之一。",
+          "view": "该事件并非融资事件，而是指数纳入事件。 但指数成分调整不改变公司基本面，需关注后续实际交易机制（如SpaceX是否已公开交易）及纳入后的长期资金配置节奏。 此外，该快速纳入框架可能加速其他高市值未上市科技公司的指数准入预期，但具体影响取决于各公司上市进度与指数规则变化。",
+          "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100.html",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 356,
+              "name": "SpaceX"
+            },
+            {
+              "id": 448,
+              "name": "Nasdaq"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "headline": "GameStop doubles down on $56 billion eBay bid despite rejection - Indian Television Dot Com",
+          "summary": "GameStop在遭到拒绝后仍加倍推进对eBay的560亿美元收购要约。",
+          "view": "该交易若成功，将使GameStop大幅扩展至电商平台领域，获得eBay的全球二手商品交易市场和用户基础。GameStop为收购方，eBay为目标公司，560亿美元的要约规模显著，可能涉及溢价。潜在影响包括：GameStop的估值逻辑将从实体游戏零售商转向科技平台，eBay的市场结构和竞争格局可能因所有权变更而调整，协同效应体现在用户交叉销售和运营效率提升，但交易仍存在被拒绝或监管审查的不确定性。",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVZLS1Joek4tMW9iR1B6Y2lyTWR2UDZ1cF9iRmZ6UVlQTW9SRC1IMWpMWExWRi1GSlRVbzhOZFY1TEgxSEMtV0VSNnpxTG9tajhTMzh2YUN2cll6Q0RIQk9yekl2dlJmV1RqMXI5NGsyNkZEUlVEbXJQZUEyRzA2NHc1NHlsZzcwcWtvZjRTcFhFMVY4TzlmbjdqWXg?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 360,
+              "name": "GameStop"
+            },
+            {
+              "id": 361,
+              "name": "eBay"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "headline": "Fox Agrees to Buy Roku for $160 Per Share. Here’s What the $22 Billion Deal Is Worth - TIKR.com",
+          "summary": "福克斯（Fox）同意以每股160美元的价格收购流媒体平台Roku，该交易总价值约为220亿美元。",
+          "view": "该收购表明福克斯正在通过垂直整合向流媒体硬件和操作系统领域扩张，意在强化其内容分发能力与广告技术平台。Roku凭借其庞大的用户基数和智能电视操作系统，将补充福克斯在流媒体市场的竞争地位。交易对价每股160美元较此前市场估值存在显著溢价，隐含的企业价值倍数需结合Roku的营收增速与盈利能力评估。潜在影响包括福克斯与Roku之间内容议价结构的内化、广告库存的协同效应，以及流媒体电视行业新一轮整合压力的上升。实际整合效果将取决于监管审批、用户留存率及技术平台融合进程。",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd0U4MUdYRkhBT0lmQnRpa01oalJVRFZkM3lfQ25hdi1yRkZsaGxaWW1IMzRUS2h2eFpVVEM5RFJ1REYybDdjYl9PWkZqSUNOeG00Q01mQWF3UlI2Skl5OFZRM1FQVmg3djRFQ3RkZGtwUFJVTzB3ckRlbzJ6djZYWnRHR21CRHNvRjNCVnI5V2JhbUZVLTNlOGw1V0RmamRsdnV6a0N5UHMxQQ?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 353,
+              "name": "Fox Corporation"
+            },
+            {
+              "id": 354,
+              "name": "Roku, Inc."
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "headline": "威廉姆斯公司正就收购Momentum Midstream的55亿美元交易进行谈判 - 36Kr",
+          "summary": "威廉姆斯公司正在就收购Momentum Midstream进行谈判，交易价值约为55亿美元。",
+          "view": "该交易若达成，将扩大威廉姆斯公司在中游基础设施领域的资产组合，增强其在天然气处理和运输市场的地位。Momentum Midstream的资产可能与威廉姆斯现有管网产生运营协同效应，降低单位成本并提升区域市场覆盖率。交易对价隐含的估值倍数需结合目标公司的EBITDA等财务指标评估，目前尚未公开具体债务结构或融资安排。市场结构方面，此举可能进一步整合美国中游行业，影响区域内管道竞争格局和费率谈判能力。",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IUXU3SkIzeDE0ZFoxYS1QeWdLcV9OZ3dkVFRUQVI1LXZrM0pfRDJCS2VuMm01b0lPazhRRUlJQlQ5N0tnRmw5YlZzNWxkWENVMGVBbHpVMV9LTndDUHc?oc=5",
+          "tags": [
+            {
+              "dim": "industry_group",
+              "code": "Energy",
+              "label": "Energy & Natural Resources"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 472,
+              "name": "Williams Companies"
+            },
+            {
+              "id": 473,
+              "name": "Momentum Midstream"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "headline": "Baidu’s AI chip unit Kunlunxin targets $50 billion Hong Kong IPO, The Information reports - WTVB",
+          "summary": "百度旗下AI芯片部门昆仑芯计划在香港进行IPO，目标估值为500亿美元。",
+          "view": "该消息显示昆仑芯作为百度孵化的AI芯片企业，正寻求通过公开市场融资加速发展。500亿美元的估值目标反映了市场对AI芯片赛道的高预期，尤其是在生成式AI需求爆发的背景下。这一动向可能引发对其他中国AI芯片公司（如地平线、寒武纪）估值逻辑的重新审视，同时也凸显了大型科技公司分拆硬件业务上市的常见路径。但目前IPO尚未完成，实际估值和投资者反应仍存在不确定性。",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZEd1NzFwVV9SZnk4c214R0lRMlJBbjJXa2lxNHFPdTF6d3NXU1h3TUloTGZKMzhfWmJxSzV2Vjh1U3FQTWxmbGZaS2VnT3NaVDN1ZU0tVXpRY1dTUlFwNGJJOFptcjFYU3hwZl90ODBQNy1abmJ6d3ZWSW9uWWJyc2ZWN0VJS1Nzd0ZjTmVOSmViYl9yMk03d0ktYU9FSlFySkZlcHhTd1NScFFseGk2VDNCdUhFb2Ns?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "GreaterChina",
+              "label": "大中华(含香港)"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 434,
+              "name": "Baidu"
+            },
+            {
+              "id": 496,
+              "name": "Kunlunxin"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "headline": "AbbVie stock run lifts pricing on $10.9 billion Apogee deal to six times cost - TechStock²",
+          "summary": "AbbVie股价上涨使其对Apogee总额109亿美元的收购交易定价升至成本的六倍。",
+          "view": "该交易定价调整源于AbbVie股价变动对换股对价的影响，可能改变交易完成时的实际成本与买方账面回报。收购旨在增强AbbVie在特定治疗领域（如肿瘤或免疫）的管线，Apogee作为目标提供创新药物资产。估值驱动因素包括双方协同效应、AbbVie股价波动风险及交易后市场竞争格局变化，但具体财务影响需待交易条款披露后评估。",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZHJIamNQNWFpbEtsZ0hYSXhpNEZ2Nk1HbXYwREplMUgxa3JTSzZ2dEJNZ0o1REJJQmVQOE03TU9jQWkzeWRYdmpicTFBZ1VxbUNDWTF6V3R4am9UZDBWMy1sOE5xNlh6aWo1UnJwdkU4SVhYMDIzajRDb0hHOGlNc3pqWE43UndLVDdhZkN4STM5VFJOQ2NfQS1yUlYxQQ?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Healthcare",
+              "label": "Healthcare"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 494,
+              "name": "AbbVie"
+            },
+            {
+              "id": 495,
+              "name": "Apogee"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "headline": "onsemi to Acquire Synaptics in $7 Billion All-Stock Deal - thelec.net",
+          "summary": "安森美半导体（onsemi）宣布以全股票交易方式收购Synaptics，交易价值约70亿美元。",
+          "view": "该交易将把Synaptics的人机界面和触控技术整合到onsemi的智能电源和传感器产品组合中，可能增强其在汽车、工业和物联网市场的端到端解决方案能力。作为全股票交易，双方股东将按固定比例换股，隐含估值取决于onsemi股价波动，目前未披露明确的收购倍数。潜在的协同效应包括交叉销售机会、研发成本优化以及供应链整合，但需关注反垄断审查和客户对供应商集中度的反应。",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04ckhsdlgwSFNjUmVaYkdFSy1jYzVPd1o1S2hIYkhvaV9TVFJYSU1zU0FDSlBTRDI0aDY5UHVyNFRmZTNGZ19RRHljS2gzUFRUbHpyaVNQUk1jTVhSX21XRmtjNzVwSEE?oc=5",
+          "tags": [
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 477,
+              "name": "onsemi"
+            },
+            {
+              "id": 478,
+              "name": "Synaptics"
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "headline": "Williams Cos. nears $5.5 billion Momentum Midstream deal - Investing.com",
+          "summary": "威廉姆斯公司接近以55亿美元收购Momentum Midstream公司。",
+          "view": "该交易若完成，将扩大威廉姆斯在天然气中游领域的资产组合，增强其管道与处理能力。卖方Momentum Midstream的股东将获得55亿美元对价。交易可能通过运营协同效应和市场份额提升影响估值，但具体整合风险与监管审批仍存不确定性。",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZWpBcjR6eUNEd0dwb0NKVFluelpLNDI4SjlycmZrRzhtc0VlM3FhdUNOaTc1Y1RmNXJVeFFCdDYydlpCRjVVX1hZcENteE9LYlhBaU12VkUzbGFuQ3FialphZjkzSE5EbFhlZWpGRkxWRGRpOXJiNUc5c0JNTUMySmMzZ0kyeUU0amhXTzhyRVRfNWlINEJzQjJXM0VjekxLZjFBb2hCSVBpcGRUUUY4?oc=5",
+          "tags": [
+            {
+              "dim": "industry_group",
+              "code": "Energy",
+              "label": "Energy & Natural Resources"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            }
+          ],
+          "entities": [
+            {
+              "id": 472,
+              "name": "Williams Companies"
+            },
+            {
+              "id": 473,
+              "name": "Momentum Midstream"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "headline": "洪桥集团(08137.HK)拟收购Bona Global 73%的股权_股市直播_市场 - 中金在线",
+          "summary": "洪桥集团(08137.HK)宣布拟收购Bona Global 73%的股权。",
+          "view": "此交易显示洪桥集团有意通过控股Bona Global来拓展业务版图或获取特定资源，具体标的业务领域未披露，需关注后续公告。收购将增加洪桥集团对Bona Global的控制权，但交易对价、估值倍数及协同效应尚不明确。市场可能关注该收购能否带来收入或成本整合，以及是否改变公司在所处行业的竞争地位，但不确定性较高。",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiLXNqRURKWk1xdm1YWjJRbjRBaWp4ZUVfcHdoMkNQWTg3WFpXdGRUamZxbDctQWVmTjVWc0xuUGlhUDBVOTU0RTkxV25wSVJNY1VrRS1xbDUwcTRtckpPSHgyeVJZeURtZnU4aQ?oc=5",
+          "tags": [
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "GreaterChina",
+              "label": "大中华(含香港)"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 487,
+              "name": "洪桥集团"
+            },
+            {
+              "id": 488,
+              "name": "Bona Global"
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "headline": "SpaceX's Massive Bond Issuance After IPO Angers Market, Faces Heavy Sell-Off - PANews",
+          "summary": "PANews报道称，SpaceX在首次公开募股（IPO）后发行大规模债券，引发市场不满并遭遇大量抛售。",
+          "view": "该事件反映市场对SpaceX在IPO后立即大规模举债的时机与动机存疑，可能加剧对其现金流压力或资本结构优化意图的猜测。若债券发行规模超预期，将推高公司杠杆率，影响现有债权人的风险溢价，并可能导致信用评级下调或二级市场债券折价交易。对SpaceX而言，更高的融资成本或约束后续资本支出计划；对太空产业链而言，若市场将此举解读为行业资金需求扩张的信号，可能连带影响其他航天企业发债或股权融资的定价环境。",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wcnQxQWxkRTBPZVB5ZV81ZU1oWmZPOTE5ckN3U3pEVEJZSHhvWGF6cV9fOVA0enZxS2luUkhfbHU0WVJQUm5tS2IzalIwakxzVF9vaF8taVQ4cjZBWTNmeVVaY1pYXy1sdkIybTdsOFBhN3lNOVFZNVBhOXpsdlU?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "DCM",
+              "label": "DCM"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Credit",
+              "label": "债券"
+            }
+          ],
+          "entities": [
+            {
+              "id": 356,
+              "name": "SpaceX"
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "headline": "China’s Momenta targets upto $751 mln in Hong Kong IPO - TradingView",
+          "summary": "中国自动驾驶公司Momenta计划在香港首次公开募股(IPO)，目标融资额高达7.51亿美元。",
+          "view": "Momenta此次IPO属于上市融资阶段，而非早期私募轮次，募集资金将用于技术研发和业务扩张。该融资规模显示市场对自动驾驶赛道仍保持较高关注度，且香港市场持续吸引内地科技公司。Momenta的估值与定价将直接影响小马智行、文远知行等其他未上市自动驾驶公司的估值预期，同时需关注宏观经济环境、监管政策及行业竞争格局带来的不确定性。",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZTl5STFnSTRjekZNM3ZSd1B4eDRFOFlEQ3BzREJGd25wY1c4NjBxRDdydmdURHlCZ2tvbk9GV3BLYXF4TG8xZkxybE4xNGpuZ281M2lEX0QwamVwblJJWk5rQURTUmJYMmhPM0lxbkZlM0NOZHJIOGFERVM0MzllYkFqakJlUmMyUnJtTzJvQUdBcnZVM3dDd1JRVHBJT2ZKbGJVLVBrdU1kcldaQUl2enJzRjN5b3JqdTBCU0hQbGQ?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "GreaterChina",
+              "label": "大中华(含香港)"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 479,
+              "name": "Momenta"
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "headline": "China's Momenta seeks up to $751 million in Hong Kong IPO to boost autonomous driving R&D - Reuters",
+          "summary": "Momenta计划在香港IPO中融资最多7.51亿美元，用于自动驾驶研发。",
+          "view": "该IPO为Momenta的首次公开发行，拟募集约7.51亿美元，主要投资方尚未披露。此举表明自动驾驶领域仍具较大资金需求，Momenta作为初创公司选择上市融资，反映其已进入相对成熟阶段。可比公司包括其他自动驾驶技术企业如百度Apollo、小马智行等，其IPO定价和后续表现可能为行业估值提供参考。",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMXBzSS1FRWtWeG11bWxfQXNvNlNKckJSQmdzanRtalNmVmFHb25EYVFGRUNvTGpvRzM2cEYyRDNkdWgzQzJ2Z2h5UHNKcDZGS241RmoxRkFJQTRHT1lPTDY2RFI1UFAyS0laaHc2ZFpFOUoycl9LYWFnZDZDa3EwdkFzOFZiSzFCRmRvMzFMWTlERnRVam5CbnRNUHN2WWdQaWhVTGl3elpQbW0wSmFYRnhEck5mZVQ1bUlMYnN2SmFUMDQ0RW5PdTBLZW5GZUZTOUNFb09SdmdzZlk?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "GreaterChina",
+              "label": "大中华(含香港)"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 479,
+              "name": "Momenta"
+            },
+            {
+              "id": 480,
+              "name": "autonomous driving"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "market_view": "Today's market activity centered on a surge in technology and energy-related developments, with significant M&A and IPO news shaping sentiment. In tech, notable items included GameStop's $56 billion bid for eBay, Fox's acquisition of Roku, and speculation around SpaceX potentially joining an index or acquiring Cursor, alongside IPOs from Lime and a biotech firm backed by Regeneron. Energy and geopolitical themes were prominent due to a threat to a key oil shipping channel and a port incident in Saudi Arabia, which raised supply concerns and cost pressures. Deal activity clustered heavily in the US, with cross-border moves into Europe (easyJet negotiations) and the Middle East (AHS Properties acquiring a Dubai hotel), while Asian markets saw a major funding round for Airwallex and a semiconductor M&A in China. Cross-currents included the impact of US jobs data and Nike earnings on rate-sensitive and consumer sectors, alongside mixed signals from AI companies regarding IPO timing and regulatory approvals.",
+      "items": [
+        {
+          "rank": 1,
+          "headline": "SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand",
+          "summary": "SpaceX将被快速纳入纳斯达克100指数，成为该指数快速通道框架的首批受益者之一。",
+          "view": "该消息未披露具体融资轮次、金额或投资者，故无法评估交易条款。 若SpaceX确实被纳入指数，前提是公司先完成上市（如IPO或直接上市），这意味着其资本运作可能进入新阶段。 对于其他未上市的高估值科技公司，此类快速纳入框架的推出可能强化市场对它们未来上市后流动性的预期，但实际影响取决于SpaceX的上市时间表及指数调整的具体规则。 由于SpaceX目前仍为私营企业，该消息的实质性取决于后续上市进展，存在不确定性。",
+          "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100.html",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 356,
+              "name": "SpaceX"
+            },
+            {
+              "id": 448,
+              "name": "Nasdaq"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "headline": "GameStop doubles down on $56 billion eBay bid despite rejection - Indian Television Dot Com",
+          "summary": "GameStop 在遭拒绝后仍坚持对 eBay 提出的 560 亿美元收购要约，并加大努力推动交易。",
+          "view": "GameStop 对 eBay 的收购意图显示其试图通过整合电商平台与游戏零售业务实现多元化，eBay 的在线市场能力可能为 GameStop 提供用户基础与交易基础设施。交易对价 560 亿美元隐含的估值倍数反映 eBay 现有业务规模及潜在协同价值，但双方在业务重点上的差异（实体游戏零售 vs 在线拍卖）可能增加整合难度。该交易将影响电子游戏零售与二手商品电商市场的竞争格局，若成功可能加速行业集中，但监管审查与融资安排仍是关键不确定因素。",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVZLS1Joek4tMW9iR1B6Y2lyTWR2UDZ1cF9iRmZ6UVlQTW9SRC1IMWpMWExWRi1GSlRVbzhOZFY1TEgxSEMtV0VSNnpxTG9tajhTMzh2YUN2cll6Q0RIQk9yekl2dlJmV1RqMXI5NGsyNkZEUlVEbXJQZUEyRzA2NHc1NHlsZzcwcWtvZjRTcFhFMVY4TzlmbjdqWXg?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 360,
+              "name": "GameStop"
+            },
+            {
+              "id": 361,
+              "name": "eBay"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "headline": "Fox Agrees to Buy Roku for $160 Per Share. Here’s What the $22 Billion Deal Is Worth - TIKR.com",
+          "summary": "福克斯同意以每股160美元的价格收购流媒体设备公司Roku，交易总价值约为220亿美元。",
+          "view": "该交易若完成，福克斯将获得Roku的流媒体操作系统和用户基础，增强其直接面向消费者的分发能力和广告技术平台。Roku作为被收购方，其股东将以每股160美元获得现金对价，该价格相对于近期交易水平可能包含一定溢价。交易涉及的估值驱动因素包括流媒体市场竞争格局重塑、内容与平台整合带来的协同效应，以及广告收入增长潜力。不过，交易尚需监管审批和股东投票，存在不确定性。",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd0U4MUdYRkhBT0lmQnRpa01oalJVRFZkM3lfQ25hdi1yRkZsaGxaWW1IMzRUS2h2eFpVVEM5RFJ1REYybDdjYl9PWkZqSUNOeG00Q01mQWF3UlI2Skl5OFZRM1FQVmg3djRFQ3RkZGtwUFJVTzB3ckRlbzJ6djZYWnRHR21CRHNvRjNCVnI5V2JhbUZVLTNlOGw1V0RmamRsdnV6a0N5UHMxQQ?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 353,
+              "name": "Fox Corporation"
+            },
+            {
+              "id": 354,
+              "name": "Roku, Inc."
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "headline": "Mines will hold back Strait of Hormuz shipping for months, CEO warns",
+          "summary": "日本邮船（NYK）高管Takaya Soga警告称，地雷将导致霍尔木兹海峡航运受阻数月，安全航线极其有限，航运量将仅为战前水平的一半。",
+          "view": "该事件直接威胁全球约三分之一的石油和液化天然气运输要道，航运公司面临绕行、保费飙升及航行时间延长，推高运输成本。可能引发能源供应紧张，推升原油和天然气价格波动，对亚洲进口国（如日、印、韩）的能源成本构成上行压力。同时，战争风险溢价上升，航运企业盈利能力面临不确定性，并可能加速替代航线（如绕行好望角）及能源结构多元化的讨论。",
+          "url": "https://www.ft.com/content/a0739198-318c-4ae8-9953-ba88201edc45",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Energy",
+              "label": "Energy & Natural Resources"
+            },
+            {
+              "dim": "region",
+              "code": "EM",
+              "label": "新兴市场"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Commodity",
+              "label": "大宗商品"
+            }
+          ],
+          "entities": [
+            {
+              "id": 424,
+              "name": "Nippon Yusen Kaisha (NYK)"
+            },
+            {
+              "id": 425,
+              "name": "Takaya Soga"
+            },
+            {
+              "id": 426,
+              "name": "Strait of Hormuz"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "headline": "深圳再添2家上市公司！全球半导体显示龙头、 AI硬件精密制造领域最大规模IPO来了；深圳2026上半年新增超20家上市企业，全国第一｜深商 - 搜狐网",
+          "summary": "深圳新增两家上市公司，分别是全球半导体显示龙头和AI硬件精密制造领域最大规模IPO，同时深圳市计划在2026年上半年新增超过20家上市企业，数量居全国第一。",
+          "view": "该IPO事件标志着半导体显示和AI硬件精密制造领域在资本市场的重大进展，显示出相关行业的融资活跃度和市场认可度。深圳作为科技创新中心，新增上市公司将提升区域资本市场吸引力，并可能带动产业链上下游企业的估值参考。对于同类已上市公司（如半导体显示龙头京东方、AI硬件制造商立讯精密等），IPO的定价和后续表现将提供市场对该行业估值水平的参照。但具体影响需视IPO发行规模、定价及上市后市场反应而定。",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQemdkZ2t0bi11LUllUUFLUlM5VlZodHcwLXU0b1VFdklOajRTWS00Y05wTGVIcDlJR1pGQzVNV01DUnJDRGVTbWNnZWEtVF9PRFc5aWxqQkFlUzhmMkhKZGthNlhSa2hwMHVOSDYtM2Z3TWo2WDVOV1ZRdlZkeFZDSGdPQ2RScGh6?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "GreaterChina",
+              "label": "大中华(含香港)"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 405,
+              "name": "Global semiconductor display leader"
+            },
+            {
+              "id": 406,
+              "name": "AI hardware precision manufacturing IPO"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "headline": "The SpaceX IPO Lifted the Whole Space Economy -- Including the Public Companies Building the Road Back to the Moon - Investing News Network",
+          "summary": "据报道，SpaceX的首次公开募股提振了整个太空经济，包括那些致力于重返月球的上市公司。",
+          "view": "该报道指出SpaceX IPO对太空经济板块产生了积极溢出效应，可能提升投资者对相关私营及上市太空公司的关注度。然而，具体融资轮次、金额及参与方信息未在摘要中明确，估值影响需结合具体公司基本面及市场整体风险偏好综合判断。",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNM1lNSndkOUFqTk5oT0dETTBxdzFKd291VUJYRDdQa01TbnJyTEJ1Z19vdlV1ZzNsNWhQcG9WTGx3dFZsUThBa3M3YWxRWGhYbHBjN0I1cXVndnRoSGp6ZDFPV2ltSnRESi1rMUx6TFQ5TnNHTjM4RnZoV1dsRXBuMzhCX1ZlZHBFMEdPd28tZzFTQUVZSmtKajhFUDdEMEh5blhGbWxrRjdwNl85ellqc2pGRGRXaDlCYnFxejFHeU01NDVzaEJlU3ZEU2dCSkF4WGV5Nw?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Industrials",
+              "label": "Industrials"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 356,
+              "name": "SpaceX"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "headline": "easyJet Reopens Talks With US Investment Firm Despite Rejecting $6.4 Billion Takeover Offer - Simple Flying",
+          "summary": "易捷航空在拒绝了美国投资公司64亿美元的收购要约后，重新与其展开谈判。",
+          "view": "该进展显示易捷航空可能对交易条款持开放态度，但谈判结果仍不确定。若达成协议，美国投资公司可能寻求通过整合易捷航空的网络和运营来获取协同效应，并可能影响欧洲低成本航空市场的竞争格局。此前被拒的64亿美元要约隐含的估值倍数可作为参考，但新谈判的具体估值和结构未披露。关键驱动因素包括监管审批风险、协同效应实现的可能性以及市场对航空业复苏的预期。",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX3FHeVA0UEhrUXFuNEx4QVVFdVNQcjItN1RFa0gySHg0QXBSUWJfMzBxSkNsWHNJREU5RVhSQlhId0ZQamxWeGZKUHFROWtwTzU2NXRWbXRMVFZ6Rll5QTJZVEtoaGJ6Qm13LXlJbGRRMy1uUFBHZGIwa05BZ3YteVVfTzUwb1JDbnBaa21UdGVPdkJiaXJfd0pmY0FfSk9iR0tXTGJpbUVndw?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Consumer",
+              "label": "Consumer & Retail"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "EU",
+              "label": "欧洲"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 358,
+              "name": "easyJet"
+            },
+            {
+              "id": 359,
+              "name": "US investment firm"
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "headline": "Aramco helicopter crashes at Saudi port",
+          "summary": "沙特阿美一架直升机在拉斯塔努拉港坠毁，造成至少14人死亡，事故发生在美伊袭击威胁可能破坏霍尔木兹海峡重新开放协议的几个小时后。",
+          "view": "该事件凸显了中东能源基础设施安全风险，特别是霍尔木兹海峡通航的脆弱性。事故发生在关键石油出口港，可能引发对沙特原油出口能力的短期关注，但实际影响取决于事故原因和运营恢复进度。若调查显示与安保漏洞或外部袭击有关，可能提升油轮与港口安保成本，并加剧该区域原油运输的保险费用波动。",
+          "url": "https://www.ft.com/content/6be8c3fd-5f1d-4659-afee-43db76a36fd6",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Energy",
+              "label": "Energy & Natural Resources"
+            },
+            {
+              "dim": "region",
+              "code": "EM",
+              "label": "新兴市场"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Commodity",
+              "label": "大宗商品"
+            }
+          ],
+          "entities": [
+            {
+              "id": 409,
+              "name": "Saudi Aramco"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "headline": "AHS Properties以11亿迪拉姆收购香格里拉酒店， 完成谢赫扎耶德路标志性交易 - Business Wire",
+          "summary": "AHS Properties以11亿迪拉姆收购香格里拉酒店，完成了谢赫扎耶德路的一笔标志性交易。",
+          "view": "AHS Properties通过收购香格里拉酒店，可扩大其在迪拜高端酒店市场的资产组合，并强化在谢赫扎耶德路核心地段的布局。交易对价为11亿迪拉姆，具体估值倍数未披露。此举可能影响当地酒店业的竞争格局，并反映奢侈酒店资产在迪拜的持续价值，但整合风险及未来旅游需求变化仍是关键不确定因素。",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12VDZoMmpFaGZXZjQtU1BXVk04dWVMa0RfbW9kNjdIaVRhN3NVU1RsSlBpaGhkNWtsMlNjeGlteHJtX2JmZXRHazhoeHBiWUFYeUFsM3YwRDFxWk5SSzIxbjFaMHJsZmZHOVNz?oc=5",
+          "tags": [
+            {
+              "dim": "industry_group",
+              "code": "RealEstate",
+              "label": "Real Estate"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "EM",
+              "label": "新兴市场"
+            }
+          ],
+          "entities": [
+            {
+              "id": 407,
+              "name": "AHS Properties"
+            },
+            {
+              "id": 408,
+              "name": "Shangri-La Hotel"
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "headline": "Lime, Backed by Uber (UBER), Seeking Valuation of Up to $1.66 Billion in U.S. IPO - Yahoo Finance",
+          "summary": "Uber支持的电动滑板车公司Lime正寻求在美国首次公开募股（IPO）中实现高达16.6亿美元的估值。",
+          "view": "该IPO事件标志着Lime从私营公司向上市公司的转变，显示共享微出行领域在公开市场仍存在融资兴趣，但估值相较此前私募轮次可能有所调整。作为Uber投资的公司，Lime的上市定价和投资者需求将提供该赛道的最新估值基准，并可能影响市场对同类企业（如Bird）以及共享出行板块整体融资环境的预期。需关注最终发行价格及上市后股价波动对行业投融资情绪的反向传导。",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWnd4U2tsRWtVb1NhLTlHem5SUE95UWVMcmh3WjJZcFJjRFZjbnB1ckRXYkdJXzIzdjNRQ3Uxc2pzang0WUZhVWFBX2gwN284SWp4aE1IcVJJdnI0THRoOUVQLXhDWk9QSjR5SU1GY1ByZUNUUW52Sm5IV01XR3VnbTVpVkNxbXNMX2RVdm5oZHF5bVFmc2tZVmN3?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 374,
+              "name": "Lime"
+            },
+            {
+              "id": 375,
+              "name": "Uber"
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "headline": "SpaceX Looks to Reshuffle the Deck in the Enterprise Coding Market With Its $60 Billion Deal for Cursor - The Motley Fool",
+          "summary": "据媒体报道，SpaceX正考虑以600亿美元收购编程工具Cursor，以进军企业编码市场。该交易尚未得到官方确认。",
+          "view": "若交易属实，SpaceX将从航天领域跨界进入企业编码市场，体现其多元化战略意图。Cursor作为AI辅助编程平台，其估值高达600亿美元，远超当前同类公司水平，暗示市场对其技术潜力及战略协同价值的高预期。可能的估值驱动因素包括：SpaceX内部工程效率提升、企业编码市场结构重塑（如与GitHub Copilot等竞争）、以及AI编程工具在研发流程中的广泛应用前景。但交易的高额对价及行业跨界性质带来显著不确定性，需关注监管审批、整合风险及市场对价合理性。",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2o1ejVSdTY4N3pkbFhfYnNVRnR2SGFKUjNMQW9Zc0U4VmdpWTNOOXZBQWdwekpVUndES3JZUlRfSE5IcUV3b3lXa09xWlh3Y1ExSU9UUFllZFIwVnVxajlpUkFMMnZGZGtELV9fNDVMd0xfRjZTX1JhMU9hNk1nZEFTMF9IbkVtbXpWNDVrcWVmSWNVZnoxaw?oc=5",
+          "tags": [
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "PE",
+              "label": "私募股权"
+            }
+          ],
+          "entities": [
+            {
+              "id": 356,
+              "name": "SpaceX"
+            },
+            {
+              "id": 357,
+              "name": "Cursor"
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "headline": "Micron is about to be more profitable than any U.S. company except Nvidia and Google",
+          "summary": "美光科技即将成为除英伟达和谷歌之外盈利最高的美国公司，原因是大型科技公司愿意为AI内存组件支付高昂价格。",
+          "view": "这一发展源于AI训练与推理对高带宽内存（HBM）的强劲需求，直接利好内存制造商（如美光）的定价能力与利润率。对产业链而言，上游设备与材料供应商可能受益于产能扩张的资本开支，而下游AI芯片与云计算厂商则需接受更高的内存采购成本。若AI需求持续，可能推动内存行业估值中枢上移，但需警惕供应过剩或技术迭代带来的周期性风险。",
+          "url": "https://www.marketwatch.com/story/micron-is-about-to-be-more-profitable-than-any-u-s-company-except-nvidia-and-google-3a83e343?mod=mw_rss_topstories",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 459,
+              "name": "Micron Technology"
+            },
+            {
+              "id": 460,
+              "name": "Nvidia"
+            },
+            {
+              "id": 461,
+              "name": "Google (Alphabet)"
+            },
+            {
+              "id": 462,
+              "name": "Semiconductors"
+            }
+          ]
+        },
+        {
+          "rank": 13,
+          "headline": "Bond giant Pimco flexes muscles with private placements push",
+          "summary": "债券巨头Pimco正利用部分借款人筹集现金的需求，积极拓展私募配售业务，公共市场与私募市场的边界日益模糊。",
+          "view": "该事件未披露具体轮次、金额及借款方，但表明Pimco作为大型资产管理公司正加大私募信贷布局。此举反映出在公共市场融资条件收紧或波动期间，私募渠道作为替代性资金来源的重要性上升。对行业而言，Pimco的进入可能加剧私募信贷市场竞争，对传统银行及现有私募信贷机构形成压力；对借款企业来说，融资选择增加但需关注条款灵活性及成本变化。该趋势亦可能模糊公私募市场定价界限，影响可比公开债券及私募债的风险溢价评估。",
+          "url": "https://www.ft.com/content/5bd2ea32-4cb1-4575-9cb5-10c528aacc1e",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "FIG",
+              "label": "Financial Institutions"
+            },
+            {
+              "dim": "product_group",
+              "code": "PrivatePlacement",
+              "label": "私募配售"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Credit",
+              "label": "债券"
+            }
+          ],
+          "entities": [
+            {
+              "id": 433,
+              "name": "Pimco"
+            }
+          ]
+        },
+        {
+          "rank": 14,
+          "headline": "UK’s Bridgepoint nears deal to buy real estate unit in bet on US property",
+          "summary": "英国私募股权公司Bridgepoint接近达成收购一项美国房地产部门资产的交易，标志着其从传统企业收购业务向房地产领域的战略扩张。",
+          "view": "该交易属于私募股权并购，具体金额和阶段未披露，Bridgepoint作为收购方拓展至美国房地产领域。此举反映私募资本对房地产行业尤其美国市场的兴趣升温，可能加剧该领域竞争。可比案例包括黑石、凯雷等机构近年加大房地产配置，显示行业资金持续流入此类另类资产。",
+          "url": "https://www.ft.com/content/567ba6a4-809f-4e8e-a8f3-03855beb9a48",
+          "tags": [
+            {
+              "dim": "industry_group",
+              "code": "RealEstate",
+              "label": "Real Estate"
+            },
+            {
+              "dim": "product_group",
+              "code": "PEBuyout",
+              "label": "PE Buyout"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "PE",
+              "label": "私募股权"
+            }
+          ],
+          "entities": [
+            {
+              "id": 414,
+              "name": "Bridgepoint Group"
+            },
+            {
+              "id": 415,
+              "name": "US real estate unit"
+            }
+          ]
+        },
+        {
+          "rank": 15,
+          "headline": "财联社创投通：一级市场本周114起融资，具身智能活跃度居前，Airwallex完成3.2亿美元H轮融资 - 搜狐网",
+          "summary": "财联社创投通数据显示，本周一级市场共发生114起融资事件，其中具身智能领域较为活跃，跨境支付平台Airwallex完成3.2亿美元的H轮融资。",
+          "view": "Airwallex的H轮融资规模达3.2亿美元，表明在跨境支付赛道中，头部企业仍能获得大额资本支持，反映该领域对成熟期企业的融资环境相对友好。该轮融资将助力Airwallex进一步扩展全球业务布局和产品能力。从行业对比看，类似定位的跨境支付企业（如Payoneer、万里汇等）可能面临更激烈的资源竞争，但此类融资也验证了跨境支付基础设施的市场价值，对同赛道的初创公司具有一定信号意义。",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYU1Pd1lreEVxZjV4bUhhLUZ5LVZDTDJZRnd3VThKcnVhZTZmcEwySkxCWTRxaTFySHhYWnJyS3pKcXBkSW9OS21rZS1hRFVUdUxiZDZ3RXFObmlPRENEQVotdWpVdDhOZ2JWc0RLeEpiVFVONTdzU3RFTHBkZFRoYWFINzcwbG9q?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "VC",
+              "label": "VC融资"
+            },
+            {
+              "dim": "region",
+              "code": "GreaterChina",
+              "label": "大中华(含香港)"
+            },
+            {
+              "dim": "asset_class",
+              "code": "PE",
+              "label": "私募股权"
+            }
+          ],
+          "entities": [
+            {
+              "id": 403,
+              "name": "Airwallex"
+            }
+          ]
+        },
+        {
+          "rank": 16,
+          "headline": "19:57:39【近30家A股上市公司本周披露并购重组最新公告 银河微电拟收购恒泰柯100%股权明起复牌】 - 财联社",
+          "summary": "银河微电公告拟收购恒泰柯100%股权，股票将于明日起复牌，同时本周另有近30家A股公司披露并购重组最新动态。",
+          "view": "银河微电收购恒泰柯100%股权，旨在整合半导体领域资源，可能强化其功率器件或相关技术能力，提升产品线完整度。交易双方分别为A股半导体上市公司及未上市标的，若收购完成，银河微电将实现全资控股，潜在协同效应包括技术互补、客户渠道共享及规模经济。该事项处于披露阶段，尚需履行审批程序，对银河微电的盈利能力、市场地位及估值的影响取决于收购对价、整合进度及行业竞争格局变化。",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE50ano5VzMtVTZ6SEVvS3JzSFVYdkxKWjdyQXVJVzBhSUZaNkpCcE5hRXRxZUs3TExuMDBRYnRPQ3hPMU5HS1dPRA?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "GreaterChina",
+              "label": "大中华(含香港)"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 396,
+              "name": "银河微电"
+            },
+            {
+              "id": 397,
+              "name": "恒泰柯"
+            }
+          ]
+        },
+        {
+          "rank": 17,
+          "headline": "This Little-Known Biotech Just Delivered a Bigger IPO Pop Than SpaceX -- and Regeneron Is Already Invested - Yahoo Finance",
+          "summary": "一家不知名的生物科技公司在首次公开募股（IPO）首日涨幅超过SpaceX，再生元（Regeneron）此前已投资该公司。",
+          "view": "该公司的IPO首日大涨表明市场对其技术或管线有强烈需求，可能反映当前生物科技领域IPO环境活跃，尤其是有知名药企背书的标的更受追捧。再生元作为早期投资者的身份，可能增强市场对该生物科技公司研发前景的信心。同类处于早期阶段、与大型药企有合作关系的生物科技公司，在融资和估值上或面临类似的关注度提升。具体涨幅金额和公司细节需进一步查阅报道。",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSmgtY0Faem9QWlRaVWJya2QwVmZrcGdMZDlRdGlEUDZWTVNqVUtfN0xvNUxEUlpFOFNKeEVGcFQ1Zjhid3FGeU50QkZsM0dCRkFxVFZUMGg4cVA3ckpqSVMwbTRJaGVWNW5ITk9Nczlmdm1sU2hGQjRXcldEQnFKYUhudWRPVll6RzRWNEwzR3dTcThaeVNlOWRsS0I?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Healthcare",
+              "label": "Healthcare"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 371,
+              "name": "Unknown Biotech IPO"
+            },
+            {
+              "id": 372,
+              "name": "Regeneron Pharmaceuticals"
+            }
+          ]
+        },
+        {
+          "rank": 18,
+          "headline": "OpenAI Eyes 2027 IPO Delay As Washington Clears Anthropic's Mythos 5 - Forbes",
+          "summary": "OpenAI正考虑将首次公开募股推迟至2027年，同时美国监管机构批准了Anthropic的Mythos 5项目。",
+          "view": "该报道涉及两家头部AI公司的重要动态：OpenAI延迟IPO表明其可能选择更长的非公开发展期，以专注于技术迭代或应对监管；而Anthropic获得政府批准则反映出AI领域政策环境的渐进开放。现阶段未披露具体融资金额或投资者，但整体上，监管批准可能加速同类AI企业（如Cohere、Adept等）的研发与商业化进程，而IPO延迟则暗示一级市场对AI标的仍有较强承接力，但退出窗口存在不确定性。上述信息为事实性陈述，不构成任何投资建议。",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVXlobjR6ZFFkOWFvNWZfUHhTdFFzc0w0SVJCVHNtOUt4SkFETEstSWZuV1FfRHN0ZFk1YmxSSU1XaC1zQ2QxYzFRMlI4Y3ppRFFSeUVLVzdjLWY5MEhXX0hxanpBVVBqN2hWOXBYM2RVdDNyaFJLSWwyYkU1MUo3RmF4QU4zdV9PRUg3U3FRQnMzUFliMDJWY2hiZlZXU0l6U1VTdjJkNjJCdk84MWd6eXpyZGM4UHpFMF9vTw?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "PreIPO",
+              "label": "Pre-IPO"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 364,
+              "name": "Anthropic"
+            },
+            {
+              "id": 368,
+              "name": "OpenAI"
+            }
+          ]
+        },
+        {
+          "rank": 19,
+          "headline": "Anthropic’s Alibaba fight raises a trillion-dollar IPO question: How defensible is frontier AI? - Fortune",
+          "summary": "《财富》杂志报道称，Anthropic与阿里巴巴在人工智能领域的竞争引发了一个关于前沿AI公司IPO防御性的万亿美元问题，但文中未明确提及具体的融资轮次、金额或投资方。",
+          "view": "该报道未披露具体融资细节（轮次、金额、参与方），因此无法直接评估交易本身。但其讨论的核心——前沿AI技术的商业可持续性和IPO前景——可能影响私募市场对该类公司的估值逻辑。若投资者对AI模型的可防御性产生疑虑，可能收紧早期至成长阶段AI公司的融资条件。对标公司如OpenAI、Google DeepMind及国内AI创企，其上市预期或面临更严格的市场审视，需关注技术壁垒与护城河的实际验证。",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb25faXRlLXJybEd4VGk2OVRSWnJjR1hYQkl5NzdPd2hlcnRtWXJJaDV0UVZhdTFBVVc4UTZrbjIxM3dpSlhYZ2JHbDRWMVRFSFpCNHE0TkZQaV95aVdVZWQ4YXdNME5Fc0plOHpNY29fYjQwZXNKcDE3QXd4ZkFiMHZXSnVTVzhra0FwQnVOdEVXamd4dHZYRERHWktBNXRuSlo1dnpB?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "PreIPO",
+              "label": "Pre-IPO"
+            },
+            {
+              "dim": "region",
+              "code": "Global",
+              "label": "全球·跨区域"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 364,
+              "name": "Anthropic"
+            },
+            {
+              "id": 365,
+              "name": "Alibaba"
+            },
+            {
+              "id": 366,
+              "name": "Frontier AI"
+            }
+          ]
+        },
+        {
+          "rank": 20,
+          "headline": "Here are 3 big things we're watching in the stock market in the week ahead",
+          "summary": "本周重点关注美国就业数据、耐克关键财报以及一项长期酝酿的公司分拆完成。",
+          "view": "就业数据将影响市场对美联储政策的预期，进而波及利率敏感板块。耐克财报揭示消费需求与库存状况，对零售及服装行业估值具有参考意义。分拆完成可能释放股东价值，改变行业集中度，但实际效果取决于后续业绩与市场解读，存在不确定性。",
+          "url": "https://www.cnbc.com/2026/06/28/here-are-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead-.html",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Consumer",
+              "label": "Consumer & Retail"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 450,
+              "name": "Nike"
+            },
+            {
+              "id": 451,
+              "name": "US jobs market"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

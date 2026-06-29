@@ -1,0 +1,296 @@
+<!doctype html><html lang="zh"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Financial Market News Collector</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f1ea;--card:#faf8f2;--ink:#1a1a1a;--muted:#6b665d;--faint:#8a8275;--hair:#d9d4c8;--chip:#e9e5da;--accent:#b53520}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Work Sans',sans-serif;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:34px 22px 60px}
+.mast{font-family:'Playfair Display',serif;font-weight:600;font-size:30px;line-height:1.1}
+.date{font-size:13px;color:var(--faint);margin-top:8px}
+.rule{height:1px;background:var(--ink);margin:12px 0 0}
+.topbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:16px 0}
+.topbar select{font:inherit;font-size:13px;padding:4px 8px;border:0.5px solid var(--hair);border-radius:4px;background:var(--card);color:var(--ink)}
+.topbar label{font-size:13px;color:var(--muted)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0}
+.chip{font-size:12px;padding:4px 11px;border-radius:20px;border:0.5px solid var(--hair);color:var(--muted);background:var(--card);cursor:pointer;user-select:none}
+.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.scope-row{display:flex;gap:6px;align-items:center;margin:4px 0 8px}
+.scope-row label{font-size:12px;color:var(--muted);cursor:pointer;display:flex;align-items:center;gap:4px}
+.scope-row input[type=checkbox]{accent-color:var(--ink)}
+.h{font-family:'Playfair Display',serif;font-size:17px;font-weight:600;margin:26px 0 8px;display:flex;align-items:center;gap:8px}
+.h::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--ink)}
+.lead{font-family:'Playfair Display',serif;font-size:18px;font-style:italic;line-height:1.55;color:#2a2620}
+.item{padding:18px 0;border-bottom:0.5px solid var(--hair)}
+.itop{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.title{font-family:'Playfair Display',serif;font-size:19px;font-weight:500;line-height:1.3}
+.rank{color:var(--faint)}
+.src{font-size:13px;color:var(--ink);border-bottom:1px solid var(--ink);white-space:nowrap;text-decoration:none}
+.sum{font-size:14.5px;color:var(--muted);margin:7px 0 2px}
+.tags{margin:9px 0;display:flex;gap:6px 8px;flex-wrap:wrap;align-items:center}
+.tag{font-size:12px;color:var(--muted);background:var(--chip);border-radius:4px;padding:2px 9px;cursor:pointer;user-select:none}
+.tag:hover{background:var(--hair)}
+.entity-tag{font-size:12px;color:var(--accent);border:0.5px solid var(--accent);border-radius:12px;padding:1px 8px;cursor:pointer;user-select:none}
+.entity-tag:hover{background:var(--accent);color:var(--bg)}
+.view{font-size:15px;line-height:1.65;background:var(--card);border:0.5px solid var(--hair);border-radius:8px;padding:11px 14px;margin:10px 0}
+.view b{font-family:'Playfair Display',serif;font-style:italic;font-weight:500}
+.foot{font-size:13px;color:var(--faint);border-top:0.5px solid var(--hair);margin-top:16px;padding-top:14px}
+.review-panel{display:none;margin:14px 0;padding:14px;background:var(--card);border:0.5px solid var(--hair);border-radius:8px}
+.review-panel.show{display:block}
+.review-panel h3{font-family:'Playfair Display',serif;font-size:16px;margin:0 0 10px}
+.review-close{float:right;background:none;border:none;cursor:pointer;font-size:18px;color:var(--faint)}
+.review-item{font-size:14px;padding:8px 0;border-bottom:0.5px solid var(--hair)}
+.review-item .rd{font-size:12px;color:var(--faint)}
+.review-item .rh{font-weight:500}
+.nohit{color:var(--faint);font-size:15px;text-align:center;padding:40px 0}
+.empty-state{color:var(--faint);font-size:15px;text-align:center;padding:30px 0}
+</style></head><body>
+<div class="wrap">
+  <div class="mast">Financial Market News Collector</div>
+  <div class="rule"></div>
+
+  <div class="topbar">
+    <label>📅 日期：</label>
+    <select id="date-select"><option value="">加载中…</option></select>
+    <label style="margin-left:8px">🔍 搜索：</label>
+    <input type="text" id="ent-search" placeholder="输入公司/实体名…" style="font:inherit;font-size:13px;padding:4px 8px;border:0.5px solid var(--hair);border-radius:4px;background:var(--card);width:140px">
+    <button id="ent-btn" style="font:inherit;font-size:13px;padding:4px 12px;border:0.5px solid var(--hair);border-radius:4px;background:var(--card);cursor:pointer">回顾</button>
+  </div>
+
+  <div class="chips" id="chips"></div>
+  <div class="scope-row">
+    <label><input type="checkbox" id="scope-all"> 跨日期筛选（默认仅当天）</label>
+  </div>
+
+  <div class="review-panel" id="review-panel">
+    <button class="review-close" id="review-close" title="关闭">&times;</button>
+    <h3 id="review-title">公司回顾</h3>
+    <div id="review-list"></div>
+  </div>
+
+  <div id="content">
+    <div class="empty-state">加载中…</div>
+  </div>
+
+  <div class="foot">
+    免责声明：本内容为公开信息汇总与中性影响陈述，不构成任何投资建议、买卖推荐或目标价。<br>
+    Feel free to contact me at 1079919402@qq.com
+  </div>
+</div>
+
+<script>
+(function(){
+var DATA = null;
+var curDate = '';
+var activeChip = 'all';
+var scopeAll = false;
+var curReviewEntity = null;
+
+function esc(s){
+  var d=document.createElement('div');
+  d.textContent=s;
+  return d.innerHTML;
+}
+
+function tagsHtml(tags){
+  return tags.map(function(t){
+    return '<span class="tag" data-dim="'+esc(t.dim)+'" data-code="'+esc(t.code)+'">'+esc(t.label)+'</span>';
+  }).join('');
+}
+
+function entitiesHtml(entities){
+  return entities.map(function(e){
+    return '<span class="entity-tag" data-eid="'+e.id+'" data-ename="'+esc(e.name)+'">'+esc(e.name)+'</span>';
+  }).join('');
+}
+
+function renderBrief(b){
+  var allItems=b.items;
+  // filters
+  if(activeChip!=='all'){
+    var parts=activeChip.split(':',2);
+    allItems=allItems.filter(function(it){
+      return it.tags.some(function(t){return t.dim===parts[0] && t.code===parts[1];});
+    });
+  }
+  if(!allItems.length){
+    return '<div class="nohit">当前筛选条件下无条目</div>';
+  }
+  var h='';
+  if(b.market_view) h+='<div class="h">综合市场观点</div><div class="lead">'+esc(b.market_view)+'</div>';
+  h+='<div class="h">今日要闻</div>';
+  for(var i=0;i<allItems.length;i++){
+    var it=allItems[i];
+    h+='<div class="item">';
+    h+='<div class="itop"><div class="title"><span class="rank">'+
+      (it.rank<10?'0':'')+it.rank+' — </span>'+esc(it.headline)+'</div>';
+    if(it.url) h+='<a class="src" href="'+esc(it.url)+'" target="_blank" rel="noopener">原文 ↗</a>';
+    h+='</div>';
+    if(it.summary) h+='<div class="sum">'+esc(it.summary)+'</div>';
+    h+='<div class="tags">'+tagsHtml(it.tags);
+    if(it.entities&&it.entities.length) h+=entitiesHtml(it.entities);
+    h+='</div>';
+    if(it.view) h+='<div class="view"><b>影响：</b>'+esc(it.view)+'</div>';
+    h+='</div>';
+  }
+  return h;
+}
+
+function renderAllHistory(){
+  if(!DATA) return;
+  var sel=document.getElementById('date-select');
+  sel.innerHTML='';
+  for(var i=0;i<DATA.briefs.length;i++){
+    var d=DATA.briefs[i].date;
+    var opt=document.createElement('option');
+    opt.value=d;opt.textContent=d;
+    if(d===curDate) opt.selected=true;
+    sel.appendChild(opt);
+  }
+  if(!curDate && DATA.briefs.length) curDate=DATA.briefs[0].date;
+  renderChips();
+  refreshContent();
+}
+
+function renderChips(){
+  var cont=document.getElementById('chips');
+  cont.innerHTML='<span class="chip'+(activeChip==='all'?' on':'')+'" data-f="all">全部</span>';
+  if(!DATA||!DATA.taxonomy) return;
+  var seen={};
+  for(var i=0;i<DATA.taxonomy.length;i++){
+    var t=DATA.taxonomy[i];
+    var key=t.dim+':'+t.code;
+    if(seen[key]) continue; seen[key]=true;
+    var cls='chip'+(activeChip===key?' on':'');
+    cont.innerHTML+='<span class="'+cls+'" data-f="'+esc(key)+'">'+esc(t.label)+'</span>';
+  }
+}
+
+function refreshContent(){
+  if(!DATA) return;
+  var b=DATA.briefs.find(function(x){return x.date===curDate;});
+  var cont=document.getElementById('content');
+  if(!b){
+    cont.innerHTML='<div class="nohit">该日期暂无数据</div>';
+  }else{
+    cont.innerHTML=renderBrief(b);
+  }
+}
+
+function showCompanyReview(entityName,entityId){
+  if(!DATA){return;}
+  curReviewEntity=entityName;
+  var panel=document.getElementById('review-panel');
+  document.getElementById('review-title').textContent='公司回顾：'+entityName;
+  var list=document.getElementById('review-list');
+  var items=[];
+  for(var i=0;i<DATA.briefs.length;i++){
+    var b=DATA.briefs[i];
+    for(var j=0;j<b.items.length;j++){
+      var it=b.items[j];
+      if(it.entities&&it.entities.some(function(e){return e.id===entityId;})){
+        items.push({date:b.date,item:it});
+      }
+    }
+  }
+  if(!items.length){
+    list.innerHTML='<div class="nohit">未在历史 brief 中找到该实体</div>';
+  }else{
+    list.innerHTML=items.map(function(x){
+      var it=x.item;
+      var h='<div class="review-item">';
+      h+='<div class="rd">'+esc(x.date)+' · #'+it.rank+'</div>';
+      h+='<div class="rh">'+esc(it.headline)+'</div>';
+      if(it.summary) h+='<div style="font-size:13px;color:var(--muted)">'+esc(it.summary)+'</div>';
+      h+=tagsHtml(it.tags);
+      if(it.view) h+='<div style="font-size:13px;margin-top:4px;color:var(--ink)">'+esc(it.view)+'</div>';
+      h+='</div>';
+      return h;
+    }).join('');
+  }
+  panel.classList.add('show');
+}
+
+// entity search
+document.addEventListener('DOMContentLoaded',function(){
+  var sel=document.getElementById('date-select');
+  sel.addEventListener('change',function(){
+    curDate=this.value;
+    activeChip='all';
+    document.querySelectorAll('#chips .chip').forEach(function(c){c.classList.remove('on');});
+    var ac=document.querySelector('#chips .chip[data-f="all"]');
+    if(ac) ac.classList.add('on');
+    refreshContent();
+  });
+
+  document.getElementById('chips').addEventListener('click',function(e){
+    var el=e.target;
+    if(!el.classList.contains('chip')) return;
+    activeChip=el.dataset.f;
+    document.querySelectorAll('#chips .chip').forEach(function(c){c.classList.remove('on');});
+    el.classList.add('on');
+    refreshContent();
+  });
+
+  document.getElementById('scope-all').addEventListener('change',function(){
+    scopeAll=this.checked;
+  });
+
+  document.getElementById('content').addEventListener('click',function(e){
+    var el=e.target;
+    if(el.classList.contains('tag')){
+      activeChip=el.dataset.dim+':'+el.dataset.code;
+      document.querySelectorAll('#chips .chip').forEach(function(c){c.classList.remove('on');});
+      // find matching chip
+      var chips=document.querySelectorAll('#chips .chip');
+      for(var i=0;i<chips.length;i++){
+        if(chips[i].dataset.f===activeChip){chips[i].classList.add('on');break;}
+      }
+      refreshContent();
+      return;
+    }
+    if(el.classList.contains('entity-tag')){
+      showCompanyReview(el.dataset.ename,parseInt(el.dataset.eid));
+      return;
+    }
+  });
+
+  document.getElementById('review-close').addEventListener('click',function(){
+    document.getElementById('review-panel').classList.remove('show');
+    curReviewEntity=null;
+  });
+
+  document.getElementById('ent-btn').addEventListener('click',function(){
+    var q=(document.getElementById('ent-search').value||'').trim();
+    if(!q) return;
+    if(!DATA||!DATA.entities) return;
+    var found=null;
+    for(var i=0;i<DATA.entities.length;i++){
+      if(DATA.entities[i].name.toLowerCase().indexOf(q.toLowerCase())!==-1){
+        found=DATA.entities[i];break;
+      }
+    }
+    if(found){
+      showCompanyReview(found.name,found.id);
+    }else{
+      alert('未找到实体：'+q);
+    }
+  });
+
+  document.getElementById('ent-search').addEventListener('keydown',function(e){
+    if(e.key==='Enter') document.getElementById('ent-btn').click();
+  });
+
+  // load
+  fetch('data.json').then(function(r){return r.json();}).then(function(d){
+    DATA=d;
+    if(DATA.briefs.length) curDate=DATA.briefs[0].date;
+    renderAllHistory();
+  }).catch(function(err){
+    document.getElementById('content').innerHTML='<div class="nohit">无法加载 data.json：'+esc(err.message)+'</div>';
+  });
+});
+})();
+</script>
+</body></html>
