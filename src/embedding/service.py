@@ -10,7 +10,12 @@ class EmbeddingService:
     @cached_property
     def _model(self):
         from sentence_transformers import SentenceTransformer
-        return SentenceTransformer(self.model_name)
+        try:
+            import torch
+            device = "mps" if torch.backends.mps.is_available() else "cpu"
+        except Exception:
+            device = "cpu"
+        return SentenceTransformer(self.model_name, device=device)
 
     def embed(self, texts: list[str]) -> list[list[float]]:
         arr = self._model.encode(
