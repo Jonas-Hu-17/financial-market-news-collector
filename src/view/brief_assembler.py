@@ -1,5 +1,6 @@
 """组装当期 brief：选高分 story → 生成 view → 落库 + 综合观点。"""
 from __future__ import annotations
+import asyncio
 from datetime import datetime, timezone
 from ..db.rows import BriefRow, BriefItemRow
 
@@ -17,24 +18,37 @@ class BriefAssembler:
 
     async def build(self, period_type: str, period_date: str, *,
                     min_score: float = 6.0, max_items: int = 20,
-                    language: str = "zh") -> int:
+                    language: str = "zh",
+                    llm_concurrency: int = 6) -> int:
         now = datetime.now(timezone.utc).isoformat()
         scored = self._top_stories(min_score, max_items)
         brief_id = self.briefs.create(BriefRow(
             period_type=period_type, period_date=period_date, language=language,
             model="deepseek-v4-flash", generated_at=now, status="draft"))
-        item_views = []
-        for rank, (story_id, _score) in enumerate(scored, start=1):
+
+        sem = asyncio.Semaphore(llm_concurrency)
+
+        async def _make(rank, story_id):
             primary = self._primary_raw_item(story_id)
             title = primary.title if primary else ""
-            summary = primary.summary if primary else ""
-            summary, view = await self.view.generate_item(
-                story_id, title, summary)
+            raw = primary.summary if primary else ""
+            async with sem:
+                summary, view = await self.view.generate_item(
+                    story_id, title, raw)
+            return rank, story_id, title, summary, view
+
+        made = await asyncio.gather(
+            *[_make(r, sid) for r, (sid, _s)
+              in enumerate(scored, start=1)])
+
+        item_views = []
+        for rank, story_id, title, summary, view in made:
             item_views.append(view)
             self.items.add(BriefItemRow(
                 brief_id=brief_id, story_id=story_id, rank=rank,
                 headline=title, summary=summary, view_text=view,
                 created_at=now))
+
         market_view = await self.view.generate_market_view(item_views)
         self.briefs.set_market_view(brief_id, market_view)
         return brief_id

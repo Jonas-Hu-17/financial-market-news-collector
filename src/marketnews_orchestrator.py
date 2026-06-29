@@ -145,7 +145,8 @@ class MarketNewsOrchestrator:
         period_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         brief_id = await assembler.build(
             period_type, period_date,
-            min_score=self.config.get("min_score", 6.0))
+            min_score=self.config.get("min_score", 6.0),
+            llm_concurrency=concurrency)
 
         # 6. 渲染 + 投递
         md = BriefRenderer(
