@@ -26,6 +26,9 @@ class BriefAssembler:
             period_type=period_type, period_date=period_date, language=language,
             model="deepseek-v4-flash", generated_at=now, status="draft"))
 
+        # 重新生成时先清空旧的 brief_item（替换语义，避免重复累加）
+        self.items.delete_for_brief(brief_id)
+
         sem = asyncio.Semaphore(llm_concurrency)
 
         async def _make(rank, story_id):

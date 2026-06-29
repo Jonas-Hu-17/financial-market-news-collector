@@ -76,3 +76,43 @@ class TestBriefItemRepo:
         assert len(items) == 1
         assert items[0].headline == "Acme acquires Beta"
         assert items[0].view_text == "该并购将整合两家公司的技术能力，对行业竞争格局产生影响。"
+
+    def test_delete_for_brief(self, tmp_path):
+        db = _db(tmp_path)
+        brief_repo = BriefRepo(db)
+        item_repo = BriefItemRepo(db)
+        sid1 = _setup_story(db)
+        sid2 = _setup_story(db)  # second story
+
+        bid = brief_repo.create(_brief_row())
+        item_repo.add(BriefItemRow(
+            brief_id=bid, story_id=sid1, rank=1,
+            headline="H1", view_text="V1", created_at="2026-06-28T08:00:00Z"))
+        item_repo.add(BriefItemRow(
+            brief_id=bid, story_id=sid2, rank=2,
+            headline="H2", view_text="V2", created_at="2026-06-28T08:00:00Z"))
+
+        assert len(item_repo.list_for_brief(bid)) == 2
+        item_repo.delete_for_brief(bid)
+        assert len(item_repo.list_for_brief(bid)) == 0
+
+    def test_double_build_no_duplicate(self, tmp_path):
+        """重复 build 时不翻倍：同一 brief_id 写入两次=一次的数量。"""
+        db = _db(tmp_path)
+        brief_repo = BriefRepo(db)
+        item_repo = BriefItemRepo(db)
+        sid = _setup_story(db)
+
+        bid = brief_repo.create(_brief_row())
+        # 第一次写入
+        item_repo.add(BriefItemRow(
+            brief_id=bid, story_id=sid, rank=1,
+            headline="H", view_text="V", created_at="2026-06-28T08:00:00Z"))
+        # 模拟 rebuild：先清再写
+        item_repo.delete_for_brief(bid)
+        item_repo.add(BriefItemRow(
+            brief_id=bid, story_id=sid, rank=1,
+            headline="H", view_text="V", created_at="2026-06-28T08:00:00Z"))
+
+        items = item_repo.list_for_brief(bid)
+        assert len(items) == 1, f"重建后应只有 1 条，实际 {len(items)} 条"

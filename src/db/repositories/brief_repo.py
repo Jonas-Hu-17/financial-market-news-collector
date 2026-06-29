@@ -62,6 +62,13 @@ class BriefItemRepo:
             )
             return cur.lastrowid
 
+    def delete_for_brief(self, brief_id: int) -> None:
+        with self.db.transaction() as conn:
+            conn.execute(
+                "DELETE FROM brief_item WHERE brief_id=?",
+                (brief_id,),
+            )
+
     def list_for_brief(self, brief_id: int) -> list[BriefItemRow]:
         conn = self.db.connect()
         try:
