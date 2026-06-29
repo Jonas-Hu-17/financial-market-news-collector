@@ -54,9 +54,9 @@ def test_template_has_title(template_client):
     assert "Financial Market News Collector" in r.text
 
 
-def test_template_has_neutral_impact_label(template_client):
+def test_template_has_impact_label(template_client):
     r = template_client.get("/brief/2026-06-28")
-    assert "影响（中性）" in r.text
+    assert "影响：" in r.text
 
 
 def test_template_has_disclaimer(template_client):

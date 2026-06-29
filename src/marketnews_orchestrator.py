@@ -1,5 +1,6 @@
 """全链路编排：抓取→去重→聚类→分析→brief→渲染→投递。"""
 from __future__ import annotations
+import asyncio
 import httpx
 from datetime import datetime, timezone, timedelta
 from typing import Optional
@@ -116,13 +117,21 @@ class MarketNewsOrchestrator:
             EntityRepo(self.db), StoryEntityRepo(self.db),
             TaxonomyRepo(self.db),
             model_name=self.config.get("model", "deepseek-v4-flash"))
-        for sid in analyze_story_ids:
+
+        concurrency = self.config.get("llm_concurrency", 6)
+        sem = asyncio.Semaphore(concurrency)
+
+        async def _analyze_one(sid):
             primary = self._primary_raw(sid)
             if not primary:
-                continue
-            res = await analyzer.analyze(primary.title, primary.summary or "")
+                return
+            async with sem:
+                res = await analyzer.analyze(primary.title, primary.summary or "")
             if res:
                 persister.persist(sid, res)
+
+        await asyncio.gather(*[_analyze_one(sid)
+                               for sid in analyze_story_ids])
 
         # 5. 组装 brief
         view_gen = ViewGenerator(
