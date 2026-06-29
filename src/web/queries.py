@@ -16,6 +16,12 @@ def _clean_view(text: str) -> str:
         m = re.search(r'"view"\s*:\s*"(.+?)"\s*}?\s*$', s, re.S)
         if m:
             return m.group(1).strip()
+        # Also handle full JSON object: {"summary": "...", "view": "..."}
+        m2 = re.search(r'"view"\s*:\s*"(.+?)"\s*}?\s*$', s, re.S)
+        if not m2:
+            m2 = re.search(r'"view"\s*:\s*"([^"]+)"', s)
+        if m2:
+            return m2.group(1).strip()
         s = re.sub(r'^[\s",}{]+', '', s)
         s = re.sub(r'[\s"}]+$', '', s)
     return s.strip()
