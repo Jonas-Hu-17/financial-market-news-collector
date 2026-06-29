@@ -7,23 +7,45 @@ from ..db.repositories.feedback_repo import FeedbackRepo
 
 
 def _clean_view(text: str) -> str:
-    """渲染时剥掉模型偶尔泄漏的 JSON 残渣，如 '", "view": "..."}'。
+    """渲染时剥掉模型偶尔泄漏的 JSON 残渣，覆盖 view/summary 字段名前缀。
     仅在检测到 JSON 残渣时清洗，正常 view 原样返回。"""
     if not text:
         return ""
     s = text.strip()
-    if '"view"' in s or s.startswith('",') or s.startswith('"}') or s.startswith('{'):
-        m = re.search(r'"view"\s*:\s*"(.+?)"\s*}?\s*$', s, re.S)
+    # 检测 JSON 残渣特征
+    has_json = (
+        '"view"' in s or '"summary"' in s
+        or 'summary":' in s or 'view":' in s
+        or s.startswith('",') or s.startswith('"}') or s.startswith('{')
+    )
+    if not has_json:
+        return s
+
+    # 1) 优先提取 "view" 字段值
+    m = re.search(r'"view"\s*:\s*"(.+?)"\s*[},]?\s*$', s, re.S)
+    if not m:
+        m = re.search(r'"view"\s*:\s*"([^"]+)"', s)
+    if m:
+        return m.group(1).strip()
+
+    # 2) 提取 "summary" 字段值（当 view 字段不存在时）
+    if '"summary"' in s or 'summary":' in s:
+        m = re.search(r'"summary"\s*:\s*"(.+?)"\s*[},]?\s*$', s, re.S)
+        if not m:
+            m = re.search(r'"summary"\s*:\s*"([^"]+)"', s)
         if m:
             return m.group(1).strip()
-        # Also handle full JSON object: {"summary": "...", "view": "..."}
-        m2 = re.search(r'"view"\s*:\s*"(.+?)"\s*}?\s*$', s, re.S)
-        if not m2:
-            m2 = re.search(r'"view"\s*:\s*"([^"]+)"', s)
-        if m2:
-            return m2.group(1).strip()
+
+    # 3) 去掉 summary": 或 view": 前缀（无引号包裹的正文）
+    s = re.sub(r'^"?summary"?\s*:\s*"?(.+?)"?\s*$', r'\1', s)
+    s = re.sub(r'^"?view"?\s*:\s*"?(.+?)"?\s*$', r'\1', s)
+
+    # 4) 兜底：迭代 strip 开头的 JSON 符号和结尾的 JSON 符号，直到稳定
+    prev = None
+    while prev != s:
+        prev = s
         s = re.sub(r'^[\s",}{]+', '', s)
-        s = re.sub(r'[\s"}]+$', '', s)
+        s = re.sub(r'[]\s"}\\]+$', '', s)
     return s.strip()
 
 
