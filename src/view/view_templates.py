@@ -24,7 +24,11 @@ Both must be in the user's language and must NOT contain any investment advice.
 
 IMPORTANT: The "view" field must contain ONLY the neutral impact text itself — no \
 heading, no prefix, no labels like "中性影响说明" or "Neutral Impact Note". Do not \
-start with a title. Just write the impact content directly."""
+start with a title. Just write the impact content directly.
+
+LANGUAGE: Always write the "summary" and "view" in Simplified Chinese (简体中文),
+regardless of the source article's language. Translate as needed. Keep proper nouns
+(company names, tickers) as-is."""
 
 # 每个模板提炼自对应 skill 的分析骨架（去掉方向性输出）
 _MA = """A merger / acquisition / deal item.
@@ -120,7 +124,10 @@ TEMPLATES = {
 MARKET_VIEW_SYSTEM = """You are writing a neutral end-of-brief market overview. \
 Synthesize the day's items into a short factual picture of the cross-cutting themes \
 and where activity concentrated. NOT investment advice: no recommendations, no \
-directional calls, no price targets. 4-7 sentences, in the user's language."""
+directional calls, no price targets. 4-7 sentences, in the user's language.
+
+LANGUAGE: Write the overview in Simplified Chinese (简体中文), regardless of the
+source items' language."""
 
 
 def build_market_view_user(items: list[str]) -> str:
