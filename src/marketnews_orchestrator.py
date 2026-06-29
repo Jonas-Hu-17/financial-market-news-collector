@@ -30,7 +30,7 @@ class MarketNewsOrchestrator:
         self.config = config
         self.db = db
         self.ai = ai_client
-        self._http = httpx.AsyncClient(timeout=30.0)
+        self._http = httpx.AsyncClient(timeout=10.0, follow_redirects=True)
         self._scrapers = self._build_scrapers()
 
     def _build_scrapers(self) -> list:
@@ -76,14 +76,16 @@ class MarketNewsOrchestrator:
     async def run(self, period_type: str = "daily",
                   force_hours: Optional[int] = None) -> int:
         since = self._window(force_hours)
-        # 1. 抓取
-        items = []
-        for sc in self._scrapers:
+        # 1. 并发抓取（各 scraper 独立，并发度由 asyncio.gather 自然驱动）
+        async def _fetch_one(sc):
             try:
-                fetched = await sc.fetch(since)
-                items.extend(fetched)
+                return await sc.fetch(since)
             except Exception:
-                continue
+                return []
+        fetched_lists = await asyncio.gather(*[_fetch_one(sc) for sc in self._scrapers])
+        items = []
+        for fl in fetched_lists:
+            items.extend(fl)
         # 关闭 http 客户端
         try:
             await self._http.aclose()
