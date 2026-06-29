@@ -102,3 +102,35 @@ class TestStoryMemberRepo:
         # adding again should not raise (PK constraint)
         member_repo.add(sid, 1)
         assert len(member_repo.raw_items_for_story(sid)) == 1
+
+    def test_story_id_for_raw_item(self, tmp_path):
+        """story_id_for_raw_item 应通过一条 SQL 反查 item 所属 story。"""
+        db = _db(tmp_path)
+        story_repo = StoryRepo(db)
+        member_repo = StoryMemberRepo(db)
+
+        sid1 = story_repo.create(_story_row("Story A"))
+        sid2 = story_repo.create(_story_row("Story B"))
+
+        conn = db.connect()
+        try:
+            conn.execute(
+                "INSERT INTO raw_item (title, fetched_at, dedup_key) VALUES (?,?,?)",
+                ("item1", "2026-06-28T00:00:00Z", "dkA"),
+            )
+            conn.execute(
+                "INSERT INTO raw_item (title, fetched_at, dedup_key) VALUES (?,?,?)",
+                ("item2", "2026-06-28T00:00:00Z", "dkB"),
+            )
+            conn.commit()
+        finally:
+            conn.close()
+
+        member_repo.add(sid1, 1)
+        member_repo.add(sid2, 2)
+
+        # 正向反查
+        assert member_repo.story_id_for_raw_item(1) == sid1
+        assert member_repo.story_id_for_raw_item(2) == sid2
+        # 不存在的 raw_item_id 返回 None
+        assert member_repo.story_id_for_raw_item(999) is None

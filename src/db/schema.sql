@@ -50,6 +50,7 @@ CREATE TABLE IF NOT EXISTS story_member (
   is_primary  INTEGER NOT NULL DEFAULT 0,
   PRIMARY KEY (story_id, raw_item_id)
 );
+CREATE INDEX IF NOT EXISTS idx_story_member_raw ON story_member(raw_item_id);
 
 CREATE TABLE IF NOT EXISTS score (
   id                   INTEGER PRIMARY KEY AUTOINCREMENT,

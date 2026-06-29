@@ -43,13 +43,18 @@ class StoryClusterer:
         return new_id, True
 
     def _recent_member_item_ids(self, since_iso: str) -> list[int]:
-        out = []
-        for s in self.stories.recent(since_iso):
-            out.extend(self.members.raw_items_for_story(s.id))
-        return out
+        """反向直查：JOIN story+story_member 一次 SQL 取最近 N 天成员 raw_item_id 集合。"""
+        conn = self.members.db.connect()
+        try:
+            rows = conn.execute(
+                "SELECT sm.raw_item_id FROM story_member sm "
+                "JOIN story s ON s.id = sm.story_id "
+                "WHERE s.last_seen_at >= ?",
+                (since_iso,),
+            ).fetchall()
+            return [r["raw_item_id"] for r in rows]
+        finally:
+            conn.close()
 
     def _story_of_item(self, raw_item_id: int):
-        for s in self.stories.recent("0000"):  # 全量回看映射；小数据量可接受
-            if raw_item_id in self.members.raw_items_for_story(s.id):
-                return s.id
-        return None
+        return self.members.story_id_for_raw_item(raw_item_id)

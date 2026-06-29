@@ -69,3 +69,15 @@ class StoryMemberRepo:
             return [r["raw_item_id"] for r in rows]
         finally:
             conn.close()
+
+    def story_id_for_raw_item(self, raw_item_id: int) -> int | None:
+        """返回 raw_item 所属的 story_id，NULL-safe 反查。"""
+        conn = self.db.connect()
+        try:
+            row = conn.execute(
+                "SELECT story_id FROM story_member WHERE raw_item_id = ?",
+                (raw_item_id,),
+            ).fetchone()
+            return row["story_id"] if row else None
+        finally:
+            conn.close()
