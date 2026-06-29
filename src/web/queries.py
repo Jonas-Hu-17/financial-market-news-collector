@@ -30,6 +30,7 @@ class BriefWebItem:
     view: str
     url: str
     tags: list[dict] = field(default_factory=list)
+    entities: list[dict] = field(default_factory=list)
     tagcodes: str = ""
     up: int = 0
     down: int = 0
@@ -128,3 +129,82 @@ class WebQuery:
         ).fetchall()
         return [{"dimension": r["dimension"], "code": r["code"],
                  "label": r["label"]} for r in rows]
+
+    def _entities_for_story(self, conn, story_id: int) -> list[dict]:
+        rows = conn.execute(
+            "SELECT e.id, e.name FROM entity e "
+            "JOIN story_entity se ON e.id = se.entity_id "
+            "WHERE se.story_id = ?", (story_id,)
+        ).fetchall()
+        return [{"id": r["id"], "name": r["name"]} for r in rows]
+
+    def export_all(self) -> dict:
+        """导出全部历史 brief 数据为 data.json 结构。"""
+        from datetime import datetime, timezone
+        conn = self.db.connect()
+        try:
+            # taxonomy 选项
+            tax_rows = conn.execute(
+                "SELECT dimension, code, label FROM taxonomy ORDER BY dimension, sort_order"
+            ).fetchall()
+            taxonomy = [
+                {"dim": r["dimension"], "code": r["code"], "label": r["label"]}
+                for r in tax_rows
+            ]
+
+            # 实体清单（含被提及次数，按次数降序）
+            entity_rows = conn.execute(
+                """SELECT e.id, e.name, COUNT(se.story_id) AS cnt
+                   FROM entity e
+                   JOIN story_entity se ON e.id = se.entity_id
+                   GROUP BY e.id, e.name
+                   ORDER BY cnt DESC""").fetchall()
+            entities = [
+                {"id": r["id"], "name": r["name"], "count": r["cnt"]}
+                for r in entity_rows
+            ]
+
+            # 全部 brief
+            brief_rows = conn.execute(
+                "SELECT * FROM brief ORDER BY period_date DESC"
+            ).fetchall()
+
+            briefs = []
+            for brief in brief_rows:
+                items = []
+                item_rows = conn.execute(
+                    """SELECT bi.*, ri.url, s.canonical_title
+                       FROM brief_item bi
+                       JOIN story s ON bi.story_id = s.id
+                       LEFT JOIN story_member sm ON s.id = sm.story_id AND sm.is_primary=1
+                       LEFT JOIN raw_item ri ON sm.raw_item_id = ri.id
+                       WHERE bi.brief_id=?
+                       ORDER BY bi.rank""",
+                    (brief["id"],)
+                ).fetchall()
+                for r in item_rows:
+                    tags = self._tags_for_story(conn, r["story_id"])
+                    ents = self._entities_for_story(conn, r["story_id"])
+                    items.append({
+                        "rank": r["rank"],
+                        "headline": r["headline"] or r["canonical_title"] or "",
+                        "summary": r["summary"] or "",
+                        "view": _clean_view(r["view_text"] or ""),
+                        "url": r["url"] or "",
+                        "tags": [{"dim": t["dimension"], "code": t["code"],
+                                  "label": t["label"]} for t in tags],
+                        "entities": ents,
+                    })
+                briefs.append({
+                    "date": brief["period_date"],
+                    "market_view": brief["market_view_text"] or "",
+                    "items": items,
+                })
+            return {
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "taxonomy": taxonomy,
+                "entities": entities,
+                "briefs": briefs,
+            }
+        finally:
+            conn.close()
