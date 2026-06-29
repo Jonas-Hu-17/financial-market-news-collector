@@ -72,7 +72,11 @@ def test_scoring_runs_concurrently(tmp_path, monkeypatch):
         # 384-dim near-orthogonal vector
         return [float((h >> (i % 16)) & 1) for i in range(384)]
 
+    def fake_embed(_self, texts: list[str]) -> list[list[float]]:
+        return [fake_embed_one(_self, t) for t in texts]
+
     monkeypatch.setattr(EmbeddingService, "embed_one", fake_embed_one)
+    monkeypatch.setattr(EmbeddingService, "embed", fake_embed)
 
     counter: dict = {"active": 0, "max": 0}
     fake_ai = FakeAIClient(counter=counter)

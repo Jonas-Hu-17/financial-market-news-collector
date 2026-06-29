@@ -14,9 +14,10 @@ class StoryClusterer:
         self.threshold = similarity_threshold
         self.lookback_days = lookback_days
 
-    def assign(self, raw_item: RawItemRow) -> tuple[int, bool]:
-        text = f"{raw_item.title}\n{raw_item.summary or ''}"
-        vec = self.embedding.embed_one(text)
+    def assign(self, raw_item: RawItemRow, vec: list[float] | None = None) -> tuple[int, bool]:
+        if vec is None:
+            text = f"{raw_item.title}\n{raw_item.summary or ''}"
+            vec = self.embedding.embed_one(text)
         self.vs.add(raw_item.id, vec)
 
         since = (datetime.now(timezone.utc) - timedelta(days=self.lookback_days)).isoformat()

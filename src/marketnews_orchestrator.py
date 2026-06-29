@@ -100,13 +100,16 @@ class MarketNewsOrchestrator:
                 row.id = rid
                 new_raw_ids.append(row)
 
-        # 3. 跨天聚类
+        # 3. 跨天聚类（批量 embedding，一次模型调用编码全部新条目）
+        emb_svc = EmbeddingService()
+        texts = [f"{r.title}\n{r.summary or ''}" for r in new_raw_ids]
+        vecs = emb_svc.embed(texts) if texts else []
         clusterer = StoryClusterer(
-            EmbeddingService(), VectorStore(self.db),
+            emb_svc, VectorStore(self.db),
             StoryRepo(self.db), StoryMemberRepo(self.db))
         analyze_story_ids = set()
-        for row in new_raw_ids:
-            sid, is_new_story = clusterer.assign(row)
+        for row, vec in zip(new_raw_ids, vecs):
+            sid, is_new_story = clusterer.assign(row, vec=vec)
             if is_new_story:
                 analyze_story_ids.add(sid)
 
