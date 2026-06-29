@@ -86,6 +86,9 @@ def main():
                 config={
                     "model": config.ai.model,
                     "min_score": getattr(config.filtering, "ai_score_threshold", 6.0),
+                    "max_items": getattr(config.filtering, "max_items", None) or 12,
+                    "llm_concurrency": getattr(config.ai, "analysis_concurrency", 6) or 6,
+                    "llm_batch_size": getattr(config.ai, "llm_batch_size", 15) or 15,
                     "docs_dir": "docs",
                     "sources": config.sources.model_dump() if hasattr(config.sources, "model_dump") else config.sources,
                 },

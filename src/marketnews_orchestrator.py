@@ -168,6 +168,7 @@ class MarketNewsOrchestrator:
         brief_id = await assembler.build(
             period_type, period_date,
             min_score=self.config.get("min_score", 6.0),
+            max_items=self.config.get("max_items", 12),
             llm_concurrency=concurrency)
 
         # 6. 渲染 + 投递
