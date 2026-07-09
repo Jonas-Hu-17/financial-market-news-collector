@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T00:04:03.032805+00:00",
+  "generated_at": "2026-07-09T00:14:58.513206+00:00",
   "taxonomy": [
     {
       "dim": "asset_class",
@@ -161,22 +161,32 @@
     {
       "id": 356,
       "name": "SpaceX",
-      "count": 82
+      "count": 92
     },
     {
       "id": 352,
       "name": "Donald Trump",
-      "count": 42
+      "count": 52
     },
     {
       "id": 364,
       "name": "Anthropic",
-      "count": 37
+      "count": 39
     },
     {
       "id": 368,
       "name": "OpenAI",
-      "count": 24
+      "count": 27
+    },
+    {
+      "id": 417,
+      "name": "Energy",
+      "count": 22
+    },
+    {
+      "id": 376,
+      "name": "Private Equity",
+      "count": 19
     },
     {
       "id": 511,
@@ -189,19 +199,14 @@
       "count": 18
     },
     {
-      "id": 417,
-      "name": "Energy",
-      "count": 18
-    },
-    {
-      "id": 376,
-      "name": "Private Equity",
-      "count": 17
-    },
-    {
       "id": 1336,
       "name": "Jersey Mike's",
       "count": 17
+    },
+    {
+      "id": 530,
+      "name": "SK Hynix",
+      "count": 15
     },
     {
       "id": 398,
@@ -209,13 +214,18 @@
       "count": 14
     },
     {
-      "id": 530,
-      "name": "SK Hynix",
-      "count": 12
+      "id": 460,
+      "name": "Nvidia",
+      "count": 13
     },
     {
       "id": 609,
       "name": "Rocket Lab",
+      "count": 13
+    },
+    {
+      "id": 595,
+      "name": "Goldman Sachs",
       "count": 12
     },
     {
@@ -224,28 +234,43 @@
       "count": 12
     },
     {
-      "id": 460,
-      "name": "Nvidia",
-      "count": 11
-    },
-    {
       "id": 439,
       "name": "Defense",
       "count": 10
     },
     {
-      "id": 595,
-      "name": "Goldman Sachs",
+      "id": 498,
+      "name": "Artificial Intelligence",
       "count": 10
     },
     {
-      "id": 498,
-      "name": "Artificial Intelligence",
+      "id": 1813,
+      "name": "Vertex Pharmaceuticals",
+      "count": 10
+    },
+    {
+      "id": 456,
+      "name": "Amazon",
+      "count": 9
+    },
+    {
+      "id": 479,
+      "name": "Momenta",
       "count": 9
     },
     {
       "id": 529,
       "name": "Samsung Electronics",
+      "count": 9
+    },
+    {
+      "id": 868,
+      "name": "Paramount Global",
+      "count": 9
+    },
+    {
+      "id": 1041,
+      "name": "Apple",
       "count": 9
     },
     {
@@ -259,8 +284,13 @@
       "count": 8
     },
     {
-      "id": 868,
-      "name": "Paramount Global",
+      "id": 743,
+      "name": "Healthcare",
+      "count": 8
+    },
+    {
+      "id": 1286,
+      "name": "Jim Cramer",
       "count": 8
     },
     {
@@ -269,23 +299,13 @@
       "count": 8
     },
     {
-      "id": 1813,
-      "name": "Vertex Pharmaceuticals",
-      "count": 8
-    },
-    {
       "id": 375,
       "name": "Uber",
       "count": 7
     },
     {
-      "id": 456,
-      "name": "Amazon",
-      "count": 7
-    },
-    {
-      "id": 479,
-      "name": "Momenta",
+      "id": 462,
+      "name": "Semiconductors",
       "count": 7
     },
     {
@@ -299,13 +319,23 @@
       "count": 7
     },
     {
-      "id": 743,
-      "name": "Healthcare",
+      "id": 794,
+      "name": "Bank of America",
       "count": 7
     },
     {
       "id": 808,
       "name": "Comcast",
+      "count": 7
+    },
+    {
+      "id": 870,
+      "name": "Warner Bros. Discovery",
+      "count": 7
+    },
+    {
+      "id": 1079,
+      "name": "Blue Origin",
       "count": 7
     },
     {
@@ -319,6 +349,11 @@
       "count": 6
     },
     {
+      "id": 422,
+      "name": "Google",
+      "count": 6
+    },
+    {
       "id": 423,
       "name": "Meta",
       "count": 6
@@ -329,13 +364,23 @@
       "count": 6
     },
     {
-      "id": 462,
-      "name": "Semiconductors",
+      "id": 548,
+      "name": "KNDS",
       "count": 6
     },
     {
-      "id": 548,
-      "name": "KNDS",
+      "id": 587,
+      "name": "Federal Reserve",
+      "count": 6
+    },
+    {
+      "id": 711,
+      "name": "Netflix",
+      "count": 6
+    },
+    {
+      "id": 815,
+      "name": "Samsung",
       "count": 6
     },
     {
@@ -344,13 +389,8 @@
       "count": 6
     },
     {
-      "id": 870,
-      "name": "Warner Bros. Discovery",
-      "count": 6
-    },
-    {
-      "id": 1286,
-      "name": "Jim Cramer",
+      "id": 882,
+      "name": "Shell",
       "count": 6
     },
     {
@@ -359,8 +399,13 @@
       "count": 6
     },
     {
-      "id": 422,
-      "name": "Google",
+      "id": 1814,
+      "name": "Crinetics Pharmaceuticals",
+      "count": 6
+    },
+    {
+      "id": 416,
+      "name": "Apple Inc.",
       "count": 5
     },
     {
@@ -399,11 +444,6 @@
       "count": 5
     },
     {
-      "id": 711,
-      "name": "Netflix",
-      "count": 5
-    },
-    {
       "id": 809,
       "name": "NBCUniversal",
       "count": 5
@@ -419,13 +459,8 @@
       "count": 5
     },
     {
-      "id": 882,
-      "name": "Shell",
-      "count": 5
-    },
-    {
-      "id": 1041,
-      "name": "Apple",
+      "id": 1069,
+      "name": "Oil",
       "count": 5
     },
     {
@@ -469,11 +504,6 @@
       "count": 4
     },
     {
-      "id": 587,
-      "name": "Federal Reserve",
-      "count": 4
-    },
-    {
       "id": 686,
       "name": "8090",
       "count": 4
@@ -499,16 +529,6 @@
       "count": 4
     },
     {
-      "id": 794,
-      "name": "Bank of America",
-      "count": 4
-    },
-    {
-      "id": 815,
-      "name": "Samsung",
-      "count": 4
-    },
-    {
       "id": 869,
       "name": "Warner Bros Discovery",
       "count": 4
@@ -519,13 +539,38 @@
       "count": 4
     },
     {
+      "id": 972,
+      "name": "Beeline Medicines",
+      "count": 4
+    },
+    {
       "id": 1016,
       "name": "Erste Group Bank",
       "count": 4
     },
     {
+      "id": 1028,
+      "name": "1001",
+      "count": 4
+    },
+    {
       "id": 1087,
       "name": "UBS",
+      "count": 4
+    },
+    {
+      "id": 1112,
+      "name": "BYD",
+      "count": 4
+    },
+    {
+      "id": 1122,
+      "name": "Kroger",
+      "count": 4
+    },
+    {
+      "id": 1146,
+      "name": "KKR",
       "count": 4
     },
     {
@@ -539,8 +584,18 @@
       "count": 4
     },
     {
+      "id": 1349,
+      "name": "AstraZeneca",
+      "count": 4
+    },
+    {
       "id": 1398,
       "name": "KredosAi",
+      "count": 4
+    },
+    {
+      "id": 1505,
+      "name": "Rivian",
       "count": 4
     },
     {
@@ -549,13 +604,28 @@
       "count": 4
     },
     {
-      "id": 1814,
-      "name": "Crinetics Pharmaceuticals",
+      "id": 1762,
+      "name": "People's Bank of China",
       "count": 4
     },
     {
       "id": 1858,
       "name": "CVC Capital Partners",
+      "count": 4
+    },
+    {
+      "id": 2002,
+      "name": "Kalohexis",
+      "count": 4
+    },
+    {
+      "id": 2005,
+      "name": "Standard Nuclear",
+      "count": 4
+    },
+    {
+      "id": 2162,
+      "name": "Crude Oil",
       "count": 4
     },
     {
@@ -571,6 +641,11 @@
     {
       "id": 361,
       "name": "eBay",
+      "count": 3
+    },
+    {
+      "id": 365,
+      "name": "Alibaba",
       "count": 3
     },
     {
@@ -614,6 +689,11 @@
       "count": 3
     },
     {
+      "id": 509,
+      "name": "Airlines",
+      "count": 3
+    },
+    {
       "id": 540,
       "name": "Mynt",
       "count": 3
@@ -641,6 +721,11 @@
     {
       "id": 613,
       "name": "Lhoist North America",
+      "count": 3
+    },
+    {
+      "id": 629,
+      "name": "Duke Energy",
       "count": 3
     },
     {
@@ -681,6 +766,11 @@
     {
       "id": 667,
       "name": "Sinda",
+      "count": 3
+    },
+    {
+      "id": 679,
+      "name": "Semiconductor",
       "count": 3
     },
     {
@@ -744,6 +834,26 @@
       "count": 3
     },
     {
+      "id": 843,
+      "name": "Alphabet",
+      "count": 3
+    },
+    {
+      "id": 891,
+      "name": "Prologis",
+      "count": 3
+    },
+    {
+      "id": 892,
+      "name": "Segro",
+      "count": 3
+    },
+    {
+      "id": 895,
+      "name": "Wells Fargo",
+      "count": 3
+    },
+    {
       "id": 904,
       "name": "Nutrabolt",
       "count": 3
@@ -759,13 +869,13 @@
       "count": 3
     },
     {
-      "id": 972,
-      "name": "Beeline Medicines",
+      "id": 999,
+      "name": "BR-DGE",
       "count": 3
     },
     {
-      "id": 999,
-      "name": "BR-DGE",
+      "id": 1011,
+      "name": "Ardian",
       "count": 3
     },
     {
@@ -774,18 +884,13 @@
       "count": 3
     },
     {
-      "id": 1028,
-      "name": "1001",
+      "id": 1038,
+      "name": "CMS Energy",
       "count": 3
     },
     {
-      "id": 1112,
-      "name": "BYD",
-      "count": 3
-    },
-    {
-      "id": 1122,
-      "name": "Kroger",
+      "id": 1080,
+      "name": "Michael Burry",
       "count": 3
     },
     {
@@ -796,11 +901,6 @@
     {
       "id": 1142,
       "name": "Bloom Energy",
-      "count": 3
-    },
-    {
-      "id": 1146,
-      "name": "KKR",
       "count": 3
     },
     {
@@ -824,6 +924,11 @@
       "count": 3
     },
     {
+      "id": 1206,
+      "name": "Temporal Works",
+      "count": 3
+    },
+    {
       "id": 1216,
       "name": "Irca",
       "count": 3
@@ -839,8 +944,8 @@
       "count": 3
     },
     {
-      "id": 1505,
-      "name": "Rivian",
+      "id": 1497,
+      "name": "Levi Strauss & Co.",
       "count": 3
     },
     {
@@ -854,6 +959,11 @@
       "count": 3
     },
     {
+      "id": 1675,
+      "name": "Meta Platforms Inc.",
+      "count": 3
+    },
+    {
       "id": 1733,
       "name": "Castlelake",
       "count": 3
@@ -861,11 +971,6 @@
     {
       "id": 1734,
       "name": "Genesis Minerals",
-      "count": 3
-    },
-    {
-      "id": 1762,
-      "name": "People's Bank of China",
       "count": 3
     },
     {
@@ -914,18 +1019,43 @@
       "count": 3
     },
     {
-      "id": 2005,
-      "name": "Standard Nuclear",
+      "id": 2021,
+      "name": "SK hynix",
+      "count": 3
+    },
+    {
+      "id": 2062,
+      "name": "Meaden & Moore",
+      "count": 3
+    },
+    {
+      "id": 2084,
+      "name": "Quaise Energy",
+      "count": 3
+    },
+    {
+      "id": 2186,
+      "name": "Broadcom",
+      "count": 3
+    },
+    {
+      "id": 2215,
+      "name": "Jeff Bezos",
+      "count": 3
+    },
+    {
+      "id": 2305,
+      "name": "UniCredit",
+      "count": 3
+    },
+    {
+      "id": 2306,
+      "name": "Commerzbank",
       "count": 3
     },
     {
       "id": 363,
       "name": "UAE",
-      "count": 2
-    },
-    {
-      "id": 365,
-      "name": "Alibaba",
       "count": 2
     },
     {
@@ -954,6 +1084,11 @@
       "count": 2
     },
     {
+      "id": 393,
+      "name": "HCA Healthcare",
+      "count": 2
+    },
+    {
       "id": 399,
       "name": "Mesh",
       "count": 2
@@ -964,8 +1099,8 @@
       "count": 2
     },
     {
-      "id": 416,
-      "name": "Apple Inc.",
+      "id": 413,
+      "name": "Paul Weiss",
       "count": 2
     },
     {
@@ -1014,11 +1149,6 @@
       "count": 2
     },
     {
-      "id": 509,
-      "name": "Airlines",
-      "count": 2
-    },
-    {
       "id": 518,
       "name": "Hyperscalers",
       "count": 2
@@ -1026,6 +1156,11 @@
     {
       "id": 519,
       "name": "Big Tech",
+      "count": 2
+    },
+    {
+      "id": 524,
+      "name": "Central Banks",
       "count": 2
     },
     {
@@ -1084,6 +1219,11 @@
       "count": 2
     },
     {
+      "id": 610,
+      "name": "Iridium",
+      "count": 2
+    },
+    {
       "id": 616,
       "name": "AMS",
       "count": 2
@@ -1106,11 +1246,6 @@
     {
       "id": 622,
       "name": "Iridium Communications Inc.",
-      "count": 2
-    },
-    {
-      "id": 629,
-      "name": "Duke Energy",
       "count": 2
     },
     {
@@ -1156,11 +1291,6 @@
     {
       "id": 675,
       "name": "Hub",
-      "count": 2
-    },
-    {
-      "id": 679,
-      "name": "Semiconductor",
       "count": 2
     },
     {
@@ -1229,8 +1359,8 @@
       "count": 2
     },
     {
-      "id": 843,
-      "name": "Alphabet",
+      "id": 825,
+      "name": "Waymo",
       "count": 2
     },
     {
@@ -1244,28 +1374,23 @@
       "count": 2
     },
     {
+      "id": 876,
+      "name": "Schneider Electric",
+      "count": 2
+    },
+    {
+      "id": 877,
+      "name": "Cognite",
+      "count": 2
+    },
+    {
       "id": 888,
       "name": "Mamdani",
       "count": 2
     },
     {
-      "id": 891,
-      "name": "Prologis",
-      "count": 2
-    },
-    {
-      "id": 892,
-      "name": "Segro",
-      "count": 2
-    },
-    {
       "id": 893,
       "name": "Roku",
-      "count": 2
-    },
-    {
-      "id": 895,
-      "name": "Wells Fargo",
       "count": 2
     },
     {
@@ -1291,6 +1416,11 @@
     {
       "id": 911,
       "name": "iHerb",
+      "count": 2
+    },
+    {
+      "id": 919,
+      "name": "Infracore",
       "count": 2
     },
     {
@@ -1321,6 +1451,11 @@
     {
       "id": 958,
       "name": "Industrials",
+      "count": 2
+    },
+    {
+      "id": 963,
+      "name": "Midea Group",
       "count": 2
     },
     {
@@ -1359,11 +1494,6 @@
       "count": 2
     },
     {
-      "id": 1011,
-      "name": "Ardian",
-      "count": 2
-    },
-    {
       "id": 1019,
       "name": "Taxwire",
       "count": 2
@@ -1384,8 +1514,8 @@
       "count": 2
     },
     {
-      "id": 1038,
-      "name": "CMS Energy",
+      "id": 1049,
+      "name": "UK Government",
       "count": 2
     },
     {
@@ -1424,11 +1554,6 @@
       "count": 2
     },
     {
-      "id": 1069,
-      "name": "Oil",
-      "count": 2
-    },
-    {
       "id": 1072,
       "name": "Binance",
       "count": 2
@@ -1444,23 +1569,28 @@
       "count": 2
     },
     {
-      "id": 1079,
-      "name": "Blue Origin",
-      "count": 2
-    },
-    {
-      "id": 1080,
-      "name": "Michael Burry",
-      "count": 2
-    },
-    {
       "id": 1089,
       "name": "Student loan servicers",
       "count": 2
     },
     {
+      "id": 1095,
+      "name": "Cal-Maine Foods",
+      "count": 2
+    },
+    {
       "id": 1101,
       "name": "European Banks",
+      "count": 2
+    },
+    {
+      "id": 1119,
+      "name": "Chinese biotech firms",
+      "count": 2
+    },
+    {
+      "id": 1123,
+      "name": "Giant Eagle",
       "count": 2
     },
     {
@@ -1479,6 +1609,16 @@
       "count": 2
     },
     {
+      "id": 1164,
+      "name": "Foundation Healthcare",
+      "count": 2
+    },
+    {
+      "id": 1171,
+      "name": "OneMedNet",
+      "count": 2
+    },
+    {
       "id": 1180,
       "name": "StubHub",
       "count": 2
@@ -1494,11 +1634,6 @@
       "count": 2
     },
     {
-      "id": 1206,
-      "name": "Temporal Works",
-      "count": 2
-    },
-    {
       "id": 1207,
       "name": "Telum Therapeutics",
       "count": 2
@@ -1506,6 +1641,16 @@
     {
       "id": 1210,
       "name": "renewable energy",
+      "count": 2
+    },
+    {
+      "id": 1224,
+      "name": "TwelveLabs",
+      "count": 2
+    },
+    {
+      "id": 1235,
+      "name": "Alibaba Group",
       "count": 2
     },
     {
@@ -1539,6 +1684,11 @@
       "count": 2
     },
     {
+      "id": 1280,
+      "name": "E. Jean Carroll",
+      "count": 2
+    },
+    {
       "id": 1283,
       "name": "automakers",
       "count": 2
@@ -1564,6 +1714,11 @@
       "count": 2
     },
     {
+      "id": 1302,
+      "name": "President Donald Trump",
+      "count": 2
+    },
+    {
       "id": 1326,
       "name": "Advent International",
       "count": 2
@@ -1581,11 +1736,6 @@
     {
       "id": 1344,
       "name": "ThyssenKrupp Marine Systems",
-      "count": 2
-    },
-    {
-      "id": 1349,
-      "name": "AstraZeneca",
       "count": 2
     },
     {
@@ -1654,6 +1804,11 @@
       "count": 2
     },
     {
+      "id": 1469,
+      "name": "Financial Conduct Authority",
+      "count": 2
+    },
+    {
       "id": 1475,
       "name": "NATO",
       "count": 2
@@ -1661,6 +1816,11 @@
     {
       "id": 1476,
       "name": "PwC",
+      "count": 2
+    },
+    {
+      "id": 1479,
+      "name": "UK car finance lenders",
       "count": 2
     },
     {
@@ -1684,8 +1844,18 @@
       "count": 2
     },
     {
+      "id": 1513,
+      "name": "Victory Giant Technology",
+      "count": 2
+    },
+    {
       "id": 1514,
       "name": "Sony",
+      "count": 2
+    },
+    {
+      "id": 1523,
+      "name": "South China Morning Post",
       "count": 2
     },
     {
@@ -1744,6 +1914,21 @@
       "count": 2
     },
     {
+      "id": 1579,
+      "name": "Hypefy",
+      "count": 2
+    },
+    {
+      "id": 1582,
+      "name": "Xcel Energy",
+      "count": 2
+    },
+    {
+      "id": 1594,
+      "name": "private equity firm",
+      "count": 2
+    },
+    {
       "id": 1605,
       "name": "Kuaishou",
       "count": 2
@@ -1764,18 +1949,23 @@
       "count": 2
     },
     {
+      "id": 1638,
+      "name": "Federal Reserve",
+      "count": 2
+    },
+    {
       "id": 1661,
       "name": "Hong Kong Monetary Authority",
       "count": 2
     },
     {
-      "id": 1675,
-      "name": "Meta Platforms Inc.",
+      "id": 1679,
+      "name": "BAE Systems",
       "count": 2
     },
     {
-      "id": 1679,
-      "name": "BAE Systems",
+      "id": 1693,
+      "name": "Lux Capital",
       "count": 2
     },
     {
@@ -1801,6 +1991,11 @@
     {
       "id": 1791,
       "name": "Volodymyr Zelenskyy",
+      "count": 2
+    },
+    {
+      "id": 1801,
+      "name": "Delta Air Lines",
       "count": 2
     },
     {
@@ -1849,13 +2044,33 @@
       "count": 2
     },
     {
+      "id": 1942,
+      "name": "Mike Khouw",
+      "count": 2
+    },
+    {
+      "id": 1982,
+      "name": "Tanabe",
+      "count": 2
+    },
+    {
+      "id": 1983,
+      "name": "Towa",
+      "count": 2
+    },
+    {
       "id": 1984,
       "name": "Bain Capital",
       "count": 2
     },
     {
-      "id": 2002,
-      "name": "Kalohexis",
+      "id": 1994,
+      "name": "Sino Biopharmaceutical",
+      "count": 2
+    },
+    {
+      "id": 2004,
+      "name": "Abu Dhabi National Oil Company (ADNOC)",
       "count": 2
     },
     {
@@ -1864,8 +2079,8 @@
       "count": 2
     },
     {
-      "id": 2021,
-      "name": "SK hynix",
+      "id": 2018,
+      "name": "InsuranceDekho",
       "count": 2
     },
     {
@@ -1876,6 +2091,11 @@
     {
       "id": 2028,
       "name": "Syntiant",
+      "count": 2
+    },
+    {
+      "id": 2038,
+      "name": "Catastrophe bond market",
       "count": 2
     },
     {
@@ -1894,11 +2114,6 @@
       "count": 2
     },
     {
-      "id": 2062,
-      "name": "Meaden & Moore",
-      "count": 2
-    },
-    {
       "id": 2063,
       "name": "Unity Partners",
       "count": 2
@@ -1914,8 +2129,8 @@
       "count": 2
     },
     {
-      "id": 2084,
-      "name": "Quaise Energy",
+      "id": 2090,
+      "name": "TIFF",
       "count": 2
     },
     {
@@ -1924,8 +2139,48 @@
       "count": 2
     },
     {
-      "id": 2162,
-      "name": "Crude Oil",
+      "id": 2132,
+      "name": "Mitch McConnell",
+      "count": 2
+    },
+    {
+      "id": 2179,
+      "name": "Pan Gongsheng",
+      "count": 2
+    },
+    {
+      "id": 2182,
+      "name": "Broadcom Inc.",
+      "count": 2
+    },
+    {
+      "id": 2183,
+      "name": "Wilson Sonsini",
+      "count": 2
+    },
+    {
+      "id": 2201,
+      "name": "Accor",
+      "count": 2
+    },
+    {
+      "id": 2202,
+      "name": "Ennismore",
+      "count": 2
+    },
+    {
+      "id": 2233,
+      "name": "Resmed",
+      "count": 2
+    },
+    {
+      "id": 2249,
+      "name": "Venus Aerospace",
+      "count": 2
+    },
+    {
+      "id": 2256,
+      "name": "Paradigm",
       "count": 2
     },
     {
@@ -2034,11 +2289,6 @@
       "count": 1
     },
     {
-      "id": 393,
-      "name": "HCA Healthcare",
-      "count": 1
-    },
-    {
       "id": 394,
       "name": "BNY Mellon",
       "count": 1
@@ -2116,11 +2366,6 @@
     {
       "id": 412,
       "name": "Kirkland & Ellis",
-      "count": 1
-    },
-    {
-      "id": 413,
-      "name": "Paul Weiss",
       "count": 1
     },
     {
@@ -2489,11 +2734,6 @@
       "count": 1
     },
     {
-      "id": 524,
-      "name": "Central Banks",
-      "count": 1
-    },
-    {
       "id": 526,
       "name": "AIVELA",
       "count": 1
@@ -2796,11 +3036,6 @@
     {
       "id": 608,
       "name": "TopBuild",
-      "count": 1
-    },
-    {
-      "id": 610,
-      "name": "Iridium",
       "count": 1
     },
     {
@@ -3549,11 +3784,6 @@
       "count": 1
     },
     {
-      "id": 825,
-      "name": "Waymo",
-      "count": 1
-    },
-    {
       "id": 826,
       "name": "DoorDash",
       "count": 1
@@ -3739,16 +3969,6 @@
       "count": 1
     },
     {
-      "id": 876,
-      "name": "Schneider Electric",
-      "count": 1
-    },
-    {
-      "id": 877,
-      "name": "Cognite",
-      "count": 1
-    },
-    {
       "id": 878,
       "name": "Zohran Mamdani",
       "count": 1
@@ -3886,11 +4106,6 @@
     {
       "id": 918,
       "name": "Liontrust",
-      "count": 1
-    },
-    {
-      "id": 919,
-      "name": "Infracore",
       "count": 1
     },
     {
@@ -4076,11 +4291,6 @@
     {
       "id": 962,
       "name": "Chinese venture capital fund",
-      "count": 1
-    },
-    {
-      "id": 963,
-      "name": "Midea Group",
       "count": 1
     },
     {
@@ -4409,11 +4619,6 @@
       "count": 1
     },
     {
-      "id": 1049,
-      "name": "UK Government",
-      "count": 1
-    },
-    {
       "id": 1050,
       "name": "Dish Network",
       "count": 1
@@ -4564,11 +4769,6 @@
       "count": 1
     },
     {
-      "id": 1095,
-      "name": "Cal-Maine Foods",
-      "count": 1
-    },
-    {
       "id": 1096,
       "name": "Versova",
       "count": 1
@@ -4674,11 +4874,6 @@
       "count": 1
     },
     {
-      "id": 1119,
-      "name": "Chinese biotech firms",
-      "count": 1
-    },
-    {
       "id": 1120,
       "name": "China's retailers",
       "count": 1
@@ -4686,11 +4881,6 @@
     {
       "id": 1121,
       "name": "Zhao Changpeng",
-      "count": 1
-    },
-    {
-      "id": 1123,
-      "name": "Giant Eagle",
       "count": 1
     },
     {
@@ -4859,11 +5049,6 @@
       "count": 1
     },
     {
-      "id": 1164,
-      "name": "Foundation Healthcare",
-      "count": 1
-    },
-    {
       "id": 1165,
       "name": "unidentified tech titan",
       "count": 1
@@ -4886,11 +5071,6 @@
     {
       "id": 1170,
       "name": "Qualcomm",
-      "count": 1
-    },
-    {
-      "id": 1171,
-      "name": "OneMedNet",
       "count": 1
     },
     {
@@ -5104,11 +5284,6 @@
       "count": 1
     },
     {
-      "id": 1224,
-      "name": "TwelveLabs",
-      "count": 1
-    },
-    {
       "id": 1225,
       "name": "Jerome Powell",
       "count": 1
@@ -5156,11 +5331,6 @@
     {
       "id": 1234,
       "name": "Natural gas storage business (unnamed)",
-      "count": 1
-    },
-    {
-      "id": 1235,
-      "name": "Alibaba Group",
       "count": 1
     },
     {
@@ -5349,11 +5519,6 @@
       "count": 1
     },
     {
-      "id": 1280,
-      "name": "E. Jean Carroll",
-      "count": 1
-    },
-    {
       "id": 1281,
       "name": "Associated British Foods",
       "count": 1
@@ -5426,11 +5591,6 @@
     {
       "id": 1301,
       "name": "Meta Platforms, Inc.",
-      "count": 1
-    },
-    {
-      "id": 1302,
-      "name": "President Donald Trump",
       "count": 1
     },
     {
@@ -6134,11 +6294,6 @@
       "count": 1
     },
     {
-      "id": 1469,
-      "name": "Financial Conduct Authority",
-      "count": 1
-    },
-    {
       "id": 1470,
       "name": "UK Investment Firms",
       "count": 1
@@ -6171,11 +6326,6 @@
     {
       "id": 1478,
       "name": "Santé Cie",
-      "count": 1
-    },
-    {
-      "id": 1479,
-      "name": "UK car finance lenders",
       "count": 1
     },
     {
@@ -6249,11 +6399,6 @@
       "count": 1
     },
     {
-      "id": 1497,
-      "name": "Levi Strauss & Co.",
-      "count": 1
-    },
-    {
       "id": 1498,
       "name": "Columbia Sportswear Company",
       "count": 1
@@ -6314,11 +6459,6 @@
       "count": 1
     },
     {
-      "id": 1513,
-      "name": "Victory Giant Technology",
-      "count": 1
-    },
-    {
       "id": 1515,
       "name": "PDD Holdings",
       "count": 1
@@ -6356,11 +6496,6 @@
     {
       "id": 1522,
       "name": "AI companies",
-      "count": 1
-    },
-    {
-      "id": 1523,
-      "name": "South China Morning Post",
       "count": 1
     },
     {
@@ -6579,11 +6714,6 @@
       "count": 1
     },
     {
-      "id": 1579,
-      "name": "Hypefy",
-      "count": 1
-    },
-    {
       "id": 1580,
       "name": "Westpac Banking",
       "count": 1
@@ -6591,11 +6721,6 @@
     {
       "id": 1581,
       "name": "Azalea Investment Management",
-      "count": 1
-    },
-    {
-      "id": 1582,
-      "name": "Xcel Energy",
       "count": 1
     },
     {
@@ -6651,11 +6776,6 @@
     {
       "id": 1593,
       "name": "Gymshark founder",
-      "count": 1
-    },
-    {
-      "id": 1594,
-      "name": "private equity firm",
       "count": 1
     },
     {
@@ -6846,11 +6966,6 @@
     {
       "id": 1637,
       "name": "Jim Farley",
-      "count": 1
-    },
-    {
-      "id": 1638,
-      "name": "Federal Reserve",
       "count": 1
     },
     {
@@ -7106,11 +7221,6 @@
     {
       "id": 1692,
       "name": "Medline",
-      "count": 1
-    },
-    {
-      "id": 1693,
-      "name": "Lux Capital",
       "count": 1
     },
     {
@@ -7596,11 +7706,6 @@
     {
       "id": 1800,
       "name": "OPEC+",
-      "count": 1
-    },
-    {
-      "id": 1801,
-      "name": "Delta Air Lines",
       "count": 1
     },
     {
@@ -8214,11 +8319,6 @@
       "count": 1
     },
     {
-      "id": 1942,
-      "name": "Mike Khouw",
-      "count": 1
-    },
-    {
       "id": 1943,
       "name": "Dow Industrials",
       "count": 1
@@ -8394,16 +8494,6 @@
       "count": 1
     },
     {
-      "id": 1982,
-      "name": "Tanabe",
-      "count": 1
-    },
-    {
-      "id": 1983,
-      "name": "Towa",
-      "count": 1
-    },
-    {
       "id": 1985,
       "name": "National Rugby League",
       "count": 1
@@ -8449,11 +8539,6 @@
       "count": 1
     },
     {
-      "id": 1994,
-      "name": "Sino Biopharmaceutical",
-      "count": 1
-    },
-    {
       "id": 1995,
       "name": "Corza Biosurgery",
       "count": 1
@@ -8491,11 +8576,6 @@
     {
       "id": 2003,
       "name": "British budget carrier",
-      "count": 1
-    },
-    {
-      "id": 2004,
-      "name": "Abu Dhabi National Oil Company (ADNOC)",
       "count": 1
     },
     {
@@ -8551,11 +8631,6 @@
     {
       "id": 2016,
       "name": "Cult.fit",
-      "count": 1
-    },
-    {
-      "id": 2018,
-      "name": "InsuranceDekho",
       "count": 1
     },
     {
@@ -8636,11 +8711,6 @@
     {
       "id": 2037,
       "name": "Promigas",
-      "count": 1
-    },
-    {
-      "id": 2038,
-      "name": "Catastrophe bond market",
       "count": 1
     },
     {
@@ -8859,11 +8929,6 @@
       "count": 1
     },
     {
-      "id": 2090,
-      "name": "TIFF",
-      "count": 1
-    },
-    {
       "id": 2091,
       "name": "Look Optic",
       "count": 1
@@ -9061,11 +9126,6 @@
     {
       "id": 2131,
       "name": "Daniel Stieler",
-      "count": 1
-    },
-    {
-      "id": 2132,
-      "name": "Mitch McConnell",
       "count": 1
     },
     {
@@ -9294,11 +9354,6 @@
       "count": 1
     },
     {
-      "id": 2179,
-      "name": "Pan Gongsheng",
-      "count": 1
-    },
-    {
       "id": 2180,
       "name": "Hong Kong Precious Metals Central Clearing Company",
       "count": 1
@@ -9307,9 +9362,1339 @@
       "id": 2181,
       "name": "Hong Kong Government",
       "count": 1
+    },
+    {
+      "id": 2184,
+      "name": "chipmaker",
+      "count": 1
+    },
+    {
+      "id": 2185,
+      "name": "Auto Repair",
+      "count": 1
+    },
+    {
+      "id": 2187,
+      "name": "GlaxoSmithKline",
+      "count": 1
+    },
+    {
+      "id": 2188,
+      "name": "Zijin Mining Group",
+      "count": 1
+    },
+    {
+      "id": 2189,
+      "name": "Allied Gold",
+      "count": 1
+    },
+    {
+      "id": 2190,
+      "name": "xAI",
+      "count": 1
+    },
+    {
+      "id": 2191,
+      "name": "Rebellions",
+      "count": 1
+    },
+    {
+      "id": 2192,
+      "name": "DuPont Registry Group",
+      "count": 1
+    },
+    {
+      "id": 2193,
+      "name": "McCormick",
+      "count": 1
+    },
+    {
+      "id": 2194,
+      "name": "AT&T",
+      "count": 1
+    },
+    {
+      "id": 2195,
+      "name": "Hanwha Ocean",
+      "count": 1
+    },
+    {
+      "id": 2196,
+      "name": "Memory Stocks",
+      "count": 1
+    },
+    {
+      "id": 2197,
+      "name": "Top India Asset Manager",
+      "count": 1
+    },
+    {
+      "id": 2198,
+      "name": "Merck",
+      "count": 1
+    },
+    {
+      "id": 2199,
+      "name": "Daniel Newman",
+      "count": 1
+    },
+    {
+      "id": 2200,
+      "name": "memory semiconductor",
+      "count": 1
+    },
+    {
+      "id": 2203,
+      "name": "Fervo Energy",
+      "count": 1
+    },
+    {
+      "id": 2204,
+      "name": "Mercator Acquisition Corp.",
+      "count": 1
+    },
+    {
+      "id": 2205,
+      "name": "Columbus Circle Capital Corp III",
+      "count": 1
+    },
+    {
+      "id": 2206,
+      "name": "Jeremy Grantham",
+      "count": 1
+    },
+    {
+      "id": 2207,
+      "name": "Barrick Gold Corporation",
+      "count": 1
+    },
+    {
+      "id": 2208,
+      "name": "AEON Biopharma",
+      "count": 1
+    },
+    {
+      "id": 2209,
+      "name": "EY",
+      "count": 1
+    },
+    {
+      "id": 2210,
+      "name": "Holtec International",
+      "count": 1
+    },
+    {
+      "id": 2211,
+      "name": "Nuclear Energy",
+      "count": 1
+    },
+    {
+      "id": 2212,
+      "name": "Quantum Leap Acquisition",
+      "count": 1
+    },
+    {
+      "id": 2213,
+      "name": "Ondas Holdings",
+      "count": 1
+    },
+    {
+      "id": 2214,
+      "name": "Centrum",
+      "count": 1
+    },
+    {
+      "id": 2216,
+      "name": "SBI Funds Management",
+      "count": 1
+    },
+    {
+      "id": 2217,
+      "name": "SMAG Mobile Antenna Masts AG",
+      "count": 1
+    },
+    {
+      "id": 2218,
+      "name": "Gemini",
+      "count": 1
+    },
+    {
+      "id": 2219,
+      "name": "crypto IPO sector",
+      "count": 1
+    },
+    {
+      "id": 2220,
+      "name": "Cloud Data Holdings Corp",
+      "count": 1
+    },
+    {
+      "id": 2221,
+      "name": "ZincFive",
+      "count": 1
+    },
+    {
+      "id": 2222,
+      "name": "AI memory",
+      "count": 1
+    },
+    {
+      "id": 2223,
+      "name": "SmartHR",
+      "count": 1
+    },
+    {
+      "id": 2224,
+      "name": "Latham & Watkins",
+      "count": 1
+    },
+    {
+      "id": 2225,
+      "name": "Fresenius",
+      "count": 1
+    },
+    {
+      "id": 2226,
+      "name": "Clifford Chance",
+      "count": 1
+    },
+    {
+      "id": 2227,
+      "name": "Brownsville housing market",
+      "count": 1
+    },
+    {
+      "id": 2228,
+      "name": "Bloomberg",
+      "count": 1
+    },
+    {
+      "id": 2229,
+      "name": "Akin",
+      "count": 1
+    },
+    {
+      "id": 2230,
+      "name": "Resona Holdings",
+      "count": 1
+    },
+    {
+      "id": 2231,
+      "name": "SambaNova",
+      "count": 1
+    },
+    {
+      "id": 2232,
+      "name": "Philippine Airlines",
+      "count": 1
+    },
+    {
+      "id": 2234,
+      "name": "MatrixCare",
+      "count": 1
+    },
+    {
+      "id": 2235,
+      "name": "New Hampshire",
+      "count": 1
+    },
+    {
+      "id": 2236,
+      "name": "Infint Acquisition Corp 2",
+      "count": 1
+    },
+    {
+      "id": 2237,
+      "name": "Jersey Mike's Subs",
+      "count": 1
+    },
+    {
+      "id": 2238,
+      "name": "SMAG",
+      "count": 1
+    },
+    {
+      "id": 2239,
+      "name": "EdVisorly",
+      "count": 1
+    },
+    {
+      "id": 2240,
+      "name": "Alta",
+      "count": 1
+    },
+    {
+      "id": 2241,
+      "name": "private equity funds",
+      "count": 1
+    },
+    {
+      "id": 2242,
+      "name": "Pennsylvania hospitals",
+      "count": 1
+    },
+    {
+      "id": 2243,
+      "name": "Rotating Detonation Rocket Engine developer",
+      "count": 1
+    },
+    {
+      "id": 2244,
+      "name": "Sky Labs",
+      "count": 1
+    },
+    {
+      "id": 2245,
+      "name": "Rhoback",
+      "count": 1
+    },
+    {
+      "id": 2246,
+      "name": "Kaon AI",
+      "count": 1
+    },
+    {
+      "id": 2247,
+      "name": "Alchemab",
+      "count": 1
+    },
+    {
+      "id": 2248,
+      "name": "British Business Bank",
+      "count": 1
+    },
+    {
+      "id": 2250,
+      "name": "Akin Gump Strauss Hauer & Feld",
+      "count": 1
+    },
+    {
+      "id": 2251,
+      "name": "Pandion",
+      "count": 1
+    },
+    {
+      "id": 2252,
+      "name": "KAS",
+      "count": 1
+    },
+    {
+      "id": 2253,
+      "name": "NEST",
+      "count": 1
+    },
+    {
+      "id": 2254,
+      "name": "Schroders Capital",
+      "count": 1
+    },
+    {
+      "id": 2255,
+      "name": "Prime Intelliect",
+      "count": 1
+    },
+    {
+      "id": 2257,
+      "name": "Saba Capital Management",
+      "count": 1
+    },
+    {
+      "id": 2258,
+      "name": "HarbourVest Global Private Equity",
+      "count": 1
+    },
+    {
+      "id": 2259,
+      "name": "Municipality of Anchorage, AK",
+      "count": 1
+    },
+    {
+      "id": 2260,
+      "name": "Prime Intellect",
+      "count": 1
+    },
+    {
+      "id": 2261,
+      "name": "Oxipital AI",
+      "count": 1
+    },
+    {
+      "id": 2262,
+      "name": "Lovable",
+      "count": 1
+    },
+    {
+      "id": 2263,
+      "name": "Nest (National Employment Savings Trust)",
+      "count": 1
+    },
+    {
+      "id": 2264,
+      "name": "Private Equity Firm",
+      "count": 1
+    },
+    {
+      "id": 2265,
+      "name": "Software Business",
+      "count": 1
+    },
+    {
+      "id": 2266,
+      "name": "Nest",
+      "count": 1
+    },
+    {
+      "id": 2267,
+      "name": "InStockRx",
+      "count": 1
+    },
+    {
+      "id": 2268,
+      "name": "Texas private equity firm",
+      "count": 1
+    },
+    {
+      "id": 2269,
+      "name": "Handspring",
+      "count": 1
+    },
+    {
+      "id": 2270,
+      "name": "Vermilion Cliffs Ventures",
+      "count": 1
+    },
+    {
+      "id": 2271,
+      "name": "Ashley Smith",
+      "count": 1
+    },
+    {
+      "id": 2272,
+      "name": "Alsa",
+      "count": 1
+    },
+    {
+      "id": 2273,
+      "name": "Hahn & Co.",
+      "count": 1
+    },
+    {
+      "id": 2274,
+      "name": "two managing directors",
+      "count": 1
+    },
+    {
+      "id": 2275,
+      "name": "GE HealthCare",
+      "count": 1
+    },
+    {
+      "id": 2276,
+      "name": "Criteo",
+      "count": 1
+    },
+    {
+      "id": 2277,
+      "name": "ad tech",
+      "count": 1
+    },
+    {
+      "id": 2278,
+      "name": "CHS Inc.",
+      "count": 1
+    },
+    {
+      "id": 2279,
+      "name": "Capital City Bank Group, Inc.",
+      "count": 1
+    },
+    {
+      "id": 2280,
+      "name": "NBHC",
+      "count": 1
+    },
+    {
+      "id": 2281,
+      "name": "National Bank Holdings",
+      "count": 1
+    },
+    {
+      "id": 2282,
+      "name": "Pantheon Global Private Equity Fund",
+      "count": 1
+    },
+    {
+      "id": 2283,
+      "name": "Pantheon",
+      "count": 1
+    },
+    {
+      "id": 2284,
+      "name": "Bidbus",
+      "count": 1
+    },
+    {
+      "id": 2285,
+      "name": "IMF",
+      "count": 1
+    },
+    {
+      "id": 2286,
+      "name": "Korean Banking Sector",
+      "count": 1
+    },
+    {
+      "id": 2287,
+      "name": "Flagstar Bank, N.A.",
+      "count": 1
+    },
+    {
+      "id": 2288,
+      "name": "ASE",
+      "count": 1
+    },
+    {
+      "id": 2289,
+      "name": "unnamed lawyer",
+      "count": 1
+    },
+    {
+      "id": 2290,
+      "name": "Goodwin Procter",
+      "count": 1
+    },
+    {
+      "id": 2291,
+      "name": "Seraphine",
+      "count": 1
+    },
+    {
+      "id": 2292,
+      "name": "Flagstar Bank",
+      "count": 1
+    },
+    {
+      "id": 2293,
+      "name": "M&T Bank Corporation",
+      "count": 1
+    },
+    {
+      "id": 2294,
+      "name": "Russian energy sector",
+      "count": 1
+    },
+    {
+      "id": 2295,
+      "name": "快手-W",
+      "count": 1
+    },
+    {
+      "id": 2296,
+      "name": "可灵",
+      "count": 1
+    },
+    {
+      "id": 2297,
+      "name": "Amtech Systems",
+      "count": 1
+    },
+    {
+      "id": 2298,
+      "name": "semiconductor manufacturing segment",
+      "count": 1
+    },
+    {
+      "id": 2299,
+      "name": "Mercedes-Benz",
+      "count": 1
+    },
+    {
+      "id": 2300,
+      "name": "挪威电信 (Telenor)",
+      "count": 1
+    },
+    {
+      "id": 2301,
+      "name": "Bahnhof",
+      "count": 1
+    },
+    {
+      "id": 2302,
+      "name": "Santander",
+      "count": 1
+    },
+    {
+      "id": 2303,
+      "name": "Rare earths",
+      "count": 1
+    },
+    {
+      "id": 2304,
+      "name": "EDF Energy",
+      "count": 1
+    },
+    {
+      "id": 2307,
+      "name": "Andrea Orcel",
+      "count": 1
+    },
+    {
+      "id": 2308,
+      "name": "Cal-Maine founder's descendants",
+      "count": 1
+    },
+    {
+      "id": 2309,
+      "name": "BBC",
+      "count": 1
+    },
+    {
+      "id": 2310,
+      "name": "Channel 4",
+      "count": 1
+    },
+    {
+      "id": 2311,
+      "name": "Matt Brittin",
+      "count": 1
+    },
+    {
+      "id": 2312,
+      "name": "Conglomerates",
+      "count": 1
+    },
+    {
+      "id": 2313,
+      "name": "NATO",
+      "count": 1
+    },
+    {
+      "id": 2314,
+      "name": "AI data centres",
+      "count": 1
+    },
+    {
+      "id": 2315,
+      "name": "Tech companies",
+      "count": 1
+    },
+    {
+      "id": 2316,
+      "name": "Tesco",
+      "count": 1
+    },
+    {
+      "id": 2317,
+      "name": "Retail Grocery",
+      "count": 1
+    },
+    {
+      "id": 2318,
+      "name": "Contemporary Amperex Technology Co., Limited",
+      "count": 1
+    },
+    {
+      "id": 2319,
+      "name": "Sonal Desai",
+      "count": 1
+    },
+    {
+      "id": 2320,
+      "name": "Franklin Templeton",
+      "count": 1
+    },
+    {
+      "id": 2321,
+      "name": "Vistry Group",
+      "count": 1
+    },
+    {
+      "id": 2322,
+      "name": "Finance Chief of Vistry",
+      "count": 1
+    },
+    {
+      "id": 2323,
+      "name": "Dior",
+      "count": 1
+    },
+    {
+      "id": 2324,
+      "name": "LVMH",
+      "count": 1
+    },
+    {
+      "id": 2325,
+      "name": "Used Electric Vehicles",
+      "count": 1
+    },
+    {
+      "id": 2326,
+      "name": "DraftKings",
+      "count": 1
+    },
+    {
+      "id": 2327,
+      "name": "Flutter Entertainment",
+      "count": 1
+    },
+    {
+      "id": 2328,
+      "name": "Virgin Media",
+      "count": 1
+    },
+    {
+      "id": 2329,
+      "name": "Bank of America Merrill Lynch",
+      "count": 1
+    },
+    {
+      "id": 2330,
+      "name": "Maxim’s MX",
+      "count": 1
+    },
+    {
+      "id": 2331,
+      "name": "Oil companies",
+      "count": 1
+    },
+    {
+      "id": 2332,
+      "name": "Home builders",
+      "count": 1
+    },
+    {
+      "id": 2333,
+      "name": "CSI 300",
+      "count": 1
+    },
+    {
+      "id": 2334,
+      "name": "Technology sector",
+      "count": 1
+    },
+    {
+      "id": 2335,
+      "name": "Andy Beshear",
+      "count": 1
+    },
+    {
+      "id": 2336,
+      "name": "The Hongkong and Shanghai Hotels",
+      "count": 1
+    },
+    {
+      "id": 2337,
+      "name": "SF Holding",
+      "count": 1
+    },
+    {
+      "id": 2338,
+      "name": "WUS Printed Circuit",
+      "count": 1
+    },
+    {
+      "id": 2339,
+      "name": "Shennan Circuits",
+      "count": 1
+    },
+    {
+      "id": 2340,
+      "name": "Suzhou Dongshan Precision Manufacturing",
+      "count": 1
+    },
+    {
+      "id": 2341,
+      "name": "US Dollar",
+      "count": 1
+    },
+    {
+      "id": 2342,
+      "name": "Performing Arts",
+      "count": 1
+    },
+    {
+      "id": 2343,
+      "name": "Nexperia",
+      "count": 1
+    },
+    {
+      "id": 2344,
+      "name": "Wang Wentao",
+      "count": 1
+    },
+    {
+      "id": 2345,
+      "name": "United States Postal Service",
+      "count": 1
+    },
+    {
+      "id": 2346,
+      "name": "World Gold Council",
+      "count": 1
+    },
+    {
+      "id": 2347,
+      "name": "Gold ETFs",
+      "count": 1
+    },
+    {
+      "id": 2348,
+      "name": "DKE Holding Company",
+      "count": 1
+    },
+    {
+      "id": 2349,
+      "name": "Alibaba Group Holding",
+      "count": 1
+    },
+    {
+      "id": 2350,
+      "name": "Porsche",
+      "count": 1
+    },
+    {
+      "id": 2351,
+      "name": "Denza",
+      "count": 1
+    },
+    {
+      "id": 2352,
+      "name": "Yunji Technology",
+      "count": 1
+    },
+    {
+      "id": 2353,
+      "name": "Revolution Medicines",
+      "count": 1
+    },
+    {
+      "id": 2354,
+      "name": "Semiconductor Manufacturing International Corporation (SMIC)",
+      "count": 1
+    },
+    {
+      "id": 2355,
+      "name": "Knowledge Atlas Technology (Zhipu AI)",
+      "count": 1
     }
   ],
   "briefs": [
+    {
+      "date": "2026-07-09",
+      "market_view": "今日市场活动集中于多笔大型并购交易，其中福泰制药（Vertex）以约100亿美元连续收购多家生物科技公司（包括Crinetics），旨在拓展罕见内分泌疾病及囊性纤维化之外的管线，凸显药企通过外部整合分散研发风险的策略。半导体领域，SK海力士在美IPO传闻引发关注，若属实将成为近年最大规模科技新股发行，可能重塑存储芯片板块的估值参照。航天及科技板块因SpaceX被纳入纳斯达克指数而获额外曝光，但作为私营公司，其实际流动性影响仍存不确定性。铁路与材料行业亦出现大规模整合动向，加拿大国家铁路850亿美元合并案及Solstice Advanced Materials 145亿美元收购Element Solutions分别反映基础设施与特种化学品领域的集中趋势。监管部门对反垄断及整合风险的审查将在各笔交易中发挥关键作用，同时市场对AI算力基础设施需求持续升温，推动数据中心租赁协议规模增长。整体来看，资金正向生物药、半导体、航天及先进材料等战略赛道倾斜，但交易执行、监管障碍及研发不确定性仍是共同关注焦点。",
+      "items": [
+        {
+          "rank": 1,
+          "headline": "Vertex spending $10B to buy San Diego biotech in largest-ever acquisition - The Business Journals",
+          "summary": "福泰制药（Vertex）宣布以100亿美元收购圣地亚哥一家生物技术公司，这是该公司历史上规模最大的收购。",
+          "view": "此次收购体现了福泰制药通过外部并购补充其研发管线或技术平台的战略意图，可能旨在获取特定候选药物或技术能力以拓展适应症领域。交易规模达100亿美元，对价隐含的估值倍数取决于目标公司的研发阶段与潜在市场价值。这一收购可能影响相关治疗领域的竞争格局，若整合顺利则有望产生研发协同效应，但需关注临床数据不确定性及交易整合风险。",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ21pUFRJb2VUVkstTE5sZ3FSbzBXejVVVXR4b2dKb01wZnhGa3lRc2pDdl9TeEk5SWsxOUplQ3BmNnBteDB3Sy1BSTFZWGZaNEtIb2JEQ2YzdWVpUVNnSV9UZEFBbVU4OVBHc0xUX2lFT0xUNXE4YWdIZTVjUjk4WjFiLWFTVzlqcUtkbw?oc=5",
+          "tags": [
+            {
+              "dim": "industry_group",
+              "code": "Healthcare",
+              "label": "Healthcare"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 1813,
+              "name": "Vertex Pharmaceuticals"
+            },
+            {
+              "id": 1815,
+              "name": "San Diego biotech (unnamed)"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "headline": "SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand",
+          "summary": "SpaceX将通过快速通道流程被纳入纳斯达克100指数，引发大量ETF购买需求的预期。",
+          "view": "此次纳入显示纳斯达克快速准入框架对高影响力私人企业的倾斜，可能提升SpaceX的公众曝光度和二级市场资金关注。由于SpaceX目前仍为私营公司，指数纳入将推动ETF通过衍生品或替代工具间接配置，或加剧市场对该公司潜在IPO的预期。该事件也可能强化航天及科技板块的资本关注度，但纳入对私人公司估值及流动性的实际影响存在未知数，具体取决于后续结算安排。",
+          "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100.html",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 356,
+              "name": "SpaceX"
+            },
+            {
+              "id": 448,
+              "name": "Nasdaq"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "headline": "Wilson Sonsini Advises Crinetics on Patent Matters Related to $10 Billion Acquisition by Vertex - Wilson Sonsini",
+          "summary": "Wilson Sonsini律师事务所就Crinetics的专利事宜提供法律咨询，该事宜涉及Vertex Pharmaceuticals以100亿美元收购Crinetics的交易。",
+          "view": "此交易表明Vertex通过收购Crinetics获得其专利资产及在研管线，可能增强在罕见内分泌疾病领域的布局。Crinetics作为被收购方，其股东将获得约定对价（具体金额未披露），而Vertex需承担整合风险及监管审批不确定性。交易对Vertex的研发协同效应、市场竞争格局及未来收入结构产生潜在影响，但专利争议或反垄断审查可能影响完成进度。",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZUVWM3AxRWVJZEI5WWw4UUdUYXNmTEFJbExDSTZqbUNRMWc1ZGl1Vm1xSHBMNEc5NjNMQkxIUTNrcWZMTkNhVHdCMEU3c0cxNWZ4emNJUV9SckEtbV9QdWE0bkROVmVsX29MSFRYWmE4bDduMWE5cEdLc2tYb2g0cmFJOXh3SlFvYWV4VnZEdGRvcU9QZTRtMEg4ZVhaQ2RZMFVuUkNpbEJSV3FiUjBETmJZaHNkcURBay1kVjhBWTE3RHBGVnN4Z3BfVXRYTzhWd3NjZA?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Healthcare",
+              "label": "Healthcare"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 1813,
+              "name": "Vertex Pharmaceuticals"
+            },
+            {
+              "id": 1814,
+              "name": "Crinetics Pharmaceuticals"
+            },
+            {
+              "id": 2183,
+              "name": "Wilson Sonsini"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "headline": "SK hynix aims to raise 28 billion through U.S. IPO - Techzine Global",
+          "summary": "SK海力士（SK hynix）计划通过在美国首次公开募股（IPO）筹集280亿美元。",
+          "view": "该消息尚处于报道阶段，未获官方确认。若属实，这将是一笔规模空前的半导体企业IPO，反映全球存储芯片赛道持续吸引大型资本。SK海力士作为成熟上市公司（韩国已上市），在美IPO可能涉及二次上市或子公司分拆，其募资用途和定价将受市场关注。对同业三星电子、美光科技的估值逻辑或形成参照，同时影响一级市场对存储及半导体项目的预期。需注意IPO进度受监管审批、市场波动及地缘因素影响。",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOWRpSEk3cl92bkNKM0xrdFJsWkZNZmQ5T0VwVXFTRVdpSDlWbFpHcXB5OExsUGJRVENoTWxPblE3Vm45aWxfejZKNUNiTkY2T2VwV1k4VzZqLXc3RjhMZ08wZEc0b3EyQjBMQXJxdVJyT012RzZfZEt4cjkxWktrS0xpT25HUFJfa0ZxQXZoZGQzcHhZM3ZUdjdIQ3RWdmJmbkxn?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 2021,
+              "name": "SK hynix"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "headline": "Vertex Pays $10 Billion to Enter Rare Endocrine Disease - TradingView",
+          "summary": "Vertex制药公司以100亿美元收购一家公司，进入罕见内分泌疾病领域。",
+          "view": "该交易使Vertex从核心的囊性纤维化领域拓展至罕见内分泌疾病市场，战略上旨在分散管线风险并获取新的增长点。收购方为Vertex，被收购方未明确，交易对价约100亿美元，隐含的预付款规模表明对标的资产临床价值或市场潜力的较高估值。该交易将影响Vertex的研发支出结构、潜在协同效应（如商业化能力共享）以及罕见病领域的竞争格局，尤其是如果标的资产拥有已获批或后期候选药物，可能改变现有治疗市场分布。",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX0Rta0Rldi05eFFPRWE3Zk5wYlRkUmhEM2pyS0RoN2trb3duOTdKOGFPeWtFX19BUUVtTm9zN0RrSFB1dFhQMjdMVE9WNzVpZGVydE5uMFQ4ZDdpNEJqcnN1c0pRVm9veE5nbENmZ295WGFOUXh4cGlIblZpTmMteFRzS1ktbm1LUFk2cENYaXRIUnZzc1AtQzlxczgzQ2RoV3NTdThDWkd5b3c0MHl5VWhmYkg?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Healthcare",
+              "label": "Healthcare"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 1813,
+              "name": "Vertex Pharmaceuticals"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "headline": "Norfolk Southern, Union Pacific defend proposed $85 billion merger - Reuters",
+          "summary": "诺福克南方铁路公司和联合太平洋铁路公司为提议的850亿美元合并案进行辩护，反驳外界对其可能损害竞争的担忧。",
+          "view": "该合并案若获批，将整合美国两大一级铁路运营商，形成横跨东西海岸的铁路网络，可能显著提升运营效率与网络覆盖能力。交易作价850亿美元，隐含的估值倍数需结合双方未披露的财务数据判断，但规模效应暗示潜在的成本协同和定价权增强。监管审查将聚焦于市场竞争格局——合并后可能减少铁路运输选项，影响托运人的议价能力；同时，铁路行业天然的高固定成本和路网依赖性使得协同收益的兑现高度依赖于整合执行与反垄断条件。",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcEpZTDhiaUttVmdMdkdHRlZVTXIwRmMwTHRwWk5hYTd6OUxWS0RxMUNFVjljTm1XQTFpVklGYUdEVHFDc1IyVUdlM25rMFZoam9tRzFpT2FGbm9zUmZsY0c5LWFhaUpQcEVINWpZQnJneVgwOUVOcTQ3Y2xYWXhBeU5iNjk4NW4zS3ZNZFhKblVsZ19PejdIMUs4Y3pfU3FHV29tT1MxdEFYaFJRWWdNbFFqZS1qRXBY?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Industrials",
+              "label": "Industrials"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 1970,
+              "name": "Norfolk Southern Corporation"
+            },
+            {
+              "id": 1971,
+              "name": "Union Pacific Corporation"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "headline": "Solstice to Acquire Element Solutions in $14.5 Billion Deal to Expand Advanced Materials Platform - citybiz",
+          "summary": "Solstice将以145亿美元收购Element Solutions，以扩展其先进材料平台。",
+          "view": "该交易表明Solstice通过收购Element Solutions获取其特种化学品或电子材料领域的核心技术及客户资源，以巩固在先进材料市场的竞争地位。交易规模达145亿美元，超过Element Solutions当前市值，隐含溢价可能反映其技术壁垒或协同价值。潜在影响包括：收购后整合带来的成本协同与收入增长机会；可能改变先进材料细分市场的集中度，对上下游议价能力产生间接影响；需关注监管审批与整合风险对预期价值的实际兑现程度。",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNakEyMWtGTE1IMWJCOWotRnNCZXI4bEJPRzNZV29FRHlqTXFyNURWYnE0VzNTNkFtc2gzVnpZdGNmeDFaR05GTFR6THFSSjF0UWhXdkdNVDcyT205cUMzeldQSW9Wb1p3NmpSNFRxZjZoNkgwMENLNVlqaFIyV05vWW0zOTdTS3o5R2J5aHFkZlF2cjJCanJ2R3Jha3NqOWlaRE05Wm1VZGtyV0FCMlQxRVgycmpRbmdqZm1fb3lmMlMzb04xMlJJZEs2dWN0aTZE?oc=5",
+          "tags": [
+            {
+              "dim": "industry_group",
+              "code": "Industrials",
+              "label": "Industrials"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 1816,
+              "name": "Solstice"
+            },
+            {
+              "id": 1817,
+              "name": "Element Solutions"
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "headline": "TeraWulf Soars On Signing $19 Billion AI Lease With Anthropic - Investor's Business Daily",
+          "summary": "TeraWulf公司与人工智能企业Anthropic签署了一项价值约190亿美元的租赁协议，消息公布后其股价大幅上涨。",
+          "view": "该协议反映出人工智能领域对大规模算力基础设施需求的持续增长，可能推动数据中心租赁行业扩张，并带动上游硬件（如GPU、电力设备）和下游云服务环节的关注。协议金额巨大，但较长周期的收入确认和履约风险需关注。",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNTFsM3FzSmJnVmp4bEtybTExX3BxUGlqOGxoOWVjYXZ6cWFXTDBTNGMyVjQxWFRIOGtnRGF0RUswSlVEdTB4YVFOTjFOSXBySGtUN1Y1cV9ZVWxYanc2ZVBOdFQ3bl83cmI2dmtnVXpQVUhPX3l2b1k4aGJnaUJCSlJWZDFmdzFYZm9aLVJpcVNjMWM4S1hoSEppcw?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 364,
+              "name": "Anthropic"
+            },
+            {
+              "id": 1810,
+              "name": "TeraWulf"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "headline": "Vertex to Acquire Crinetics for $85 Per Share; Secures $4.5 Billion Bridge Financing - TradingView",
+          "summary": "Vertex宣布以每股85美元收购Crinetics，并为此获得45亿美元过桥融资。",
+          "view": "Vertex通过收购Crinetics获得其在内分泌疾病领域的研发管线，补充自身药物组合。交易对价为每股85美元，具体隐含总价值取决于Crinetics流通股数。该收购若完成，可能改变罕见病治疗市场的竞争格局，Vertex可利用其商业化能力推动Crinetics候选药物的上市，同时过桥融资安排显示交易资金已部分落实，但仍需满足监管和股东批准条件。",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORGdtT1BlbUxnNUtBOFR5VVdyejM0aUw0bGhfZGxINk1qb3dLMUF4bzktZ3E4bGVxdFdjcGpkbTltUVlNczR4ekJWcXIxaU9Lcnl6U3Vkd0xPUjNxeWhWd3IzNzkxajdQOFRZUGZiNE9FeGFYTFhGdGI3d0JwNWlPNGZtU0oxWUN6WjktZHQyNlRSZFhLRGpZaU9KWDZYR0xqMjNMekpMRmtoa2RaWHZvRlN1TXpkVnBWSHBsNDdEVVk4VHQ1RGFlQm45Ykk5SnAtNnVTU3BzUXZFRmM?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Healthcare",
+              "label": "Healthcare"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 1813,
+              "name": "Vertex Pharmaceuticals"
+            },
+            {
+              "id": 1814,
+              "name": "Crinetics Pharmaceuticals"
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "headline": "Solstice Advanced Materials to Buy Element Solutions for More Than $12 Billion - WSJ",
+          "summary": "据《华尔街日报》报道，Solstice Advanced Materials 同意以超过120亿美元收购 Element Solutions。",
+          "view": "该交易涉及材料行业整合，Solstice Advanced Materials 通过收购 Element Solutions 可能获得其在电子或工业特种化学品领域的技术与客户基础，实现业务协同或规模扩张。交易规模超120亿美元，若采用全现金或部分股权支付，将影响收购方的负债水平及被收购方的股东回报。市场将关注监管审批风险、整合成本及潜在的反垄断考量，这些因素可能重塑相关细分市场的竞争格局和定价权。",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMG1qczU2dHctVXNfcXNaU2pRUFV0c1dTYW02WlNhRTZOMUg3OVpwUlRWd2N4bDE1UDJBRXFCTWpLTjVqeDR5RFRBdHp0dW0teU9BeVExNGx0ZlpxdVRrOXpWMnFZMzFGQ0ZTam9GbDJ6WXh0WmtOMkxyRml1cUkxZU00MXVhcTNMbUFBRDRWN3RSak52OVByRFVTazJjMmUyZDA1cURZci14dDE1bUlEOFRZWUgzX0F0WDFJcHZR?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Industrials",
+              "label": "Industrials"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 1817,
+              "name": "Element Solutions"
+            },
+            {
+              "id": 1818,
+              "name": "Solstice Advanced Materials"
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "headline": "Vertex Pharma Makes A $10 Billion Deal; Biotech Stock Doubles - Investor's Business Daily",
+          "summary": "Vertex Pharma宣布了一笔100亿美元的交易，同时一家生物科技公司的股票价格翻倍。",
+          "view": "该交易显示Vertex通过大规模收购来扩展其药物研发管线或市场版图。买方为Vertex，目标为一家生物科技公司，交易金额为100亿美元。此交易可能影响估值驱动因素如协同效应、产品组合多样化以及竞争格局，但具体影响取决于交易细节及监管批准。",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ3IwMUlZd3prNXBXLVloTG5vTnRObXJUXzVQRDg5SHZnMlRJZWV3amprMHYtRmJNUWJRQXo2RkVHc2RjMGxoRFR6b2tlYmowSlRlbklEVm5XYlVGZjByZXRFNmgyWjR3blUzRVVqSEF3XzlxTUhfN0xEc3VQbFVLT213MngxY0YwOUxtXzNLNDRqa0Iz?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Healthcare",
+              "label": "Healthcare"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 921,
+              "name": "Biotech"
+            },
+            {
+              "id": 1813,
+              "name": "Vertex Pharmaceuticals"
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "headline": "Vertex to Acquire Crinetics Pharmaceuticals in $10 Billion Deal - citybiz",
+          "summary": "福泰制药（Vertex）宣布以100亿美元收购Crinetics Pharmaceuticals。",
+          "view": "该交易使Vertex切入内分泌疾病领域，获得Crinetics针对肢端肥大症和神经内分泌肿瘤的后期管线，有助于降低其对囊性纤维化业务的依赖。100亿美元的收购价对应较高溢价，体现Vertex对差异化资产的战略需求。后续价值驱动因素包括管线协同效应、监管审批进展以及内分泌治疗市场竞争格局的变化，但并购整合风险与研发不确定性需持续关注。",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcFV4dk9xUGdmWE50ZERqZXZGbWtmMFlnSTRwSEhzYVlBYkM1NHlvZ19vekNVbWRXZUdlTGo0Z2FjWVhpSDNNMmpVcTJiT0dZckh5cDdnb3hheExuenRQNTFpVHp4ZTVyV2NCbGJtRGt2eDJYc2wzSm9md2t3bzRJMGVfU0pEQ2ZXZjZlRE9jZXF3RXg5ZUU2NXZiVVRweUFJYVJV?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Healthcare",
+              "label": "Healthcare"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 1813,
+              "name": "Vertex Pharmaceuticals"
+            },
+            {
+              "id": 1814,
+              "name": "Crinetics Pharmaceuticals"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-08",
       "market_view": "今日市场活动集中在医疗健康、先进材料及半导体领域的大额并购与融资。Vertex Pharmaceuticals密集推进罕见病管线扩张，先后传出以约100亿美元收购Crinetics及另一标的，凸显其对降低囊性纤维化依赖、布局内分泌疾病领域的战略意图。材料行业整合活跃，Solstice Advanced Materials拟以超过120亿美元收购Element Solutions，同时出现145亿美元规模的相似交易，可能涉及AI相关材料业务，反映出该领域规模效应与协同预期的提升。半导体方面，SK hynix在美股启动大规模IPO，反映行业巨头对公开资本的持续需求。此外，SpaceX通过快速纳入机制进入纳斯达克100指数，凸显创新型公司对指数影响力的增强；而850亿美元的铁路合并案则引发对反垄断审查与市场集中度变化的关注。跨领域来看，AI算力需求正推动加密货币矿商转向数据中心基础设施服务，并对上游电力、冷却设备形成需求拉动。整体而言，交易活动以美股为主要舞台，整合风险、监管审批及商业协同效果仍是市场评估估值的关键变量。",
