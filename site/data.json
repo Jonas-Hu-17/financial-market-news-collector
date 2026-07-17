@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T00:14:58.513206+00:00",
+  "generated_at": "2026-07-17T00:06:05.087564+00:00",
   "taxonomy": [
     {
       "dim": "asset_class",
@@ -161,32 +161,32 @@
     {
       "id": 356,
       "name": "SpaceX",
-      "count": 92
+      "count": 103
     },
     {
       "id": 352,
       "name": "Donald Trump",
-      "count": 52
+      "count": 55
     },
     {
       "id": 364,
       "name": "Anthropic",
-      "count": 39
+      "count": 43
     },
     {
       "id": 368,
       "name": "OpenAI",
-      "count": 27
+      "count": 29
     },
     {
       "id": 417,
       "name": "Energy",
-      "count": 22
+      "count": 23
     },
     {
       "id": 376,
       "name": "Private Equity",
-      "count": 19
+      "count": 20
     },
     {
       "id": 511,
@@ -204,43 +204,73 @@
       "count": 17
     },
     {
+      "id": 398,
+      "name": "Elon Musk",
+      "count": 15
+    },
+    {
+      "id": 460,
+      "name": "Nvidia",
+      "count": 15
+    },
+    {
       "id": 530,
       "name": "SK Hynix",
       "count": 15
     },
     {
-      "id": 398,
-      "name": "Elon Musk",
-      "count": 14
-    },
-    {
-      "id": 460,
-      "name": "Nvidia",
-      "count": 13
-    },
-    {
       "id": 609,
       "name": "Rocket Lab",
-      "count": 13
-    },
-    {
-      "id": 595,
-      "name": "Goldman Sachs",
-      "count": 12
+      "count": 14
     },
     {
       "id": 865,
       "name": "Tesla",
+      "count": 14
+    },
+    {
+      "id": 595,
+      "name": "Goldman Sachs",
+      "count": 13
+    },
+    {
+      "id": 868,
+      "name": "Paramount Global",
+      "count": 13
+    },
+    {
+      "id": 870,
+      "name": "Warner Bros. Discovery",
       "count": 12
+    },
+    {
+      "id": 375,
+      "name": "Uber",
+      "count": 11
     },
     {
       "id": 439,
       "name": "Defense",
-      "count": 10
+      "count": 11
     },
     {
       "id": 498,
       "name": "Artificial Intelligence",
+      "count": 11
+    },
+    {
+      "id": 444,
+      "name": "Morgan Stanley",
+      "count": 10
+    },
+    {
+      "id": 743,
+      "name": "Healthcare",
+      "count": 10
+    },
+    {
+      "id": 1041,
+      "name": "Apple",
       "count": 10
     },
     {
@@ -264,18 +294,28 @@
       "count": 9
     },
     {
-      "id": 868,
-      "name": "Paramount Global",
+      "id": 711,
+      "name": "Netflix",
       "count": 9
     },
     {
-      "id": 1041,
-      "name": "Apple",
+      "id": 794,
+      "name": "Bank of America",
       "count": 9
     },
     {
-      "id": 444,
-      "name": "Morgan Stanley",
+      "id": 1286,
+      "name": "Jim Cramer",
+      "count": 9
+    },
+    {
+      "id": 1325,
+      "name": "Lockheed Martin",
+      "count": 9
+    },
+    {
+      "id": 440,
+      "name": "Eli Lilly",
       "count": 8
     },
     {
@@ -284,13 +324,13 @@
       "count": 8
     },
     {
-      "id": 743,
-      "name": "Healthcare",
+      "id": 462,
+      "name": "Semiconductors",
       "count": 8
     },
     {
-      "id": 1286,
-      "name": "Jim Cramer",
+      "id": 606,
+      "name": "Blackstone",
       "count": 8
     },
     {
@@ -299,28 +339,13 @@
       "count": 8
     },
     {
-      "id": 375,
-      "name": "Uber",
-      "count": 7
-    },
-    {
-      "id": 462,
-      "name": "Semiconductors",
-      "count": 7
-    },
-    {
-      "id": 606,
-      "name": "Blackstone",
-      "count": 7
+      "id": 2005,
+      "name": "Standard Nuclear",
+      "count": 8
     },
     {
       "id": 642,
       "name": "Hub International",
-      "count": 7
-    },
-    {
-      "id": 794,
-      "name": "Bank of America",
       "count": 7
     },
     {
@@ -329,8 +354,8 @@
       "count": 7
     },
     {
-      "id": 870,
-      "name": "Warner Bros. Discovery",
+      "id": 863,
+      "name": "Deutsche Bank",
       "count": 7
     },
     {
@@ -339,13 +364,18 @@
       "count": 7
     },
     {
-      "id": 1325,
-      "name": "Lockheed Martin",
+      "id": 1772,
+      "name": "Delivery Hero",
       "count": 7
     },
     {
       "id": 358,
       "name": "easyJet",
+      "count": 6
+    },
+    {
+      "id": 416,
+      "name": "Apple Inc.",
       "count": 6
     },
     {
@@ -374,18 +404,23 @@
       "count": 6
     },
     {
-      "id": 711,
-      "name": "Netflix",
+      "id": 611,
+      "name": "Iridium Communications",
+      "count": 6
+    },
+    {
+      "id": 664,
+      "name": "JPMorgan Chase",
+      "count": 6
+    },
+    {
+      "id": 678,
+      "name": "Microsoft",
       "count": 6
     },
     {
       "id": 815,
       "name": "Samsung",
-      "count": 6
-    },
-    {
-      "id": 863,
-      "name": "Deutsche Bank",
       "count": 6
     },
     {
@@ -404,8 +439,18 @@
       "count": 6
     },
     {
-      "id": 416,
-      "name": "Apple Inc.",
+      "id": 2017,
+      "name": "Csquare",
+      "count": 6
+    },
+    {
+      "id": 2371,
+      "name": "Taiwan Semiconductor Manufacturing Company",
+      "count": 6
+    },
+    {
+      "id": 391,
+      "name": "NextEra Energy",
       "count": 5
     },
     {
@@ -424,8 +469,8 @@
       "count": 5
     },
     {
-      "id": 611,
-      "name": "Iridium Communications",
+      "id": 586,
+      "name": "Kevin Warsh",
       "count": 5
     },
     {
@@ -434,18 +479,13 @@
       "count": 5
     },
     {
-      "id": 664,
-      "name": "JPMorgan Chase",
-      "count": 5
-    },
-    {
-      "id": 678,
-      "name": "Microsoft",
-      "count": 5
-    },
-    {
       "id": 809,
       "name": "NBCUniversal",
+      "count": 5
+    },
+    {
+      "id": 841,
+      "name": "Kalshi",
       "count": 5
     },
     {
@@ -459,8 +499,33 @@
       "count": 5
     },
     {
+      "id": 1011,
+      "name": "Ardian",
+      "count": 5
+    },
+    {
       "id": 1069,
       "name": "Oil",
+      "count": 5
+    },
+    {
+      "id": 1087,
+      "name": "UBS",
+      "count": 5
+    },
+    {
+      "id": 1112,
+      "name": "BYD",
+      "count": 5
+    },
+    {
+      "id": 1146,
+      "name": "KKR",
+      "count": 5
+    },
+    {
+      "id": 1236,
+      "name": "JPMorgan",
       "count": 5
     },
     {
@@ -479,14 +544,19 @@
       "count": 5
     },
     {
+      "id": 1606,
+      "name": "Independent Bank",
+      "count": 5
+    },
+    {
       "id": 1808,
       "name": "Thales",
       "count": 5
     },
     {
-      "id": 440,
-      "name": "Eli Lilly",
-      "count": 4
+      "id": 2432,
+      "name": "Syntetica",
+      "count": 5
     },
     {
       "id": 472,
@@ -499,8 +569,18 @@
       "count": 4
     },
     {
-      "id": 586,
-      "name": "Kevin Warsh",
+      "id": 633,
+      "name": "Bridgepoint",
+      "count": 4
+    },
+    {
+      "id": 660,
+      "name": "Data Centers",
+      "count": 4
+    },
+    {
+      "id": 672,
+      "name": "CXMT",
       "count": 4
     },
     {
@@ -529,6 +609,16 @@
       "count": 4
     },
     {
+      "id": 801,
+      "name": "Defence",
+      "count": 4
+    },
+    {
+      "id": 849,
+      "name": "Alphabet Inc.",
+      "count": 4
+    },
+    {
       "id": 869,
       "name": "Warner Bros Discovery",
       "count": 4
@@ -536,6 +626,11 @@
     {
       "id": 872,
       "name": "South32",
+      "count": 4
+    },
+    {
+      "id": 895,
+      "name": "Wells Fargo",
       "count": 4
     },
     {
@@ -554,33 +649,13 @@
       "count": 4
     },
     {
-      "id": 1087,
-      "name": "UBS",
-      "count": 4
-    },
-    {
-      "id": 1112,
-      "name": "BYD",
-      "count": 4
-    },
-    {
       "id": 1122,
       "name": "Kroger",
       "count": 4
     },
     {
-      "id": 1146,
-      "name": "KKR",
-      "count": 4
-    },
-    {
       "id": 1198,
       "name": "Honeywell",
-      "count": 4
-    },
-    {
-      "id": 1236,
-      "name": "JPMorgan",
       "count": 4
     },
     {
@@ -619,13 +694,13 @@
       "count": 4
     },
     {
-      "id": 2005,
-      "name": "Standard Nuclear",
+      "id": 2162,
+      "name": "Crude Oil",
       "count": 4
     },
     {
-      "id": 2162,
-      "name": "Crude Oil",
+      "id": 2477,
+      "name": "Vista Energy",
       "count": 4
     },
     {
@@ -654,13 +729,13 @@
       "count": 3
     },
     {
-      "id": 391,
-      "name": "NextEra Energy",
+      "id": 429,
+      "name": "Adidas",
       "count": 3
     },
     {
-      "id": 429,
-      "name": "Adidas",
+      "id": 464,
+      "name": "DeepSeek",
       "count": 3
     },
     {
@@ -734,11 +809,6 @@
       "count": 3
     },
     {
-      "id": 633,
-      "name": "Bridgepoint",
-      "count": 3
-    },
-    {
       "id": 636,
       "name": "Martin Marietta Materials",
       "count": 3
@@ -751,11 +821,6 @@
     {
       "id": 654,
       "name": "Boeing",
-      "count": 3
-    },
-    {
-      "id": 660,
-      "name": "Data Centers",
       "count": 3
     },
     {
@@ -804,11 +869,6 @@
       "count": 3
     },
     {
-      "id": 801,
-      "name": "Defence",
-      "count": 3
-    },
-    {
       "id": 804,
       "name": "Maersk",
       "count": 3
@@ -829,13 +889,13 @@
       "count": 3
     },
     {
-      "id": 841,
-      "name": "Kalshi",
+      "id": 843,
+      "name": "Alphabet",
       "count": 3
     },
     {
-      "id": 843,
-      "name": "Alphabet",
+      "id": 888,
+      "name": "Mamdani",
       "count": 3
     },
     {
@@ -846,11 +906,6 @@
     {
       "id": 892,
       "name": "Segro",
-      "count": 3
-    },
-    {
-      "id": 895,
-      "name": "Wells Fargo",
       "count": 3
     },
     {
@@ -874,11 +929,6 @@
       "count": 3
     },
     {
-      "id": 1011,
-      "name": "Ardian",
-      "count": 3
-    },
-    {
       "id": 1026,
       "name": "Devon Energy",
       "count": 3
@@ -889,8 +939,18 @@
       "count": 3
     },
     {
+      "id": 1078,
+      "name": "Banks",
+      "count": 3
+    },
+    {
       "id": 1080,
       "name": "Michael Burry",
+      "count": 3
+    },
+    {
+      "id": 1136,
+      "name": "Dominion Energy",
       "count": 3
     },
     {
@@ -934,6 +994,16 @@
       "count": 3
     },
     {
+      "id": 1235,
+      "name": "Alibaba Group",
+      "count": 3
+    },
+    {
+      "id": 1295,
+      "name": "Micron",
+      "count": 3
+    },
+    {
       "id": 1355,
       "name": "Carlsberg",
       "count": 3
@@ -941,6 +1011,11 @@
     {
       "id": 1393,
       "name": "Quantum Systems",
+      "count": 3
+    },
+    {
+      "id": 1476,
+      "name": "PwC",
       "count": 3
     },
     {
@@ -954,8 +1029,18 @@
       "count": 3
     },
     {
-      "id": 1606,
-      "name": "Independent Bank",
+      "id": 1532,
+      "name": "Brookfield Asset Management",
+      "count": 3
+    },
+    {
+      "id": 1564,
+      "name": "DCC",
+      "count": 3
+    },
+    {
+      "id": 1627,
+      "name": "Ocado",
       "count": 3
     },
     {
@@ -1034,6 +1119,11 @@
       "count": 3
     },
     {
+      "id": 2183,
+      "name": "Wilson Sonsini",
+      "count": 3
+    },
+    {
       "id": 2186,
       "name": "Broadcom",
       "count": 3
@@ -1044,6 +1134,11 @@
       "count": 3
     },
     {
+      "id": 2249,
+      "name": "Venus Aerospace",
+      "count": 3
+    },
+    {
       "id": 2305,
       "name": "UniCredit",
       "count": 3
@@ -1051,6 +1146,26 @@
     {
       "id": 2306,
       "name": "Commerzbank",
+      "count": 3
+    },
+    {
+      "id": 2357,
+      "name": "AtaiBeckley",
+      "count": 3
+    },
+    {
+      "id": 2364,
+      "name": "Uber Technologies Inc.",
+      "count": 3
+    },
+    {
+      "id": 2382,
+      "name": "Dassault Systèmes",
+      "count": 3
+    },
+    {
+      "id": 2456,
+      "name": "Xenter",
       "count": 3
     },
     {
@@ -1089,6 +1204,11 @@
       "count": 2
     },
     {
+      "id": 395,
+      "name": "Truist Financial",
+      "count": 2
+    },
+    {
       "id": 399,
       "name": "Mesh",
       "count": 2
@@ -1106,6 +1226,11 @@
     {
       "id": 445,
       "name": "Starbucks",
+      "count": 2
+    },
+    {
+      "id": 448,
+      "name": "Nasdaq",
       "count": 2
     },
     {
@@ -1249,6 +1374,11 @@
       "count": 2
     },
     {
+      "id": 630,
+      "name": "ChangXin Memory Technologies (CXMT)",
+      "count": 2
+    },
+    {
       "id": 638,
       "name": "Select Medical",
       "count": 2
@@ -1309,6 +1439,11 @@
       "count": 2
     },
     {
+      "id": 703,
+      "name": "A&O Shearman",
+      "count": 2
+    },
+    {
       "id": 706,
       "name": "Global Partners LP",
       "count": 2
@@ -1344,6 +1479,11 @@
       "count": 2
     },
     {
+      "id": 793,
+      "name": "UnitedHealth Group",
+      "count": 2
+    },
+    {
       "id": 800,
       "name": "Keir Starmer",
       "count": 2
@@ -1364,13 +1504,13 @@
       "count": 2
     },
     {
-      "id": 845,
-      "name": "Vladimir Putin",
+      "id": 832,
+      "name": "Federal Trade Commission",
       "count": 2
     },
     {
-      "id": 849,
-      "name": "Alphabet Inc.",
+      "id": 845,
+      "name": "Vladimir Putin",
       "count": 2
     },
     {
@@ -1381,11 +1521,6 @@
     {
       "id": 877,
       "name": "Cognite",
-      "count": 2
-    },
-    {
-      "id": 888,
-      "name": "Mamdani",
       "count": 2
     },
     {
@@ -1446,6 +1581,16 @@
     {
       "id": 938,
       "name": "White & Case",
+      "count": 2
+    },
+    {
+      "id": 943,
+      "name": "Banco BPM",
+      "count": 2
+    },
+    {
+      "id": 954,
+      "name": "Garanti BBVA",
       "count": 2
     },
     {
@@ -1544,6 +1689,11 @@
       "count": 2
     },
     {
+      "id": 1059,
+      "name": "BP",
+      "count": 2
+    },
+    {
       "id": 1067,
       "name": "Advanced Micro Devices",
       "count": 2
@@ -1554,6 +1704,11 @@
       "count": 2
     },
     {
+      "id": 1070,
+      "name": "Palo Alto Networks",
+      "count": 2
+    },
+    {
       "id": 1072,
       "name": "Binance",
       "count": 2
@@ -1561,11 +1716,6 @@
     {
       "id": 1074,
       "name": "China AI",
-      "count": 2
-    },
-    {
-      "id": 1078,
-      "name": "Banks",
       "count": 2
     },
     {
@@ -1591,6 +1741,11 @@
     {
       "id": 1123,
       "name": "Giant Eagle",
+      "count": 2
+    },
+    {
+      "id": 1126,
+      "name": "Skydance Media",
       "count": 2
     },
     {
@@ -1624,6 +1779,11 @@
       "count": 2
     },
     {
+      "id": 1181,
+      "name": "private equity",
+      "count": 2
+    },
+    {
       "id": 1194,
       "name": "CarbonSix",
       "count": 2
@@ -1631,6 +1791,11 @@
     {
       "id": 1197,
       "name": "Hypefy AI",
+      "count": 2
+    },
+    {
+      "id": 1205,
+      "name": "HarbourVest",
       "count": 2
     },
     {
@@ -1644,13 +1809,13 @@
       "count": 2
     },
     {
-      "id": 1224,
-      "name": "TwelveLabs",
+      "id": 1215,
+      "name": "First Bank",
       "count": 2
     },
     {
-      "id": 1235,
-      "name": "Alibaba Group",
+      "id": 1224,
+      "name": "TwelveLabs",
       "count": 2
     },
     {
@@ -1661,6 +1826,11 @@
     {
       "id": 1246,
       "name": "Automotive",
+      "count": 2
+    },
+    {
+      "id": 1247,
+      "name": "Agriculture",
       "count": 2
     },
     {
@@ -1684,6 +1854,11 @@
       "count": 2
     },
     {
+      "id": 1277,
+      "name": "Nvidia Corporation",
+      "count": 2
+    },
+    {
       "id": 1280,
       "name": "E. Jean Carroll",
       "count": 2
@@ -1704,11 +1879,6 @@
       "count": 2
     },
     {
-      "id": 1295,
-      "name": "Micron",
-      "count": 2
-    },
-    {
       "id": 1299,
       "name": "Gianni Infantino",
       "count": 2
@@ -1716,6 +1886,11 @@
     {
       "id": 1302,
       "name": "President Donald Trump",
+      "count": 2
+    },
+    {
+      "id": 1318,
+      "name": "Nebius",
       "count": 2
     },
     {
@@ -1746,6 +1921,11 @@
     {
       "id": 1365,
       "name": "ITG, Inc.",
+      "count": 2
+    },
+    {
+      "id": 1375,
+      "name": "Government of Canada",
       "count": 2
     },
     {
@@ -1814,11 +1994,6 @@
       "count": 2
     },
     {
-      "id": 1476,
-      "name": "PwC",
-      "count": 2
-    },
-    {
       "id": 1479,
       "name": "UK car finance lenders",
       "count": 2
@@ -1859,11 +2034,6 @@
       "count": 2
     },
     {
-      "id": 1532,
-      "name": "Brookfield Asset Management",
-      "count": 2
-    },
-    {
       "id": 1537,
       "name": "HCLTech",
       "count": 2
@@ -1891,11 +2061,6 @@
     {
       "id": 1559,
       "name": "Renewable Energy",
-      "count": 2
-    },
-    {
-      "id": 1564,
-      "name": "DCC",
       "count": 2
     },
     {
@@ -1939,8 +2104,8 @@
       "count": 2
     },
     {
-      "id": 1627,
-      "name": "Ocado",
+      "id": 1625,
+      "name": "Xpeng",
       "count": 2
     },
     {
@@ -1966,6 +2131,21 @@
     {
       "id": 1693,
       "name": "Lux Capital",
+      "count": 2
+    },
+    {
+      "id": 1712,
+      "name": "昂立教育",
+      "count": 2
+    },
+    {
+      "id": 1719,
+      "name": "Polymarket",
+      "count": 2
+    },
+    {
+      "id": 1731,
+      "name": "Citigroup",
       "count": 2
     },
     {
@@ -2074,13 +2254,18 @@
       "count": 2
     },
     {
-      "id": 2017,
-      "name": "Csquare",
+      "id": 2007,
+      "name": "Wall Street Banks",
       "count": 2
     },
     {
       "id": 2018,
       "name": "InsuranceDekho",
+      "count": 2
+    },
+    {
+      "id": 2022,
+      "name": "Memory chips",
       "count": 2
     },
     {
@@ -2124,6 +2309,11 @@
       "count": 2
     },
     {
+      "id": 2067,
+      "name": "Agave",
+      "count": 2
+    },
+    {
       "id": 2075,
       "name": "KOR Protocol",
       "count": 2
@@ -2131,6 +2321,16 @@
     {
       "id": 2090,
       "name": "TIFF",
+      "count": 2
+    },
+    {
+      "id": 2101,
+      "name": "M&T Bank",
+      "count": 2
+    },
+    {
+      "id": 2111,
+      "name": "Energy sector",
       "count": 2
     },
     {
@@ -2154,11 +2354,6 @@
       "count": 2
     },
     {
-      "id": 2183,
-      "name": "Wilson Sonsini",
-      "count": 2
-    },
-    {
       "id": 2201,
       "name": "Accor",
       "count": 2
@@ -2169,18 +2364,108 @@
       "count": 2
     },
     {
+      "id": 2205,
+      "name": "Columbus Circle Capital Corp III",
+      "count": 2
+    },
+    {
       "id": 2233,
       "name": "Resmed",
       "count": 2
     },
     {
-      "id": 2249,
-      "name": "Venus Aerospace",
+      "id": 2239,
+      "name": "EdVisorly",
       "count": 2
     },
     {
       "id": 2256,
       "name": "Paradigm",
+      "count": 2
+    },
+    {
+      "id": 2362,
+      "name": "General Dynamics",
+      "count": 2
+    },
+    {
+      "id": 2365,
+      "name": "Delivery Hero SE",
+      "count": 2
+    },
+    {
+      "id": 2369,
+      "name": "Eli Lilly and Company",
+      "count": 2
+    },
+    {
+      "id": 2376,
+      "name": "Elizabeth Warren",
+      "count": 2
+    },
+    {
+      "id": 2387,
+      "name": "Wonder",
+      "count": 2
+    },
+    {
+      "id": 2392,
+      "name": "Vogenx",
+      "count": 2
+    },
+    {
+      "id": 2397,
+      "name": "ArisGlobal",
+      "count": 2
+    },
+    {
+      "id": 2400,
+      "name": "Syngenta",
+      "count": 2
+    },
+    {
+      "id": 2424,
+      "name": "Medtronic",
+      "count": 2
+    },
+    {
+      "id": 2433,
+      "name": "Fora",
+      "count": 2
+    },
+    {
+      "id": 2439,
+      "name": "Lululemon",
+      "count": 2
+    },
+    {
+      "id": 2440,
+      "name": "Fireworks",
+      "count": 2
+    },
+    {
+      "id": 2453,
+      "name": "DeweyLearn",
+      "count": 2
+    },
+    {
+      "id": 2454,
+      "name": "NxLite",
+      "count": 2
+    },
+    {
+      "id": 2463,
+      "name": "Senra Systems",
+      "count": 2
+    },
+    {
+      "id": 2501,
+      "name": "Nordea Bank Abp",
+      "count": 2
+    },
+    {
+      "id": 2538,
+      "name": "Trump Media & Technology Group",
       "count": 2
     },
     {
@@ -2291,11 +2576,6 @@
     {
       "id": 394,
       "name": "BNY Mellon",
-      "count": 1
-    },
-    {
-      "id": 395,
-      "name": "Truist Financial",
       "count": 1
     },
     {
@@ -2489,11 +2769,6 @@
       "count": 1
     },
     {
-      "id": 448,
-      "name": "Nasdaq",
-      "count": 1
-    },
-    {
       "id": 449,
       "name": "BIS",
       "count": 1
@@ -2536,11 +2811,6 @@
     {
       "id": 461,
       "name": "Google (Alphabet)",
-      "count": 1
-    },
-    {
-      "id": 464,
-      "name": "DeepSeek",
       "count": 1
     },
     {
@@ -3084,11 +3354,6 @@
       "count": 1
     },
     {
-      "id": 630,
-      "name": "ChangXin Memory Technologies (CXMT)",
-      "count": 1
-    },
-    {
       "id": 632,
       "name": "Limestone Supplier",
       "count": 1
@@ -3214,11 +3479,6 @@
       "count": 1
     },
     {
-      "id": 672,
-      "name": "CXMT",
-      "count": 1
-    },
-    {
       "id": 676,
       "name": "T. Rowe Price",
       "count": 1
@@ -3316,11 +3576,6 @@
     {
       "id": 701,
       "name": "Warburg Pincus",
-      "count": 1
-    },
-    {
-      "id": 703,
-      "name": "A&O Shearman",
       "count": 1
     },
     {
@@ -3684,11 +3939,6 @@
       "count": 1
     },
     {
-      "id": 793,
-      "name": "UnitedHealth Group",
-      "count": 1
-    },
-    {
       "id": 796,
       "name": "Bitcoin",
       "count": 1
@@ -3811,11 +4061,6 @@
     {
       "id": 831,
       "name": "MetLife",
-      "count": 1
-    },
-    {
-      "id": 832,
-      "name": "Federal Trade Commission",
       "count": 1
     },
     {
@@ -4199,11 +4444,6 @@
       "count": 1
     },
     {
-      "id": 943,
-      "name": "Banco BPM",
-      "count": 1
-    },
-    {
       "id": 944,
       "name": "Mirae Asset Securities",
       "count": 1
@@ -4251,11 +4491,6 @@
     {
       "id": 953,
       "name": "Suning.com Co., Ltd.",
-      "count": 1
-    },
-    {
-      "id": 954,
-      "name": "Garanti BBVA",
       "count": 1
     },
     {
@@ -4639,11 +4874,6 @@
       "count": 1
     },
     {
-      "id": 1059,
-      "name": "BP",
-      "count": 1
-    },
-    {
       "id": 1060,
       "name": "Carol Howle",
       "count": 1
@@ -4676,11 +4906,6 @@
     {
       "id": 1066,
       "name": "Intel Corporation",
-      "count": 1
-    },
-    {
-      "id": 1070,
-      "name": "Palo Alto Networks",
       "count": 1
     },
     {
@@ -4894,11 +5119,6 @@
       "count": 1
     },
     {
-      "id": 1126,
-      "name": "Skydance Media",
-      "count": 1
-    },
-    {
       "id": 1127,
       "name": "Belden",
       "count": 1
@@ -4931,11 +5151,6 @@
     {
       "id": 1135,
       "name": "Ferrari",
-      "count": 1
-    },
-    {
-      "id": 1136,
-      "name": "Dominion Energy",
       "count": 1
     },
     {
@@ -5114,11 +5329,6 @@
       "count": 1
     },
     {
-      "id": 1181,
-      "name": "private equity",
-      "count": 1
-    },
-    {
       "id": 1182,
       "name": "NeoWa Robotics",
       "count": 1
@@ -5209,11 +5419,6 @@
       "count": 1
     },
     {
-      "id": 1205,
-      "name": "HarbourVest",
-      "count": 1
-    },
-    {
       "id": 1208,
       "name": "Hamilton Lane",
       "count": 1
@@ -5241,11 +5446,6 @@
     {
       "id": 1214,
       "name": "Via Renewables",
-      "count": 1
-    },
-    {
-      "id": 1215,
-      "name": "First Bank",
       "count": 1
     },
     {
@@ -5374,11 +5574,6 @@
       "count": 1
     },
     {
-      "id": 1247,
-      "name": "Agriculture",
-      "count": 1
-    },
-    {
       "id": 1250,
       "name": "Aughinish Alumina",
       "count": 1
@@ -5501,11 +5696,6 @@
     {
       "id": 1276,
       "name": "European defense sector",
-      "count": 1
-    },
-    {
-      "id": 1277,
-      "name": "Nvidia Corporation",
       "count": 1
     },
     {
@@ -5666,11 +5856,6 @@
     {
       "id": 1317,
       "name": "CoreWeave",
-      "count": 1
-    },
-    {
-      "id": 1318,
-      "name": "Nebius",
       "count": 1
     },
     {
@@ -5891,11 +6076,6 @@
     {
       "id": 1374,
       "name": "Government of British Columbia",
-      "count": 1
-    },
-    {
-      "id": 1375,
-      "name": "Government of Canada",
       "count": 1
     },
     {
@@ -6914,11 +7094,6 @@
       "count": 1
     },
     {
-      "id": 1625,
-      "name": "Xpeng",
-      "count": 1
-    },
-    {
       "id": 1626,
       "name": "American Express",
       "count": 1
@@ -7314,11 +7489,6 @@
       "count": 1
     },
     {
-      "id": 1712,
-      "name": "昂立教育",
-      "count": 1
-    },
-    {
       "id": 1713,
       "name": "online gaming",
       "count": 1
@@ -7346,11 +7516,6 @@
     {
       "id": 1718,
       "name": "DPC",
-      "count": 1
-    },
-    {
-      "id": 1719,
-      "name": "Polymarket",
       "count": 1
     },
     {
@@ -7406,11 +7571,6 @@
     {
       "id": 1730,
       "name": "Hong Kong property market",
-      "count": 1
-    },
-    {
-      "id": 1731,
-      "name": "Citigroup",
       "count": 1
     },
     {
@@ -7571,11 +7731,6 @@
     {
       "id": 1771,
       "name": "Octopus Energy",
-      "count": 1
-    },
-    {
-      "id": 1772,
-      "name": "Delivery Hero",
       "count": 1
     },
     {
@@ -8584,11 +8739,6 @@
       "count": 1
     },
     {
-      "id": 2007,
-      "name": "Wall Street Banks",
-      "count": 1
-    },
-    {
       "id": 2008,
       "name": "General Motors (GM)",
       "count": 1
@@ -8641,11 +8791,6 @@
     {
       "id": 2020,
       "name": "nuclear fuel",
-      "count": 1
-    },
-    {
-      "id": 2022,
-      "name": "Memory chips",
       "count": 1
     },
     {
@@ -8824,11 +8969,6 @@
       "count": 1
     },
     {
-      "id": 2067,
-      "name": "Agave",
-      "count": 1
-    },
-    {
       "id": 2068,
       "name": "private equity firms",
       "count": 1
@@ -8979,11 +9119,6 @@
       "count": 1
     },
     {
-      "id": 2101,
-      "name": "M&T Bank",
-      "count": 1
-    },
-    {
       "id": 2102,
       "name": "Khosla Ventures",
       "count": 1
@@ -9026,11 +9161,6 @@
     {
       "id": 2110,
       "name": "Berrier Capital",
-      "count": 1
-    },
-    {
-      "id": 2111,
-      "name": "Energy sector",
       "count": 1
     },
     {
@@ -9454,11 +9584,6 @@
       "count": 1
     },
     {
-      "id": 2205,
-      "name": "Columbus Circle Capital Corp III",
-      "count": 1
-    },
-    {
       "id": 2206,
       "name": "Jeremy Grantham",
       "count": 1
@@ -9611,11 +9736,6 @@
     {
       "id": 2238,
       "name": "SMAG",
-      "count": 1
-    },
-    {
-      "id": 2239,
-      "name": "EdVisorly",
       "count": 1
     },
     {
@@ -10177,9 +10297,1556 @@
       "id": 2355,
       "name": "Knowledge Atlas Technology (Zhipu AI)",
       "count": 1
+    },
+    {
+      "id": 2356,
+      "name": "Uber Technologies, Inc.",
+      "count": 1
+    },
+    {
+      "id": 2358,
+      "name": "Johnson & Johnson",
+      "count": 1
+    },
+    {
+      "id": 2359,
+      "name": "Cintas Corporation",
+      "count": 1
+    },
+    {
+      "id": 2360,
+      "name": "UniFirst Corporation",
+      "count": 1
+    },
+    {
+      "id": 2361,
+      "name": "Food Delivery",
+      "count": 1
+    },
+    {
+      "id": 2363,
+      "name": "Startup Ecosystem",
+      "count": 1
+    },
+    {
+      "id": 2366,
+      "name": "Tech Mahindra",
+      "count": 1
+    },
+    {
+      "id": 2367,
+      "name": "Stripe",
+      "count": 1
+    },
+    {
+      "id": 2368,
+      "name": "PayPal",
+      "count": 1
+    },
+    {
+      "id": 2370,
+      "name": "Atai Beckley",
+      "count": 1
+    },
+    {
+      "id": 2372,
+      "name": "TSMC",
+      "count": 1
+    },
+    {
+      "id": 2373,
+      "name": "Gas Turbine Company",
+      "count": 1
+    },
+    {
+      "id": 2374,
+      "name": "ABB",
+      "count": 1
+    },
+    {
+      "id": 2375,
+      "name": "Rotork",
+      "count": 1
+    },
+    {
+      "id": 2377,
+      "name": "Distribution Solutions",
+      "count": 1
+    },
+    {
+      "id": 2378,
+      "name": "Vitol",
+      "count": 1
+    },
+    {
+      "id": 2379,
+      "name": "VTX Energy",
+      "count": 1
+    },
+    {
+      "id": 2380,
+      "name": "Delaware Basin",
+      "count": 1
+    },
+    {
+      "id": 2381,
+      "name": "Drone",
+      "count": 1
+    },
+    {
+      "id": 2383,
+      "name": "ArisGlo",
+      "count": 1
+    },
+    {
+      "id": 2384,
+      "name": "Crypto.com",
+      "count": 1
+    },
+    {
+      "id": 2385,
+      "name": "Citadel Securities",
+      "count": 1
+    },
+    {
+      "id": 2386,
+      "name": "Marc Lore",
+      "count": 1
+    },
+    {
+      "id": 2388,
+      "name": "DoorDash Inc.",
+      "count": 1
+    },
+    {
+      "id": 2389,
+      "name": "AST SpaceMobile",
+      "count": 1
+    },
+    {
+      "id": 2390,
+      "name": "ABB Ltd.",
+      "count": 1
+    },
+    {
+      "id": 2391,
+      "name": "Rotork plc",
+      "count": 1
+    },
+    {
+      "id": 2393,
+      "name": "Satellite Communications",
+      "count": 1
+    },
+    {
+      "id": 2394,
+      "name": "Csquare, Inc.",
+      "count": 1
+    },
+    {
+      "id": 2395,
+      "name": "Baker Hughes",
+      "count": 1
+    },
+    {
+      "id": 2396,
+      "name": "Chart Industries",
+      "count": 1
+    },
+    {
+      "id": 2398,
+      "name": "Writers Guild of America",
+      "count": 1
+    },
+    {
+      "id": 2399,
+      "name": "Kurt Terrani",
+      "count": 1
+    },
+    {
+      "id": 2401,
+      "name": "Angelini Pharma",
+      "count": 1
+    },
+    {
+      "id": 2402,
+      "name": "Catalyst",
+      "count": 1
+    },
+    {
+      "id": 2403,
+      "name": "New York Yankees",
+      "count": 1
+    },
+    {
+      "id": 2404,
+      "name": "CSquare",
+      "count": 1
+    },
+    {
+      "id": 2405,
+      "name": "Brookfield",
+      "count": 1
+    },
+    {
+      "id": 2406,
+      "name": "SBI Funds Management Limited",
+      "count": 1
+    },
+    {
+      "id": 2407,
+      "name": "AI sector",
+      "count": 1
+    },
+    {
+      "id": 2408,
+      "name": "Chinese chipmaker",
+      "count": 1
+    },
+    {
+      "id": 2409,
+      "name": "Chinese banks",
+      "count": 1
+    },
+    {
+      "id": 2410,
+      "name": "AI Sector",
+      "count": 1
+    },
+    {
+      "id": 2411,
+      "name": "Bret Taylor",
+      "count": 1
+    },
+    {
+      "id": 2412,
+      "name": "Shein",
+      "count": 1
+    },
+    {
+      "id": 2413,
+      "name": "United Airlines",
+      "count": 1
+    },
+    {
+      "id": 2414,
+      "name": "Grocery retail",
+      "count": 1
+    },
+    {
+      "id": 2415,
+      "name": "County Commission",
+      "count": 1
+    },
+    {
+      "id": 2416,
+      "name": "Turkiye Garanti Bankasi A.S.",
+      "count": 1
+    },
+    {
+      "id": 2417,
+      "name": "Digi Spanish Unit",
+      "count": 1
+    },
+    {
+      "id": 2418,
+      "name": "Digi Communications",
+      "count": 1
+    },
+    {
+      "id": 2419,
+      "name": "Anduril",
+      "count": 1
+    },
+    {
+      "id": 2420,
+      "name": "San Diego MedTech",
+      "count": 1
+    },
+    {
+      "id": 2421,
+      "name": "Bioengineering Alumnus (unnamed)",
+      "count": 1
+    },
+    {
+      "id": 2422,
+      "name": "Brownfield Redevelopment",
+      "count": 1
+    },
+    {
+      "id": 2423,
+      "name": "RapidPulse",
+      "count": 1
+    },
+    {
+      "id": 2425,
+      "name": "William Blair",
+      "count": 1
+    },
+    {
+      "id": 2426,
+      "name": "American Battery Materials",
+      "count": 1
+    },
+    {
+      "id": 2427,
+      "name": "Michael Moritz",
+      "count": 1
+    },
+    {
+      "id": 2428,
+      "name": "Venture Capital",
+      "count": 1
+    },
+    {
+      "id": 2429,
+      "name": "Alchemy Nano",
+      "count": 1
+    },
+    {
+      "id": 2430,
+      "name": "InstaLILY AI",
+      "count": 1
+    },
+    {
+      "id": 2431,
+      "name": "Moberg Analytics",
+      "count": 1
+    },
+    {
+      "id": 2434,
+      "name": "Oakwood aerospace startup",
+      "count": 1
+    },
+    {
+      "id": 2435,
+      "name": "FOMO",
+      "count": 1
+    },
+    {
+      "id": 2436,
+      "name": "Index Ventures",
+      "count": 1
+    },
+    {
+      "id": 2437,
+      "name": "USV",
+      "count": 1
+    },
+    {
+      "id": 2438,
+      "name": "Benchmark",
+      "count": 1
+    },
+    {
+      "id": 2441,
+      "name": "Stenon",
+      "count": 1
+    },
+    {
+      "id": 2442,
+      "name": "Osborne Clarke",
+      "count": 1
+    },
+    {
+      "id": 2443,
+      "name": "Miami stroke tech startup",
+      "count": 1
+    },
+    {
+      "id": 2444,
+      "name": "AXA",
+      "count": 1
+    },
+    {
+      "id": 2445,
+      "name": "ACM",
+      "count": 1
+    },
+    {
+      "id": 2446,
+      "name": "Wafra",
+      "count": 1
+    },
+    {
+      "id": 2447,
+      "name": "GBA Group",
+      "count": 1
+    },
+    {
+      "id": 2448,
+      "name": "CB Insights",
+      "count": 1
+    },
+    {
+      "id": 2449,
+      "name": "PitchBook",
+      "count": 1
+    },
+    {
+      "id": 2450,
+      "name": "Cosmos Health",
+      "count": 1
+    },
+    {
+      "id": 2451,
+      "name": "Kind Designs",
+      "count": 1
+    },
+    {
+      "id": 2452,
+      "name": "Bunkerhill Health",
+      "count": 1
+    },
+    {
+      "id": 2455,
+      "name": "Erin Sawyer",
+      "count": 1
+    },
+    {
+      "id": 2457,
+      "name": "Every Half Coffee Roasters",
+      "count": 1
+    },
+    {
+      "id": 2458,
+      "name": "Risk Ledger",
+      "count": 1
+    },
+    {
+      "id": 2459,
+      "name": "Cover Genius",
+      "count": 1
+    },
+    {
+      "id": 2460,
+      "name": "Hephae",
+      "count": 1
+    },
+    {
+      "id": 2461,
+      "name": "Feathery",
+      "count": 1
+    },
+    {
+      "id": 2462,
+      "name": "Bio-Path Holdings",
+      "count": 1
+    },
+    {
+      "id": 2464,
+      "name": "Holiday Robotics",
+      "count": 1
+    },
+    {
+      "id": 2465,
+      "name": "Greylock Partners",
+      "count": 1
+    },
+    {
+      "id": 2466,
+      "name": "ORA Technologies",
+      "count": 1
+    },
+    {
+      "id": 2467,
+      "name": "Bank Policy Institute",
+      "count": 1
+    },
+    {
+      "id": 2468,
+      "name": "lululemon",
+      "count": 1
+    },
+    {
+      "id": 2469,
+      "name": "MAS Holdings",
+      "count": 1
+    },
+    {
+      "id": 2470,
+      "name": "Reo.Dev",
+      "count": 1
+    },
+    {
+      "id": 2471,
+      "name": "Elevation Capital",
+      "count": 1
+    },
+    {
+      "id": 2472,
+      "name": "Independent Bank Corp.",
+      "count": 1
+    },
+    {
+      "id": 2473,
+      "name": "London Stock Exchange",
+      "count": 1
+    },
+    {
+      "id": 2474,
+      "name": "Downing Street",
+      "count": 1
+    },
+    {
+      "id": 2475,
+      "name": "Monumental",
+      "count": 1
+    },
+    {
+      "id": 2476,
+      "name": "Vitesse Energy",
+      "count": 1
+    },
+    {
+      "id": 2478,
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "count": 1
+    },
+    {
+      "id": 2479,
+      "name": "US Bank Sector",
+      "count": 1
+    },
+    {
+      "id": 2480,
+      "name": "SunCoke Energy, Inc.",
+      "count": 1
+    },
+    {
+      "id": 2481,
+      "name": "Movistar Plus",
+      "count": 1
+    },
+    {
+      "id": 2482,
+      "name": "Telefónica",
+      "count": 1
+    },
+    {
+      "id": 2483,
+      "name": "CVR Energy",
+      "count": 1
+    },
+    {
+      "id": 2484,
+      "name": "Offgrid",
+      "count": 1
+    },
+    {
+      "id": 2485,
+      "name": "MDU Resources",
+      "count": 1
+    },
+    {
+      "id": 2486,
+      "name": "Pascal",
+      "count": 1
+    },
+    {
+      "id": 2487,
+      "name": "SMH",
+      "count": 1
+    },
+    {
+      "id": 2488,
+      "name": "Northeast Bank",
+      "count": 1
+    },
+    {
+      "id": 2489,
+      "name": "MTB",
+      "count": 1
+    },
+    {
+      "id": 2490,
+      "name": "Founders Fund",
+      "count": 1
+    },
+    {
+      "id": 2491,
+      "name": "Ryan Beiermeister",
+      "count": 1
+    },
+    {
+      "id": 2492,
+      "name": "First Bank",
+      "count": 1
+    },
+    {
+      "id": 2493,
+      "name": "Forerunner",
+      "count": 1
+    },
+    {
+      "id": 2494,
+      "name": "Tactile Ventures",
+      "count": 1
+    },
+    {
+      "id": 2495,
+      "name": "ASTS",
+      "count": 1
+    },
+    {
+      "id": 2496,
+      "name": "ATAI",
+      "count": 1
+    },
+    {
+      "id": 2497,
+      "name": "AAPL",
+      "count": 1
+    },
+    {
+      "id": 2498,
+      "name": "PYPL",
+      "count": 1
+    },
+    {
+      "id": 2499,
+      "name": "Isabella Bank",
+      "count": 1
+    },
+    {
+      "id": 2500,
+      "name": "Expand Energy",
+      "count": 1
+    },
+    {
+      "id": 2502,
+      "name": "Energy Vault",
+      "count": 1
+    },
+    {
+      "id": 2503,
+      "name": "宝钢股份",
+      "count": 1
+    },
+    {
+      "id": 2504,
+      "name": "HDFC Bank Ltd",
+      "count": 1
+    },
+    {
+      "id": 2505,
+      "name": "亚泰集团",
+      "count": 1
+    },
+    {
+      "id": 2506,
+      "name": "中青旅",
+      "count": 1
+    },
+    {
+      "id": 2507,
+      "name": "Expand Energy",
+      "count": 1
+    },
+    {
+      "id": 2508,
+      "name": "ICICI Bank Ltd",
+      "count": 1
+    },
+    {
+      "id": 2509,
+      "name": "华之杰",
+      "count": 1
+    },
+    {
+      "id": 2510,
+      "name": "彤程新材",
+      "count": 1
+    },
+    {
+      "id": 2511,
+      "name": "云赛智联",
+      "count": 1
+    },
+    {
+      "id": 2512,
+      "name": "XPeng Inc.",
+      "count": 1
+    },
+    {
+      "id": 2513,
+      "name": "Baidu, Inc.",
+      "count": 1
+    },
+    {
+      "id": 2514,
+      "name": "青松建化",
+      "count": 1
+    },
+    {
+      "id": 2515,
+      "name": "尖峰集团",
+      "count": 1
+    },
+    {
+      "id": 2516,
+      "name": "同方股份",
+      "count": 1
+    },
+    {
+      "id": 2517,
+      "name": "小鹏 (Xiaopeng)",
+      "count": 1
+    },
+    {
+      "id": 2518,
+      "name": "剑桥科技",
+      "count": 1
+    },
+    {
+      "id": 2519,
+      "name": "赛意信息",
+      "count": 1
+    },
+    {
+      "id": 2520,
+      "name": "Chinese Listed Banks",
+      "count": 1
+    },
+    {
+      "id": 2521,
+      "name": "Autostrade per l’Italia",
+      "count": 1
+    },
+    {
+      "id": 2522,
+      "name": "Former CEO of Autostrade per l’Italia",
+      "count": 1
+    },
+    {
+      "id": 2523,
+      "name": "Atlantia",
+      "count": 1
+    },
+    {
+      "id": 2524,
+      "name": "Chevron",
+      "count": 1
+    },
+    {
+      "id": 2525,
+      "name": "Syrian-Qatari group",
+      "count": 1
+    },
+    {
+      "id": 2526,
+      "name": "Tom Barrack",
+      "count": 1
+    },
+    {
+      "id": 2527,
+      "name": "Geely",
+      "count": 1
+    },
+    {
+      "id": 2528,
+      "name": "Uber Technologies",
+      "count": 1
+    },
+    {
+      "id": 2529,
+      "name": "Buick",
+      "count": 1
+    },
+    {
+      "id": 2530,
+      "name": "General Motors",
+      "count": 1
+    },
+    {
+      "id": 2531,
+      "name": "IPO issuer",
+      "count": 1
+    },
+    {
+      "id": 2532,
+      "name": "Storage acquisition target",
+      "count": 1
+    },
+    {
+      "id": 2533,
+      "name": "FAW-Volkswagen",
+      "count": 1
+    },
+    {
+      "id": 2534,
+      "name": "SpaceX",
+      "count": 1
+    },
+    {
+      "id": 2535,
+      "name": "Rightmove",
+      "count": 1
+    },
+    {
+      "id": 2536,
+      "name": "Estate agents",
+      "count": 1
+    },
+    {
+      "id": 2537,
+      "name": "European Central Bank",
+      "count": 1
+    },
+    {
+      "id": 2539,
+      "name": "President of the United States",
+      "count": 1
+    },
+    {
+      "id": 2540,
+      "name": "CXMT (ChangXin Memory Technologies)",
+      "count": 1
+    },
+    {
+      "id": 2541,
+      "name": "Lorie Logan",
+      "count": 1
+    },
+    {
+      "id": 2542,
+      "name": "private credit",
+      "count": 1
+    },
+    {
+      "id": 2543,
+      "name": "Energy Capital Partners",
+      "count": 1
+    },
+    {
+      "id": 2544,
+      "name": "Satya Nadella",
+      "count": 1
+    },
+    {
+      "id": 2545,
+      "name": "Consumer Financial Protection Bureau",
+      "count": 1
+    },
+    {
+      "id": 2546,
+      "name": "prediction market platforms",
+      "count": 1
+    },
+    {
+      "id": 2547,
+      "name": "Frank Bigisnano",
+      "count": 1
+    },
+    {
+      "id": 2548,
+      "name": "St James's Place",
+      "count": 1
+    },
+    {
+      "id": 2549,
+      "name": "Prospera",
+      "count": 1
+    },
+    {
+      "id": 2550,
+      "name": "Wellesley",
+      "count": 1
+    },
+    {
+      "id": 2551,
+      "name": "Ataibeckley",
+      "count": 1
+    },
+    {
+      "id": 2552,
+      "name": "Peter Thiel",
+      "count": 1
+    },
+    {
+      "id": 2553,
+      "name": "Brian Sullivan",
+      "count": 1
+    },
+    {
+      "id": 2554,
+      "name": "Truth Social",
+      "count": 1
+    },
+    {
+      "id": 2555,
+      "name": "Monte dei Paschi di Siena",
+      "count": 1
+    },
+    {
+      "id": 2556,
+      "name": "Intesa Sanpaolo",
+      "count": 1
+    },
+    {
+      "id": 2557,
+      "name": "US Housing Market",
+      "count": 1
+    },
+    {
+      "id": 2558,
+      "name": "US wealth management",
+      "count": 1
+    },
+    {
+      "id": 2559,
+      "name": "Todd Blanche",
+      "count": 1
+    },
+    {
+      "id": 2560,
+      "name": "Jeffrey Epstein",
+      "count": 1
+    },
+    {
+      "id": 2561,
+      "name": "Jeff Marks",
+      "count": 1
+    },
+    {
+      "id": 2562,
+      "name": "White House",
+      "count": 1
+    },
+    {
+      "id": 2563,
+      "name": "GE Aerospace",
+      "count": 1
+    },
+    {
+      "id": 2564,
+      "name": "ChangXin Memory Technologies",
+      "count": 1
+    },
+    {
+      "id": 2565,
+      "name": "Tim Draper",
+      "count": 1
+    },
+    {
+      "id": 2566,
+      "name": "Ian Goldin",
+      "count": 1
+    },
+    {
+      "id": 2567,
+      "name": "Warsh",
+      "count": 1
+    },
+    {
+      "id": 2568,
+      "name": "Cafe de Coral",
+      "count": 1
+    },
+    {
+      "id": 2569,
+      "name": "Treasury Inflation-Protected Securities",
+      "count": 1
+    },
+    {
+      "id": 2570,
+      "name": "Robinhood",
+      "count": 1
+    },
+    {
+      "id": 2571,
+      "name": "Russell 2000 Index",
+      "count": 1
+    },
+    {
+      "id": 2572,
+      "name": "South Korean equity market",
+      "count": 1
+    },
+    {
+      "id": 2573,
+      "name": "Chinese equity market",
+      "count": 1
+    },
+    {
+      "id": 2574,
+      "name": "Hong Kong Exchanges and Clearing (HKEX)",
+      "count": 1
+    },
+    {
+      "id": 2575,
+      "name": "AI chip and mobile hardware",
+      "count": 1
+    },
+    {
+      "id": 2576,
+      "name": "E Fund Management",
+      "count": 1
+    },
+    {
+      "id": 2577,
+      "name": "Biocytogen Pharmaceuticals",
+      "count": 1
+    },
+    {
+      "id": 2578,
+      "name": "OnePlus",
+      "count": 1
+    },
+    {
+      "id": 2579,
+      "name": "Oppo",
+      "count": 1
+    },
+    {
+      "id": 2580,
+      "name": "Hong Kong Investment Corporation (HKIC)",
+      "count": 1
+    },
+    {
+      "id": 2581,
+      "name": "Taobao Hong Kong",
+      "count": 1
+    },
+    {
+      "id": 2582,
+      "name": "Papabo",
+      "count": 1
     }
   ],
   "briefs": [
+    {
+      "date": "2026-07-17",
+      "market_view": "今日市场活动集中在大型并购与行业整合领域，交易覆盖外卖配送、卫星通信、可再生能源及生物医药等板块。其中，Uber与Delivery Hero的外卖合并、Rocket Lab收购Iridium、NextEra与Dominion的电力资产整合以及Vertex对Crinetics的百亿美元收购，均体现出通过规模扩张与垂直整合来强化竞争地位的明确意图。区域上看，交易主要聚焦于欧美市场，同时涉及亚洲与拉美；卫星与能源交易则凸显AI算力需求对基础设施投资的拉动作用。反垄断审查成为多项交易（尤其是外卖与媒体领域）的核心不确定因素，而协同效应的实现程度与监管进程将共同决定最终价值。",
+      "items": [
+        {
+          "rank": 1,
+          "headline": "Uber is acquiring German food delivery giant Delivery Hero in a $14.8 billion deal - qz.com",
+          "summary": "Uber 宣布以148亿美元收购德国外卖巨头 Delivery Hero。",
+          "view": "该交易将Uber的外卖业务（Uber Eats）与Delivery Hero在欧洲、亚洲及拉丁美洲的市场网络合并，显著扩大其全球配送版图。Delivery Hero股东将获得现金与股票对价，隐含估值倍数预计反映其成熟市场的盈利潜力。整合可能带来成本协同效应及交叉销售机会，但也面临各国反垄断审查及整合运营风险，竞争格局将因规模优势而重塑。",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qdzdOSFYwckQ0dDRzTzBhSV93NDFVZHVyZFJEX0o4LUxMclIzNi1VbXZEUnQtVEdMRGJYLV9zSDI0SFZmWUdwM0RPdjlxblMwNVY5b0lTc0FKVXh3cXJVcVpRY3JCXy1ESHV6SEJ4NFY?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "EU",
+              "label": "欧洲"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 375,
+              "name": "Uber"
+            },
+            {
+              "id": 1772,
+              "name": "Delivery Hero"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "headline": "Vertex spending $10B to buy San Diego biotech in largest-ever acquisition - The Business Journals",
+          "summary": "Vertex制药公司宣布以100亿美元收购圣地亚哥一家生物技术公司，这是其历史上规模最大的一笔收购交易。",
+          "view": "此次收购表明Vertex正通过大规模交易获取新的技术平台或管线资产，以拓展其治疗领域或巩固在特定疾病领域的领先地位。交易对价100亿美元反映标的公司的潜在价值，可能涉及针对罕见病或慢性病的创新疗法。该交易将影响Vertex的研发管线组合、现金消耗及未来收入结构，同时可能改变相关治疗领域的竞争格局。",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ21pUFRJb2VUVkstTE5sZ3FSbzBXejVVVXR4b2dKb01wZnhGa3lRc2pDdl9TeEk5SWsxOUplQ3BmNnBteDB3Sy1BSTFZWGZaNEtIb2JEQ2YzdWVpUVNnSV9UZEFBbVU4OVBHc0xUX2lFT0xUNXE4YWdIZTVjUjk4WjFiLWFTVzlqcUtkbw?oc=5",
+          "tags": [
+            {
+              "dim": "industry_group",
+              "code": "Healthcare",
+              "label": "Healthcare"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 1813,
+              "name": "Vertex Pharmaceuticals"
+            },
+            {
+              "id": 1815,
+              "name": "San Diego biotech (unnamed)"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "headline": "SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand",
+          "summary": "（本条因合规过滤暂无中性观点）",
+          "view": "SpaceX即将以快速流程被纳入纳斯达克100指数，成为纳斯达克新快轨纳入框架的首批受益者之一。 此举凸显了SpaceX作为大型私营公司与公开市场基准的关联性，可能对其他高估值私营科技公司（如Stripe、Epic Games等）的上市决策或指数纳入预期产生示范效应。",
+          "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100.html",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 356,
+              "name": "SpaceX"
+            },
+            {
+              "id": 448,
+              "name": "Nasdaq"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "headline": "Taiwan Semiconductor Earnings Call: Full-year revenue growth forecast raised to 40%, capital expenditure increased to USD 64 billion, and additional investment of USD 100 billion in the U.S. announced - Moomoo",
+          "summary": "台积电在最新业绩电话会议上将全年营收增长预测上调至40%，并宣布将资本支出提高至640亿美元，同时计划在美国额外投资1000亿美元。",
+          "view": "该事件反映了AI与高性能计算驱动的先进制程结构性需求扩张，资本支出大幅上调表明台积电对长期需求信心较强，但需关注终端需求持续性、美国建厂成本与补贴落地进展。上游设备与材料供应商、以及依赖台积电先进制程的芯片设计公司（如英伟达、AMD）是潜在受益方。验证趋势的领先指标包括台积电季度毛利率与产能利用率变化、CoWoS封装产能扩张速度、以及主要客户的资本开支计划。",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOXhjcFNYOUg2MFBfekk5SzI1LUxaYW1vWUwwaURoNlNkamU2UGVBS0VpbHQwMmxQZmw1SlZleDZpZnVVbTNDdDBhWWFHejN1bl9yZHFDMG1JdjdnN3FkcDdmbXk5bWRkU2pYMWU5MnU1QlR6Q2VPb3NqMlI0SjhVLUV6bjhBVXFPUDhaOUg4RjB6TXVaRzEtZU8zZDFXTm1zWHJ0N2pJeHRKQnFhbGRFNGFlTktZZHp4?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "region",
+              "code": "Global",
+              "label": "全球·跨区域"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 2371,
+              "name": "Taiwan Semiconductor Manufacturing Company"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "headline": "WGA Files Federal Antitrust Lawsuit to Block $110 Billion USD Paramount Skydance-WBD Merger - Hypebeast",
+          "summary": "美国编剧工会（WGA）向联邦法院提起反垄断诉讼，试图阻止派拉蒙（Paramount）、Skydance与华纳兄弟探索（WBD）之间价值1100亿美元的合并交易。",
+          "view": "该诉讼可能延缓或阻碍三大内容巨头的整合，影响媒体行业的市场集中度。若合并成功，将形成拥有庞大影视库、制作能力及流媒体平台的实体，可能增强对发行渠道和人才议价权，但反垄断风险上升。WGA的反对聚焦于合并可能削弱编剧薪酬与创作自由，案件结果取决于法院对相关市场定义及竞争损害的认定，存在不确定性。",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcUNDdUtzVHItVVhGSllCMUc1NFRDcW1VRzd2OFIyYzJoSl9DaXhQN2JUZERpallIN1JiRzdlOE5vV3pwQm1ZS0d6ZExyM1FXTG11OFN3LV9RdGdYYkdvUWZJRWNObWlfX1VIaEt2UFpGeFpoUk11a3lwY0t2YkdBdk1aMnpFYzNTdmc?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 868,
+              "name": "Paramount Global"
+            },
+            {
+              "id": 870,
+              "name": "Warner Bros. Discovery"
+            },
+            {
+              "id": 1126,
+              "name": "Skydance Media"
+            },
+            {
+              "id": 2398,
+              "name": "Writers Guild of America"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "headline": "Rocket Lab announces $8B Iridium acquisition to compete with Starlink - eciks.org",
+          "summary": "Rocket Lab宣布以80亿美元收购Iridium，旨在与Starlink在卫星通信领域展开竞争。",
+          "view": "此次收购将Rocket Lab的火箭发射能力与Iridium的现有卫星通信网络相结合，形成垂直整合的卫星服务提供商。Iridium作为低轨卫星运营商，其全球覆盖网络和终端用户基础为Rocket Lab提供了直接接入通信市场的渠道。交易对价80亿美元（若为全现金或部分股权，需关注融资结构），隐含Iridium的企业价值倍数可能高于其历史交易区间。该交易直接触及卫星互联网市场的竞争格局：一方面，Rocket Lab通过整合上下游可降低单位成本、加速星座部署；另一方面，Starlink凭借先发优势和自建卫星工厂形成规模壁垒，新进入者面临频谱资源、地面终端渗透率及监管审批等不确定性。协同效应主要体现为发射合同内部化、Iridium现有用户群的增值服务交叉销售，以及联合开发下一代低轨星座的可能性。但整合风险包括技术路线兼容性、员工文化磨合及债务负担。",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMX0tjVE9fdjVRcVRlZEVJTlpBdjNiVnBwaXB2UEFocGR5b2VjNFZKTUhoVERzY2FJMmRZcFNKaGZ0N2U3QXdZRnMtOUxQNnoyb20tS2NPa004ZFcxRU13ZHJxaFFfUlJrNVFvV1JLQVNrUQ?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 609,
+              "name": "Rocket Lab"
+            },
+            {
+              "id": 611,
+              "name": "Iridium Communications"
+            },
+            {
+              "id": 2393,
+              "name": "Satellite Communications"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "headline": "NextEra-Dominion's $420B merger signals a new M&A cycle built on AI load growth - MarketScale",
+          "summary": "NextEra Energy和Dominion Energy宣布了一项价值4200亿美元的合并交易，市场分析认为这标志着基于人工智能负载增长的新一轮并购周期开启。",
+          "view": "该交易若完成，将把NextEra在可再生能源领域的领先优势与Dominion在东海岸的受监管公用事业资产结合，形成覆盖发电、传输和零售的垂直一体化平台。交易对价隐含的估值倍数需考虑双方资产负债表的混合效应以及未来AI数据中心电力需求带来的负荷增长预期。主要估值驱动因素包括：双方电网互联带来的运营协同效应（如跨区域调度优化）、监管审批对市场集中度的影响（可能改变东南部电力批发市场竞争格局），以及AI算力扩张对长期购电协议（PPA）定价的传导机制。协同效应的实现程度取决于联邦和州监管机构对合并后成本节约及投资承诺的审查结果。",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM2dJRFFDaVB0Zko1cC1peXdacUdpbkE4MzVTSW95OUhfQS1EbVduM1RVZ2NsdlpLS1h6bjc5Nk0tWXc3bHN5SklaeWh2WDVrZFFhYTEweDRYX0JZcUVTRVVGUnpJMEl2R1d5TXYzeEFtWUY4eGx0c01GMmZqZVd5ZzBsWDhqXzB0RkZZc1VKa01GQUxQMEU2ZDJfaHYxNGxCT2RxNnNOYnpwdEpMNWRqMy1CemZHYlVja3VWSkRWbw?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Energy",
+              "label": "Energy & Natural Resources"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 391,
+              "name": "NextEra Energy"
+            },
+            {
+              "id": 1136,
+              "name": "Dominion Energy"
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "headline": "Germany's Delivery Hero backs €13 billion takeover by Uber - Euronews.com",
+          "summary": "德国外卖平台Delivery Hero同意Uber提出的130亿欧元收购要约。",
+          "view": "该交易若完成，将显著整合欧美外卖市场：Uber通过收购Delivery Hero快速获取其在欧洲、中东及拉美的配送网络与用户基础，强化与Just Eat Takeaway等竞争对手的对抗能力；Delivery Hero股东则以130亿欧元对价退出，交易隐含估值倍数需参考行业水平（如营收或订单量）。潜在监管风险（尤其是欧盟竞争审查）可能改变交易节奏或条款，同时外卖平台间的协同效应（如技术、物流、商家资源）与整合成本将成为后续价值评估关键。",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN1lQSm9RaUZ6ZmROSEZIeHhaQlIxeVV4dURONGFiTXZMNDdVNV9NQWZDX0V1M0s3SkdfZHVWcFQ3TjcwdDFoamJFaU1HcWZBZ0VoU2JlSUtGNV8xeFFxeVpabEo3NExIbVZDNC03Y0djWEFxYktudE9kdzByMDc3UFRGdzBSRFBpM3lqMWJQb0dpSnpSVU1EQTNXX25OMi1WM1Rn?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "EU",
+              "label": "欧洲"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 375,
+              "name": "Uber"
+            },
+            {
+              "id": 1772,
+              "name": "Delivery Hero"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "headline": "Food delivery giants to merge in $14.8 billion deal - Cleveland.com",
+          "summary": "食品配送巨头宣布以148亿美元合并。",
+          "view": "该交易表明行业整合趋势，合并双方通过规模效应和互补市场（如城市覆盖或用户群体）寻求协同，可能改变本地配送市场的竞争格局。交易对价隐含的估值倍数取决于双方未披露的财务数据，但通常此类交易关注成本节约、交叉销售机会及对抗新兴平台的能力。监管审查和整合执行风险是影响最终价值实现的不确定因素。",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWTdGZ0wwVXpQczd3eFo0NzVBU29OemZmX20tX0hmbzFLNDRfZ3FCeFdfWGhLMGdtWmtkQUZwTDYyMWZNRkJISUNXVHB3bk93cHEyaEwwLW54bVh5ZEJWQVNHODdXTi0td0tBbzJjTkpZbElQeEJCNjhUZHdlY0U5dUREMlRHb1JEWEhkd1duMWRwLWZBWDFYc9IBrAFBVV95cUxPeXVWTmlhM25DT2FXMEpGQmUtc0t2NnpzbVFSdDVnbWZrQ2ZyTmhaVTZXNXE5THFKQ0I3NHdMNkp3TDdZUjRQVGZYeXpQcFV1MEJyM3VCUHRsRUI4MjRZUUR5YWRkMkhERHhXQkR0UmphemJGSTFmWEFaakRyNjA5T3dtSl9MQlozRi13VV9rS09OMVhBVllOSmp1OUdjLV9uMFJ5bEpDbDJVNndL?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Consumer",
+              "label": "Consumer & Retail"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 2361,
+              "name": "Food Delivery"
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "headline": "NextEra Energy (NEE) Files For Dominion Merger With $2.25 Billion In Bill Credits - Yahoo Finance",
+          "summary": "NextEra Energy（NEE）已提交文件，拟与Dominion Energy合并，并提供22.5亿美元的账单信用额度。",
+          "view": "该交易若完成，将整合NextEra在可再生能源领域的优势与Dominion在受监管公用事业市场的布局，增强合并后公司在东南部及中大西洋地区的客户基础与发电资产组合。22.5亿美元的账单信用额度可能作为监管或客户利益补偿的一部分，旨在缓解反垄断或费率审查压力。交易对估值的影响将取决于监管审批进程、预期协同效应（如运营成本节约与资本配置优化）以及合并后主体在电力市场中的竞争地位变化。",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUDlYckR1RVFtMUVJT3VnTGE3VFoxTk5kZ0ZHallVSE85SDcxbGhicXdPbjkyQkRyM0hKLXZVcGJLYkEtR3dyTXY3Nkg3VE15Q3l0UktnenJwQXZ6em1Fd1pOZmtwY3p6M2RlNUxRZlY1YnVPQkdWN2paRTBObU1zd2JuaFJXOGJoYnVpV1NyMWMydk03?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Energy",
+              "label": "Energy & Natural Resources"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 391,
+              "name": "NextEra Energy"
+            },
+            {
+              "id": 1136,
+              "name": "Dominion Energy"
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "headline": "Uber in $15 billion deal for Delivery Hero to create global takeout giant - Reuters",
+          "summary": "优步（Uber）宣布以约150亿美元收购外卖平台Delivery Hero，旨在整合全球外卖业务，打造行业巨头。",
+          "view": "该交易将使Uber通过整合Delivery Hero在欧洲、中东及亚洲的配送网络，显著扩大其全球外卖市场份额，并可能提升规模效应与运营效率。Delivery Hero的现有业务与Uber Eats存在地域互补，双方合并后或能降低区域竞争强度，但需面临反垄断审查及整合挑战。交易估值隐含的倍数将反映市场对协同效应（如交叉销售、技术共享）的预期，同时可能改变外卖行业的竞争格局，促使其他竞争对手调整策略。",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYndXVGNVbjBuek9wVkRnRENmNWdDMGJjTG5BcUdLenpZYnZGUE9LSGpGX1VxT2JmWGtpa3JRR2E0MGx2bnFqbjBQUDdXVENhWDNrSXAyd1ZpSkllVXVqMXhFSjVLczVEZ0x3WWxkWmhOZ3JVbzVwaW55UVJKWEtaMHJIX19UMUtSTU9rZGJ6YS0xZ1cyXzV6NDhQNXVEUQ?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Consumer",
+              "label": "Consumer & Retail"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "Global",
+              "label": "全球·跨区域"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 375,
+              "name": "Uber"
+            },
+            {
+              "id": 1772,
+              "name": "Delivery Hero"
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "headline": "Wilson Sonsini Advises Crinetics on Patent Matters Related to $10 Billion Acquisition by Vertex - Wilson Sonsini",
+          "summary": "Wilson Sonsini律师事务所就Crinetics公司被Vertex以100亿美元收购中的专利事宜提供法律建议。",
+          "view": "该交易规模达100亿美元，体现Vertex对Crinetics在罕见内分泌疾病领域管线（如口服非肽类ACTH拮抗剂）的战略重视。Vertex可借此拓展治疗领域并实现研发协同；专利事宜的突出地位表明知识产权是交易估值与整合的关键要素，可能影响未来竞争格局。",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZUVWM3AxRWVJZEI5WWw4UUdUYXNmTEFJbExDSTZqbUNRMWc1ZGl1Vm1xSHBMNEc5NjNMQkxIUTNrcWZMTkNhVHdCMEU3c0cxNWZ4emNJUV9SckEtbV9QdWE0bkROVmVsX29MSFRYWmE4bDduMWE5cEdLc2tYb2g0cmFJOXh3SlFvYWV4VnZEdGRvcU9QZTRtMEg4ZVhaQ2RZMFVuUkNpbEJSV3FiUjBETmJZaHNkcURBay1kVjhBWTE3RHBGVnN4Z3BfVXRYTzhWd3NjZA?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Healthcare",
+              "label": "Healthcare"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 1813,
+              "name": "Vertex Pharmaceuticals"
+            },
+            {
+              "id": 1814,
+              "name": "Crinetics Pharmaceuticals"
+            },
+            {
+              "id": 2183,
+              "name": "Wilson Sonsini"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-09",
       "market_view": "今日市场活动集中于多笔大型并购交易，其中福泰制药（Vertex）以约100亿美元连续收购多家生物科技公司（包括Crinetics），旨在拓展罕见内分泌疾病及囊性纤维化之外的管线，凸显药企通过外部整合分散研发风险的策略。半导体领域，SK海力士在美IPO传闻引发关注，若属实将成为近年最大规模科技新股发行，可能重塑存储芯片板块的估值参照。航天及科技板块因SpaceX被纳入纳斯达克指数而获额外曝光，但作为私营公司，其实际流动性影响仍存不确定性。铁路与材料行业亦出现大规模整合动向，加拿大国家铁路850亿美元合并案及Solstice Advanced Materials 145亿美元收购Element Solutions分别反映基础设施与特种化学品领域的集中趋势。监管部门对反垄断及整合风险的审查将在各笔交易中发挥关键作用，同时市场对AI算力基础设施需求持续升温，推动数据中心租赁协议规模增长。整体来看，资金正向生物药、半导体、航天及先进材料等战略赛道倾斜，但交易执行、监管障碍及研发不确定性仍是共同关注焦点。",
