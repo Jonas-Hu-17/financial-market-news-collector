@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T00:06:05.087564+00:00",
+  "generated_at": "2026-07-18T23:51:38.630239+00:00",
   "taxonomy": [
     {
       "dim": "asset_class",
@@ -161,17 +161,17 @@
     {
       "id": 356,
       "name": "SpaceX",
-      "count": 103
+      "count": 109
     },
     {
       "id": 352,
       "name": "Donald Trump",
-      "count": 55
+      "count": 57
     },
     {
       "id": 364,
       "name": "Anthropic",
-      "count": 43
+      "count": 46
     },
     {
       "id": 368,
@@ -181,7 +181,7 @@
     {
       "id": 417,
       "name": "Energy",
-      "count": 23
+      "count": 24
     },
     {
       "id": 376,
@@ -197,6 +197,11 @@
       "id": 374,
       "name": "Lime",
       "count": 18
+    },
+    {
+      "id": 865,
+      "name": "Tesla",
+      "count": 17
     },
     {
       "id": 1336,
@@ -219,19 +224,14 @@
       "count": 15
     },
     {
+      "id": 595,
+      "name": "Goldman Sachs",
+      "count": 14
+    },
+    {
       "id": 609,
       "name": "Rocket Lab",
       "count": 14
-    },
-    {
-      "id": 865,
-      "name": "Tesla",
-      "count": 14
-    },
-    {
-      "id": 595,
-      "name": "Goldman Sachs",
-      "count": 13
     },
     {
       "id": 868,
@@ -239,18 +239,28 @@
       "count": 13
     },
     {
+      "id": 375,
+      "name": "Uber",
+      "count": 12
+    },
+    {
+      "id": 794,
+      "name": "Bank of America",
+      "count": 12
+    },
+    {
       "id": 870,
       "name": "Warner Bros. Discovery",
       "count": 12
     },
     {
-      "id": 375,
-      "name": "Uber",
+      "id": 439,
+      "name": "Defense",
       "count": 11
     },
     {
-      "id": 439,
-      "name": "Defense",
+      "id": 444,
+      "name": "Morgan Stanley",
       "count": 11
     },
     {
@@ -259,9 +269,9 @@
       "count": 11
     },
     {
-      "id": 444,
-      "name": "Morgan Stanley",
-      "count": 10
+      "id": 711,
+      "name": "Netflix",
+      "count": 11
     },
     {
       "id": 743,
@@ -284,6 +294,16 @@
       "count": 9
     },
     {
+      "id": 459,
+      "name": "Micron Technology",
+      "count": 9
+    },
+    {
+      "id": 462,
+      "name": "Semiconductors",
+      "count": 9
+    },
+    {
       "id": 479,
       "name": "Momenta",
       "count": 9
@@ -291,16 +311,6 @@
     {
       "id": 529,
       "name": "Samsung Electronics",
-      "count": 9
-    },
-    {
-      "id": 711,
-      "name": "Netflix",
-      "count": 9
-    },
-    {
-      "id": 794,
-      "name": "Bank of America",
       "count": 9
     },
     {
@@ -316,16 +326,6 @@
     {
       "id": 440,
       "name": "Eli Lilly",
-      "count": 8
-    },
-    {
-      "id": 459,
-      "name": "Micron Technology",
-      "count": 8
-    },
-    {
-      "id": 462,
-      "name": "Semiconductors",
       "count": 8
     },
     {
@@ -346,6 +346,11 @@
     {
       "id": 642,
       "name": "Hub International",
+      "count": 7
+    },
+    {
+      "id": 678,
+      "name": "Microsoft",
       "count": 7
     },
     {
@@ -414,11 +419,6 @@
       "count": 6
     },
     {
-      "id": 678,
-      "name": "Microsoft",
-      "count": 6
-    },
-    {
       "id": 815,
       "name": "Samsung",
       "count": 6
@@ -476,6 +476,16 @@
     {
       "id": 624,
       "name": "Walmart",
+      "count": 5
+    },
+    {
+      "id": 672,
+      "name": "CXMT",
+      "count": 5
+    },
+    {
+      "id": 772,
+      "name": "AI",
       "count": 5
     },
     {
@@ -549,6 +559,11 @@
       "count": 5
     },
     {
+      "id": 1675,
+      "name": "Meta Platforms Inc.",
+      "count": 5
+    },
+    {
       "id": 1808,
       "name": "Thales",
       "count": 5
@@ -579,11 +594,6 @@
       "count": 4
     },
     {
-      "id": 672,
-      "name": "CXMT",
-      "count": 4
-    },
-    {
       "id": 686,
       "name": "8090",
       "count": 4
@@ -601,11 +611,6 @@
     {
       "id": 735,
       "name": "Straiker",
-      "count": 4
-    },
-    {
-      "id": 772,
-      "name": "AI",
       "count": 4
     },
     {
@@ -646,6 +651,11 @@
     {
       "id": 1028,
       "name": "1001",
+      "count": 4
+    },
+    {
+      "id": 1038,
+      "name": "CMS Energy",
       "count": 4
     },
     {
@@ -696,6 +706,11 @@
     {
       "id": 2162,
       "name": "Crude Oil",
+      "count": 4
+    },
+    {
+      "id": 2364,
+      "name": "Uber Technologies Inc.",
       "count": 4
     },
     {
@@ -801,6 +816,11 @@
     {
       "id": 629,
       "name": "Duke Energy",
+      "count": 3
+    },
+    {
+      "id": 630,
+      "name": "ChangXin Memory Technologies (CXMT)",
       "count": 3
     },
     {
@@ -934,11 +954,6 @@
       "count": 3
     },
     {
-      "id": 1038,
-      "name": "CMS Energy",
-      "count": 3
-    },
-    {
       "id": 1078,
       "name": "Banks",
       "count": 3
@@ -1004,6 +1019,11 @@
       "count": 3
     },
     {
+      "id": 1332,
+      "name": "Meta Platforms",
+      "count": 3
+    },
+    {
       "id": 1355,
       "name": "Carlsberg",
       "count": 3
@@ -1011,6 +1031,11 @@
     {
       "id": 1393,
       "name": "Quantum Systems",
+      "count": 3
+    },
+    {
+      "id": 1441,
+      "name": "Etched",
       "count": 3
     },
     {
@@ -1039,13 +1064,13 @@
       "count": 3
     },
     {
-      "id": 1627,
-      "name": "Ocado",
+      "id": 1625,
+      "name": "Xpeng",
       "count": 3
     },
     {
-      "id": 1675,
-      "name": "Meta Platforms Inc.",
+      "id": 1627,
+      "name": "Ocado",
       "count": 3
     },
     {
@@ -1104,6 +1129,11 @@
       "count": 3
     },
     {
+      "id": 2007,
+      "name": "Wall Street Banks",
+      "count": 3
+    },
+    {
       "id": 2021,
       "name": "SK hynix",
       "count": 3
@@ -1154,11 +1184,6 @@
       "count": 3
     },
     {
-      "id": 2364,
-      "name": "Uber Technologies Inc.",
-      "count": 3
-    },
-    {
       "id": 2382,
       "name": "Dassault Systèmes",
       "count": 3
@@ -1166,6 +1191,16 @@
     {
       "id": 2456,
       "name": "Xenter",
+      "count": 3
+    },
+    {
+      "id": 2538,
+      "name": "Trump Media & Technology Group",
+      "count": 3
+    },
+    {
+      "id": 2584,
+      "name": "Poste Italiane",
       "count": 3
     },
     {
@@ -1191,6 +1226,11 @@
     {
       "id": 379,
       "name": "Lychee",
+      "count": 2
+    },
+    {
+      "id": 390,
+      "name": "Molina Healthcare",
       "count": 2
     },
     {
@@ -1374,11 +1414,6 @@
       "count": 2
     },
     {
-      "id": 630,
-      "name": "ChangXin Memory Technologies (CXMT)",
-      "count": 2
-    },
-    {
       "id": 638,
       "name": "Select Medical",
       "count": 2
@@ -1504,6 +1539,11 @@
       "count": 2
     },
     {
+      "id": 826,
+      "name": "DoorDash",
+      "count": 2
+    },
+    {
       "id": 832,
       "name": "Federal Trade Commission",
       "count": 2
@@ -1546,6 +1586,11 @@
     {
       "id": 901,
       "name": "Equinor",
+      "count": 2
+    },
+    {
+      "id": 902,
+      "name": "Doncasters",
       "count": 2
     },
     {
@@ -1794,6 +1839,11 @@
       "count": 2
     },
     {
+      "id": 1203,
+      "name": "AI Infrastructure",
+      "count": 2
+    },
+    {
       "id": 1205,
       "name": "HarbourVest",
       "count": 2
@@ -1899,11 +1949,6 @@
       "count": 2
     },
     {
-      "id": 1332,
-      "name": "Meta Platforms",
-      "count": 2
-    },
-    {
       "id": 1342,
       "name": "Barclays",
       "count": 2
@@ -1979,8 +2024,18 @@
       "count": 2
     },
     {
+      "id": 1452,
+      "name": "European Central Bank",
+      "count": 2
+    },
+    {
       "id": 1458,
       "name": "AutoCamp",
+      "count": 2
+    },
+    {
+      "id": 1465,
+      "name": "Apollo Global Management",
       "count": 2
     },
     {
@@ -2099,13 +2154,13 @@
       "count": 2
     },
     {
-      "id": 1624,
-      "name": "S&P 500",
+      "id": 1618,
+      "name": "Oracle",
       "count": 2
     },
     {
-      "id": 1625,
-      "name": "Xpeng",
+      "id": 1624,
+      "name": "S&P 500",
       "count": 2
     },
     {
@@ -2254,11 +2309,6 @@
       "count": 2
     },
     {
-      "id": 2007,
-      "name": "Wall Street Banks",
-      "count": 2
-    },
-    {
       "id": 2018,
       "name": "InsuranceDekho",
       "count": 2
@@ -2344,6 +2394,11 @@
       "count": 2
     },
     {
+      "id": 2156,
+      "name": "Sun Hung Kai Properties",
+      "count": 2
+    },
+    {
       "id": 2179,
       "name": "Pan Gongsheng",
       "count": 2
@@ -2351,6 +2406,11 @@
     {
       "id": 2182,
       "name": "Broadcom Inc.",
+      "count": 2
+    },
+    {
+      "id": 2194,
+      "name": "AT&T",
       "count": 2
     },
     {
@@ -2366,6 +2426,11 @@
     {
       "id": 2205,
       "name": "Columbus Circle Capital Corp III",
+      "count": 2
+    },
+    {
+      "id": 2210,
+      "name": "Holtec International",
       "count": 2
     },
     {
@@ -2391,6 +2456,11 @@
     {
       "id": 2365,
       "name": "Delivery Hero SE",
+      "count": 2
+    },
+    {
+      "id": 2368,
+      "name": "PayPal",
       "count": 2
     },
     {
@@ -2434,6 +2504,11 @@
       "count": 2
     },
     {
+      "id": 2436,
+      "name": "Index Ventures",
+      "count": 2
+    },
+    {
       "id": 2439,
       "name": "Lululemon",
       "count": 2
@@ -2464,8 +2539,18 @@
       "count": 2
     },
     {
-      "id": 2538,
-      "name": "Trump Media & Technology Group",
+      "id": 2508,
+      "name": "ICICI Bank Ltd",
+      "count": 2
+    },
+    {
+      "id": 2583,
+      "name": "Telecom Italia",
+      "count": 2
+    },
+    {
+      "id": 2599,
+      "name": "Databricks",
       "count": 2
     },
     {
@@ -2566,11 +2651,6 @@
     {
       "id": 389,
       "name": "Chamberlain",
-      "count": 1
-    },
-    {
-      "id": 390,
-      "name": "Molina Healthcare",
       "count": 1
     },
     {
@@ -4034,11 +4114,6 @@
       "count": 1
     },
     {
-      "id": 826,
-      "name": "DoorDash",
-      "count": 1
-    },
-    {
       "id": 827,
       "name": "European aluminium producers",
       "count": 1
@@ -4281,11 +4356,6 @@
     {
       "id": 899,
       "name": "UK Competition and Markets Authority",
-      "count": 1
-    },
-    {
-      "id": 902,
-      "name": "Doncasters",
       "count": 1
     },
     {
@@ -5409,11 +5479,6 @@
       "count": 1
     },
     {
-      "id": 1203,
-      "name": "AI Infrastructure",
-      "count": 1
-    },
-    {
       "id": 1204,
       "name": "Scaled Cognition",
       "count": 1
@@ -6344,11 +6409,6 @@
       "count": 1
     },
     {
-      "id": 1441,
-      "name": "Etched",
-      "count": 1
-    },
-    {
       "id": 1442,
       "name": "Jack Selby",
       "count": 1
@@ -6391,11 +6451,6 @@
     {
       "id": 1451,
       "name": "U.S. Shale E&P",
-      "count": 1
-    },
-    {
-      "id": 1452,
-      "name": "European Central Bank",
       "count": 1
     },
     {
@@ -6451,11 +6506,6 @@
     {
       "id": 1464,
       "name": "Quantum Systems (量子系统)",
-      "count": 1
-    },
-    {
-      "id": 1465,
-      "name": "Apollo Global Management",
       "count": 1
     },
     {
@@ -7061,11 +7111,6 @@
     {
       "id": 1617,
       "name": "DaVita Inc.",
-      "count": 1
-    },
-    {
-      "id": 1618,
-      "name": "Oracle",
       "count": 1
     },
     {
@@ -9374,11 +9419,6 @@
       "count": 1
     },
     {
-      "id": 2156,
-      "name": "Sun Hung Kai Properties",
-      "count": 1
-    },
-    {
       "id": 2157,
       "name": "Hong Kong residential property market",
       "count": 1
@@ -9539,11 +9579,6 @@
       "count": 1
     },
     {
-      "id": 2194,
-      "name": "AT&T",
-      "count": 1
-    },
-    {
       "id": 2195,
       "name": "Hanwha Ocean",
       "count": 1
@@ -9601,11 +9636,6 @@
     {
       "id": 2209,
       "name": "EY",
-      "count": 1
-    },
-    {
-      "id": 2210,
-      "name": "Holtec International",
       "count": 1
     },
     {
@@ -10339,11 +10369,6 @@
       "count": 1
     },
     {
-      "id": 2368,
-      "name": "PayPal",
-      "count": 1
-    },
-    {
       "id": 2370,
       "name": "Atai Beckley",
       "count": 1
@@ -10621,11 +10646,6 @@
     {
       "id": 2435,
       "name": "FOMO",
-      "count": 1
-    },
-    {
-      "id": 2436,
-      "name": "Index Ventures",
       "count": 1
     },
     {
@@ -10941,11 +10961,6 @@
     {
       "id": 2507,
       "name": "Expand Energy",
-      "count": 1
-    },
-    {
-      "id": 2508,
-      "name": "ICICI Bank Ltd",
       "count": 1
     },
     {
@@ -11312,9 +11327,862 @@
       "id": 2582,
       "name": "Papabo",
       "count": 1
+    },
+    {
+      "id": 2585,
+      "name": "industrial manufacturing",
+      "count": 1
+    },
+    {
+      "id": 2586,
+      "name": "Honeywell Technologies",
+      "count": 1
+    },
+    {
+      "id": 2587,
+      "name": "London IPO market",
+      "count": 1
+    },
+    {
+      "id": 2588,
+      "name": "TIM (Telecom Italia)",
+      "count": 1
+    },
+    {
+      "id": 2589,
+      "name": "NAXS AB",
+      "count": 1
+    },
+    {
+      "id": 2590,
+      "name": "Pentagon (U.S. Department of Defense)",
+      "count": 1
+    },
+    {
+      "id": 2591,
+      "name": "Czech government",
+      "count": 1
+    },
+    {
+      "id": 2592,
+      "name": "Automotive Aftermarket",
+      "count": 1
+    },
+    {
+      "id": 2593,
+      "name": "Rich Turasky",
+      "count": 1
+    },
+    {
+      "id": 2594,
+      "name": "Veterinary Services",
+      "count": 1
+    },
+    {
+      "id": 2595,
+      "name": "Neil Rimer",
+      "count": 1
+    },
+    {
+      "id": 2596,
+      "name": "Bill Ackman",
+      "count": 1
+    },
+    {
+      "id": 2597,
+      "name": "Bill Ackman's closed-end fund",
+      "count": 1
+    },
+    {
+      "id": 2598,
+      "name": "ICICI Bank",
+      "count": 1
+    },
+    {
+      "id": 2600,
+      "name": "Atmos Energy",
+      "count": 1
+    },
+    {
+      "id": 2601,
+      "name": "HDFC Bank",
+      "count": 1
+    },
+    {
+      "id": 2602,
+      "name": "CenterPoint Energy",
+      "count": 1
+    },
+    {
+      "id": 2603,
+      "name": "Yes Bank",
+      "count": 1
+    },
+    {
+      "id": 2604,
+      "name": "Constellation Energy",
+      "count": 1
+    },
+    {
+      "id": 2605,
+      "name": "Axis Bank Ltd",
+      "count": 1
+    },
+    {
+      "id": 2606,
+      "name": "Diamondback Energy",
+      "count": 1
+    },
+    {
+      "id": 2607,
+      "name": "灵初智能",
+      "count": 1
+    },
+    {
+      "id": 2608,
+      "name": "王启斌",
+      "count": 1
+    },
+    {
+      "id": 2609,
+      "name": "Punjab National Bank",
+      "count": 1
+    },
+    {
+      "id": 2610,
+      "name": "越疆",
+      "count": 1
+    },
+    {
+      "id": 2611,
+      "name": "前高管",
+      "count": 1
+    },
+    {
+      "id": 2612,
+      "name": "AI Semiconductors",
+      "count": 1
+    },
+    {
+      "id": 2613,
+      "name": "红杉资本 (Sequoia Capital)",
+      "count": 1
+    },
+    {
+      "id": 2614,
+      "name": "英伟达 (Nvidia)",
+      "count": 1
+    },
+    {
+      "id": 2615,
+      "name": "German food delivery company",
+      "count": 1
+    },
+    {
+      "id": 2616,
+      "name": "Li Auto",
+      "count": 1
+    },
+    {
+      "id": 2617,
+      "name": "XPeng (小鹏)",
+      "count": 1
+    },
+    {
+      "id": 2618,
+      "name": "Department of Justice",
+      "count": 1
+    },
+    {
+      "id": 2619,
+      "name": "law firms",
+      "count": 1
+    },
+    {
+      "id": 2620,
+      "name": "Valve",
+      "count": 1
+    },
+    {
+      "id": 2621,
+      "name": "Domino's Pizza",
+      "count": 1
+    },
+    {
+      "id": 2622,
+      "name": "Yum! Brands (Pizza Hut)",
+      "count": 1
+    },
+    {
+      "id": 2623,
+      "name": "Papa John's International",
+      "count": 1
+    },
+    {
+      "id": 2624,
+      "name": "Uber Technologies (Uber Eats)",
+      "count": 1
+    },
+    {
+      "id": 2625,
+      "name": "Taylor Farms",
+      "count": 1
+    },
+    {
+      "id": 2626,
+      "name": "国家电投 (State Power Investment Corporation)",
+      "count": 1
+    },
+    {
+      "id": 2627,
+      "name": "Wind power",
+      "count": 1
+    },
+    {
+      "id": 2628,
+      "name": "Solar",
+      "count": 1
+    },
+    {
+      "id": 2629,
+      "name": "sports industry",
+      "count": 1
+    },
+    {
+      "id": 2630,
+      "name": "Major League Soccer",
+      "count": 1
+    },
+    {
+      "id": 2631,
+      "name": "HP Inc",
+      "count": 1
+    },
+    {
+      "id": 2632,
+      "name": "National Energy System Operator",
+      "count": 1
+    },
+    {
+      "id": 2633,
+      "name": "IBM",
+      "count": 1
+    },
+    {
+      "id": 2634,
+      "name": "UFC",
+      "count": 1
+    },
+    {
+      "id": 2635,
+      "name": "Dana White",
+      "count": 1
+    },
+    {
+      "id": 2636,
+      "name": "Warren Buffett",
+      "count": 1
+    },
+    {
+      "id": 2637,
+      "name": "Bill Gates",
+      "count": 1
+    },
+    {
+      "id": 2638,
+      "name": "AS Watson",
+      "count": 1
+    },
+    {
+      "id": 2639,
+      "name": "Superdrug",
+      "count": 1
+    },
+    {
+      "id": 2640,
+      "name": "IRS",
+      "count": 1
+    },
+    {
+      "id": 2641,
+      "name": "Fanatics",
+      "count": 1
+    },
+    {
+      "id": 2642,
+      "name": "Michael Rubin",
+      "count": 1
+    },
+    {
+      "id": 2643,
+      "name": "K-beauty industry",
+      "count": 1
+    },
+    {
+      "id": 2644,
+      "name": "Prediction Markets",
+      "count": 1
+    },
+    {
+      "id": 2645,
+      "name": "U.S. president",
+      "count": 1
+    },
+    {
+      "id": 2646,
+      "name": "Lululemon Athletica",
+      "count": 1
+    },
+    {
+      "id": 2647,
+      "name": "Bill Armstrong",
+      "count": 1
+    },
+    {
+      "id": 2648,
+      "name": "Yona Sahar",
+      "count": 1
+    },
+    {
+      "id": 2649,
+      "name": "Locksmith Girl of NYC",
+      "count": 1
+    },
+    {
+      "id": 2650,
+      "name": "Chinese AI sector",
+      "count": 1
     }
   ],
   "briefs": [
+    {
+      "date": "2026-07-18",
+      "market_view": "今日市场活动集中于大型并购交易，涵盖外卖配送（Uber Eats与Delivery Hero）、电信与邮政（意大利邮政收购TIM）、公用事业（NextEra与Dominion）、生物制药（Vertex收购）及太空通信（Rocket Lab拟收购Iridium传闻）等多个行业。主导主题是跨行业整合寻求规模效应与协同成本节约，但监管审批不确定性普遍存在，反垄断审查、诉讼风险及剥离要求成为关键变量。此外，AI驱动的需求持续影响半导体（台积电扩产）与数据中心电力领域，而纳斯达克放宽指数准入标准（SpaceX快速纳入）亦引发市场对一级市场与指数配置路径的关注。地缘政治因素推动的供应链本地化（台积电美国建厂）与低轨卫星竞争格局演变构成显著交叉趋势。",
+      "items": [
+        {
+          "rank": 1,
+          "headline": "Uber is acquiring German food delivery giant Delivery Hero in a $14.8 billion deal - qz.com",
+          "summary": "Uber 以 148 亿美元收购德国外卖巨头 Delivery Hero。",
+          "view": "该交易将整合 Uber Eats 与 Delivery Hero 在欧洲、亚太等市场的业务，扩大用户基础和配送网络。交易对价 148 亿美元，隐含估值倍数需结合 Delivery Hero 的营收与 EBITDA 数据计算。影响估值的关键因素包括：双方业务协同带来的成本节约和交叉销售机会、市场集中度提升后的定价能力，以及监管审批可能带来的条件限制或剥离要求。",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qdzdOSFYwckQ0dDRzTzBhSV93NDFVZHVyZFJEX0o4LUxMclIzNi1VbXZEUnQtVEdMRGJYLV9zSDI0SFZmWUdwM0RPdjlxblMwNVY5b0lTc0FKVXh3cXJVcVpRY3JCXy1ESHV6SEJ4NFY?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "EU",
+              "label": "欧洲"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 375,
+              "name": "Uber"
+            },
+            {
+              "id": 1772,
+              "name": "Delivery Hero"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "headline": "Vertex spending $10B to buy San Diego biotech in largest-ever acquisition - The Business Journals",
+          "summary": "Vertex制药宣布以100亿美元收购圣地亚哥一家生物技术公司，这是其历史上最大的一笔收购。",
+          "view": "该交易使Vertex获得目标公司的技术或管线，可能增强其产品组合，尤其是在关键治疗领域。收购规模巨大，可能对Vertex的财务结构产生影响，包括现金支出或融资带来的债务变化。同时，交易可能改变相关治疗领域的竞争格局，但整合风险和监管审批是主要不确定性因素。",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ21pUFRJb2VUVkstTE5sZ3FSbzBXejVVVXR4b2dKb01wZnhGa3lRc2pDdl9TeEk5SWsxOUplQ3BmNnBteDB3Sy1BSTFZWGZaNEtIb2JEQ2YzdWVpUVNnSV9UZEFBbVU4OVBHc0xUX2lFT0xUNXE4YWdIZTVjUjk4WjFiLWFTVzlqcUtkbw?oc=5",
+          "tags": [
+            {
+              "dim": "industry_group",
+              "code": "Healthcare",
+              "label": "Healthcare"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 1813,
+              "name": "Vertex Pharmaceuticals"
+            },
+            {
+              "id": 1815,
+              "name": "San Diego biotech (unnamed)"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "headline": "SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand",
+          "summary": "SpaceX将依据纳斯达克新采纳的快速通道框架，加速纳入纳斯达克100指数。",
+          "view": "这一纳入流程表明纳斯达克正在放宽指数准入标准，允许成立时间较短或此前未上市的公司快速进入主要指数。对追踪纳斯达克100的ETF基金而言，SpaceX的加入将触发被动配置需求，具体规模取决于其纳入权重。此事件可能引起一级市场投资者对未上市太空及科技公司后续IPO及指数纳入路径的关注，但实际影响需结合公司市值及流动性条件进一步观察。",
+          "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100.html",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "ECM",
+              "label": "ECM"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 356,
+              "name": "SpaceX"
+            },
+            {
+              "id": 448,
+              "name": "Nasdaq"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "headline": "TIM Signs Off On Poste’s €13 Billion Takeover Bid - Finimize",
+          "summary": "意大利电信（TIM）已批准意大利邮政（Poste）提出的130亿欧元收购要约。",
+          "view": "该交易若完成，将整合意大利邮政的物流与金融服务及TIM的电信基础设施，形成跨行业协同，可能推动成本节约与交叉销售。收购方意大利邮政以130亿欧元整体估值收购TIM，交易隐含的估值倍数取决于TIM的负债与盈利情况。估值驱动因素包括预期中的运营协同、市场集中度变化（电信与邮政市场可能重塑竞争格局），以及监管审批进展带来的不确定性。",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMEtza1U3VjJORl9fa3V2NEppYzIwWkZpSTRuSHM1RVRjSDBPdmhKSkxnUjhZNUNWODh6Mks5YUVlaU9PNFluRXNJX2hSeWJPSmc5Q05WNkM5dEttV0MwOXlnMzFoQmJIVmJwUnhNUlB0eUE2aU1UN0lacFpUaXNPaTdB?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "EU",
+              "label": "欧洲"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 2584,
+              "name": "Poste Italiane"
+            },
+            {
+              "id": 2588,
+              "name": "TIM (Telecom Italia)"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "headline": "Telecom Italia Board Endorses €10.8 Billion Poste Bid as Fair - Bloomberg.com",
+          "summary": "意大利电信（Telecom Italia）董事会认可意大利邮政（Poste Italiane）提出的108亿欧元收购要约是公平的。",
+          "view": "该交易若完成，将把意大利电信的固定和移动网络与意大利邮政的物流及金融服务网络整合，形成综合数字服务提供商。收购方Poste Italiane旨在扩大电信和数字领域布局，被收购方Telecom Italia将获得新股东支持并可能改善资本结构。108亿欧元的估值隐含的企业价值倍数需结合Telecom Italia的EBITDA及债务水平评估，但协同效应（如交叉销售、基础设施共享）的实现程度和监管审批结果将是关键不确定性因素。此交易可能改变意大利电信市场竞争格局，对现有运营商（如沃达丰）形成竞争压力，并影响行业整合趋势。",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcHI5Q21BN1MtdGVsMU45SjRRS2V2QlNSX1lDWEJVRXBOeDNVekJLRDBvMXhwXzdNendmeVZIX3lGS0QyN2JFQnVselVGLXZQWU80QTBiLXZQRldhaGF5bDlBSFd6aXY0U3pUb2JwQVVLWmxUZUFSYVYxVmJSWDV0azJkTzVKV0hlODBmODBDS2EyaHRvVXBKcDZtMkxXbDF3MzhENjNpdkduOHJfajFzU2wzaUdZcVM2d1d3ZzdfYzU4dTA?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "EU",
+              "label": "欧洲"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 2583,
+              "name": "Telecom Italia"
+            },
+            {
+              "id": 2584,
+              "name": "Poste Italiane"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "headline": "Taiwan Semiconductor Earnings Call: Full-year revenue growth forecast raised to 40%, capital expenditure increased to USD 64 billion, and additional investment of USD 100 billion in the U.S. announced - Moomoo",
+          "summary": "台积电在财报电话会上将全年营收增长预期上调至40%，资本支出上调至640亿美元，并宣布在美国追加投资1000亿美元。",
+          "view": "这一发展反映了全球半导体需求（尤其受AI和高性能计算驱动）的持续强劲，以及地缘政治因素推动的供应链本地化趋势。台积电作为先进制程代工领导者，其扩产和资本支出上调表明对长期结构性需求的信心，该趋势可能具有持久性，但需关注宏观经济放缓和地缘政策变化的影响。受益方包括台积电、上游半导体设备供应商及美国本土建厂相关产业链；潜在受影响方为依赖先进制程的竞争对手及非美国布局的芯片制造企业。领先指标包括AI芯片订单量、先进制程产能利用率、美国工厂建设进度、以及全球主要芯片厂商的资本支出计划是否跟进。",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOXhjcFNYOUg2MFBfekk5SzI1LUxaYW1vWUwwaURoNlNkamU2UGVBS0VpbHQwMmxQZmw1SlZleDZpZnVVbTNDdDBhWWFHejN1bl9yZHFDMG1JdjdnN3FkcDdmbXk5bWRkU2pYMWU5MnU1QlR6Q2VPb3NqMlI0SjhVLUV6bjhBVXFPUDhaOUg4RjB6TXVaRzEtZU8zZDFXTm1zWHJ0N2pJeHRKQnFhbGRFNGFlTktZZHp4?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "region",
+              "code": "Global",
+              "label": "全球·跨区域"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 2371,
+              "name": "Taiwan Semiconductor Manufacturing Company"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "headline": "WGA Files Federal Antitrust Lawsuit to Block $110 Billion USD Paramount Skydance-WBD Merger - Hypebeast",
+          "summary": "美国编剧工会（WGA）向联邦法院提起反垄断诉讼，试图阻止派拉蒙（Paramount）、Skydance与华纳兄弟探索（WBD）之间价值约1100亿美元的合并交易。",
+          "view": "该诉讼为交易增加了监管不确定性，可能延长审批流程或导致交易被禁止，从而影响各方整合后的协同效应预期，包括内容库合并、渠道议价能力增强及市场集中度变化等估值驱动因素。若诉讼成功，派拉蒙与Skydance的原有整合计划将受阻，WBD的战略扩张路径也可能受限，娱乐行业竞争格局的演变节奏将因此放缓。",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcUNDdUtzVHItVVhGSllCMUc1NFRDcW1VRzd2OFIyYzJoSl9DaXhQN2JUZERpallIN1JiRzdlOE5vV3pwQm1ZS0d6ZExyM1FXTG11OFN3LV9RdGdYYkdvUWZJRWNObWlfX1VIaEt2UFpGeFpoUk11a3lwY0t2YkdBdk1aMnpFYzNTdmc?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 868,
+              "name": "Paramount Global"
+            },
+            {
+              "id": 870,
+              "name": "Warner Bros. Discovery"
+            },
+            {
+              "id": 1126,
+              "name": "Skydance Media"
+            },
+            {
+              "id": 2398,
+              "name": "Writers Guild of America"
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "headline": "Rocket Lab announces $8B Iridium acquisition to compete with Starlink - eciks.org",
+          "summary": "美国火箭制造商Rocket Lab宣布以80亿美元收购铱星公司（Iridium），旨在与SpaceX的Starlink在低轨卫星互联网市场展开竞争。",
+          "view": "若交易属实，Rocket Lab将通过整合Iridium的现有卫星网络切入卫星通信服务领域，与Starlink形成直接竞争；收购价格约80亿美元，远高于Iridium当前市值约35亿美元，隐含显著溢价，需依赖债务或股权融资以及监管批准。该交易将重塑低轨卫星市场的竞争格局，可能加速行业整合与价格竞争，但Rocket Lab缺乏大规模卫星运营经验，整合风险较高；此外，消息来源eciks.org并非权威媒体，交易细节尚未获官方确认，存在不确定性。",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMX0tjVE9fdjVRcVRlZEVJTlpBdjNiVnBwaXB2UEFocGR5b2VjNFZKTUhoVERzY2FJMmRZcFNKaGZ0N2U3QXdZRnMtOUxQNnoyb20tS2NPa004ZFcxRU13ZHJxaFFfUlJrNVFvV1JLQVNrUQ?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 609,
+              "name": "Rocket Lab"
+            },
+            {
+              "id": 611,
+              "name": "Iridium Communications"
+            },
+            {
+              "id": 2393,
+              "name": "Satellite Communications"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "headline": "NextEra-Dominion's $420B merger signals a new M&A cycle built on AI load growth - MarketScale",
+          "summary": "NextEra与Dominion能源公司宣布一项价值4200亿美元的合并交易，市场解读为围绕人工智能负载增长的新一轮并购周期启动。",
+          "view": "该交易隐含的战略逻辑在于双方整合后能够共同应对人工智能数据中心带来的电力需求激增，从而强化在清洁能源发电与输配电领域的协同效应。NextEra作为可再生能源龙头，Dominion则拥有成熟的东海岸电网资产，合并后将形成覆盖发电、输电和终端售电的垂直整合能力。交易规模创纪录，若顺利通过反垄断审查，可能重塑美国公用事业行业竞争格局，推动其他公用事业公司加速评估资产组合以匹配AI负载增长预期。估值层面需关注监管审批条件、融资结构以及燃料成本波动对预期协同收益的影响。",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM2dJRFFDaVB0Zko1cC1peXdacUdpbkE4MzVTSW95OUhfQS1EbVduM1RVZ2NsdlpLS1h6bjc5Nk0tWXc3bHN5SklaeWh2WDVrZFFhYTEweDRYX0JZcUVTRVVGUnpJMEl2R1d5TXYzeEFtWUY4eGx0c01GMmZqZVd5ZzBsWDhqXzB0RkZZc1VKa01GQUxQMEU2ZDJfaHYxNGxCT2RxNnNOYnpwdEpMNWRqMy1CemZHYlVja3VWSkRWbw?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Energy",
+              "label": "Energy & Natural Resources"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 391,
+              "name": "NextEra Energy"
+            },
+            {
+              "id": 1136,
+              "name": "Dominion Energy"
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "headline": "Germany's Delivery Hero backs €13 billion takeover by Uber - Euronews.com",
+          "summary": "德国外卖公司 Delivery Hero 支持 Uber 对其 130 亿欧元的收购要约。",
+          "view": "该交易若完成，将整合 Uber Eats 与 Delivery Hero 在欧洲及部分亚洲市场的业务，进一步巩固 Uber 在全球外卖领域的地位。Delivery Hero 股东通过支持交易可获得确定的现金对价，而 Uber 则有望通过规模效应降低运营成本并提升议价能力。竞争格局上，此举可能削弱 Just Eat Takeaway 等对手的市场份额，但欧盟反垄断审查可能要求剥离部分重叠资产，从而延缓整合进程。协同效应主要来自技术平台整合、交叉销售及配送网络优化，但执行风险与监管不确定性仍是关键变量。",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN1lQSm9RaUZ6ZmROSEZIeHhaQlIxeVV4dURONGFiTXZMNDdVNV9NQWZDX0V1M0s3SkdfZHVWcFQ3TjcwdDFoamJFaU1HcWZBZ0VoU2JlSUtGNV8xeFFxeVpabEo3NExIbVZDNC03Y0djWEFxYktudE9kdzByMDc3UFRGdzBSRFBpM3lqMWJQb0dpSnpSVU1EQTNXX25OMi1WM1Rn?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "TMT",
+              "label": "TMT"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "EU",
+              "label": "欧洲"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 375,
+              "name": "Uber"
+            },
+            {
+              "id": 1772,
+              "name": "Delivery Hero"
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "headline": "Food delivery giants to merge in $14.8 billion deal - Cleveland.com",
+          "summary": "两家外卖配送巨头宣布以148亿美元进行合并。",
+          "view": "该交易暗示合并双方意图通过整合用户基础和配送网络来提升规模效应，可能降低运营成本并增强对商户的议价能力。但交易金额巨大，可能面临反垄断监管审查，若获批将显著改变本地外卖市场的竞争格局，市场集中度上升或影响现有平台及新进入者的定价策略与市场份额。",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWTdGZ0wwVXpQczd3eFo0NzVBU29OemZmX20tX0hmbzFLNDRfZ3FCeFdfWGhLMGdtWmtkQUZwTDYyMWZNRkJISUNXVHB3bk93cHEyaEwwLW54bVh5ZEJWQVNHODdXTi0td0tBbzJjTkpZbElQeEJCNjhUZHdlY0U5dUREMlRHb1JEWEhkd1duMWRwLWZBWDFYc9IBrAFBVV95cUxPeXVWTmlhM25DT2FXMEpGQmUtc0t2NnpzbVFSdDVnbWZrQ2ZyTmhaVTZXNXE5THFKQ0I3NHdMNkp3TDdZUjRQVGZYeXpQcFV1MEJyM3VCUHRsRUI4MjRZUUR5YWRkMkhERHhXQkR0UmphemJGSTFmWEFaakRyNjA5T3dtSl9MQlozRi13VV9rS09OMVhBVllOSmp1OUdjLV9uMFJ5bEpDbDJVNndL?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "primary",
+              "label": "一级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Consumer",
+              "label": "Consumer & Retail"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 2361,
+              "name": "Food Delivery"
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "headline": "NextEra Energy (NEE) Files For Dominion Merger With $2.25 Billion In Bill Credits - Yahoo Finance",
+          "summary": "NextEra Energy（NEE）提交了与Dominion的合并申请，并计划提供22.5亿美元的电费抵免。",
+          "view": "该交易若完成，将显著扩大NextEra Energy在受监管公用事业领域的资产规模与客户基础，增强其电网及清洁能源整合能力。Dominion作为目标方，其股东将获得现金或股票对价，而22.5亿美元的电费抵免可能用于缓解监管审批压力或争取消费者支持。估值驱动因素包括潜在的运营协同（如共享可再生能源项目与输电基础设施）、市场集中度变化（区域电力竞争格局调整）以及监管风险（抵免方案能否获得州公用事业委员会批准的不确定性）。",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUDlYckR1RVFtMUVJT3VnTGE3VFoxTk5kZ0ZHallVSE85SDcxbGhicXdPbjkyQkRyM0hKLXZVcGJLYkEtR3dyTXY3Nkg3VE15Q3l0UktnenJwQXZ6em1Fd1pOZmtwY3p6M2RlNUxRZlY1YnVPQkdWN2paRTBObU1zd2JuaFJXOGJoYnVpV1NyMWMydk03?oc=5",
+          "tags": [
+            {
+              "dim": "market_type",
+              "code": "secondary",
+              "label": "二级市场"
+            },
+            {
+              "dim": "industry_group",
+              "code": "Energy",
+              "label": "Energy & Natural Resources"
+            },
+            {
+              "dim": "product_group",
+              "code": "MA",
+              "label": "M&A / Advisory"
+            },
+            {
+              "dim": "region",
+              "code": "NA",
+              "label": "北美"
+            },
+            {
+              "dim": "asset_class",
+              "code": "Equity",
+              "label": "股票"
+            }
+          ],
+          "entities": [
+            {
+              "id": 391,
+              "name": "NextEra Energy"
+            },
+            {
+              "id": 1136,
+              "name": "Dominion Energy"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-17",
       "market_view": "今日市场活动集中在大型并购与行业整合领域，交易覆盖外卖配送、卫星通信、可再生能源及生物医药等板块。其中，Uber与Delivery Hero的外卖合并、Rocket Lab收购Iridium、NextEra与Dominion的电力资产整合以及Vertex对Crinetics的百亿美元收购，均体现出通过规模扩张与垂直整合来强化竞争地位的明确意图。区域上看，交易主要聚焦于欧美市场，同时涉及亚洲与拉美；卫星与能源交易则凸显AI算力需求对基础设施投资的拉动作用。反垄断审查成为多项交易（尤其是外卖与媒体领域）的核心不确定因素，而协同效应的实现程度与监管进程将共同决定最终价值。",
